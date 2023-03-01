@@ -1,0 +1,6598 @@
+# translation of dolphin.po to Estonian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2007-2009.
+# Marek Laane <bald@smail.ee>, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2019, 2020.
+# Mihkel Tõnnov <mihhkel@gmail.com>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: dolphin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-11-30 02:18+0000\n"
+"PO-Revision-Date: 2021-09-07 23:04+0200\n"
+"Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
+"Language-Team: Estonian <>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.08.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "qiilaq69@gmail.com"
+
+#: dolphincontextmenu.cpp:142 panels/places/placespanel.cpp:193
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Tühjenda prügikast"
+
+#: dolphincontextmenu.cpp:161
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Taasta"
+
+#: dolphincontextmenu.cpp:208 dolphinmainwindow.cpp:1389
+#, kde-format
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Loo uus"
+
+#: dolphincontextmenu.cpp:236
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path"
+msgstr "Ava asukoht"
+
+#: dolphincontextmenu.cpp:242
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Ava asukoht uues aknas"
+
+#: dolphincontextmenu.cpp:248
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Ava asukoht uuel kaardil"
+
+#: dolphinmainwindow.cpp:294
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr "Kopeerimine lõpetati edukalt."
+
+#: dolphinmainwindow.cpp:297
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr "Liigutamine lõpetati edukalt."
+
+#: dolphinmainwindow.cpp:300
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr "Linkimine lõpetati edukalt."
+
+#: dolphinmainwindow.cpp:303
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr "Prügikasti viskamine lõpetati edukalt."
+
+#: dolphinmainwindow.cpp:306
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr "Ümbernimetamine lõpetati edukalt."
+
+#: dolphinmainwindow.cpp:310
+#, kde-format
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "Kataloog loodud."
+
+#: dolphinmainwindow.cpp:383
+#, kde-format
+msgctxt "@info"
+msgid "Go back"
+msgstr "Liigu tagasi"
+
+#: dolphinmainwindow.cpp:384
+#, kde-format
+msgctxt "@info:whatsthis go back"
+msgid "Return to the previously viewed folder."
+msgstr "Naasmine eelnevalt vaadatud kataloogi."
+
+#: dolphinmainwindow.cpp:390
+#, kde-format
+msgctxt "@info"
+msgid "Go forward"
+msgstr "Liigu edasi"
+
+#: dolphinmainwindow.cpp:392
+#, kde-kuit-format
+msgctxt "@info:whatsthis go forward"
+msgid "This undoes a <interface>Go|Back</interface> action."
+msgstr "See tühistab toimingu <interface>Liikumine|Tagasi</interface>."
+
+#: dolphinmainwindow.cpp:502
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not access <filename>%1</filename>."
+msgstr "Failile <filename>%1</filename> puudub juurdepääs."
+
+#: dolphinmainwindow.cpp:535 dolphinmainwindow.cpp:579
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Kinnitus"
+
+#: dolphinmainwindow.cpp:538
+#, kde-format
+msgctxt "@action:button 'Quit Dolphin' button"
+msgid "&Quit %1"
+msgstr "&Välju %1ist"
+
+#: dolphinmainwindow.cpp:539
+#, kde-format
+msgid "C&lose Current Tab"
+msgstr "&Sulge aktiivne kaart"
+
+#: dolphinmainwindow.cpp:548
+#, kde-format
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+"Praegu on selles aknas rohkem kui üks kaart avatud. Kas oled kindel, et "
+"soovid selle sulgeda?"
+
+#: dolphinmainwindow.cpp:550 dolphinmainwindow.cpp:602
+#, kde-format
+msgid "Do not ask again"
+msgstr "Rohkem ei küsita"
+
+#: dolphinmainwindow.cpp:590
+#, kde-format
+msgid "Show &Terminal Panel"
+msgstr "Näita &terminalipaneeli"
+
+#: dolphinmainwindow.cpp:600
+#, kde-format
+msgid ""
+"The program '%1' is still running in the Terminal panel. Are you sure you "
+"want to quit?"
+msgstr "Terminalis töötab veel '%1'. Kas tõesti väljuda?"
+
+#: dolphinmainwindow.cpp:1027
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open %1"
+msgstr "%1 avamine"
+
+#: dolphinmainwindow.cpp:1036 dolphinmainwindow.cpp:1665
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open Preferred Search Tool"
+msgstr "Eelistatud otsingutööriista avamine"
+
+#: dolphinmainwindow.cpp:1254
+#, kde-format
+msgctxt "@action:inmenu menu for configure actions"
+msgid "Configure"
+msgstr "Seadistamine"
+
+#: dolphinmainwindow.cpp:1396
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "Uus &aken"
+
+#: dolphinmainwindow.cpp:1397
+#, kde-format
+msgctxt "@info"
+msgid "Open a new Dolphin window"
+msgstr "Uue Dolphini akna avamine"
+
+#: dolphinmainwindow.cpp:1398
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a new window just like this one with the current location and "
+"view.<nl/>You can drag and drop items between windows."
+msgstr ""
+"See avab praegusega samasuguse akna samas asukohas ja sama vaateseadistusega."
+"<nl/>Akende vahel saab seejärel elemente lohistada."
+
+#: dolphinmainwindow.cpp:1405
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "Uus kaart"
+
+#: dolphinmainwindow.cpp:1406
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a new <emphasis>Tab</emphasis> with the current location and view."
+"<nl/>A tab is an additional view within this window. You can drag and drop "
+"items between tabs."
+msgstr ""
+"See avab uue <emphasis>kaardi</emphasis> praeguse asukoha ja "
+"vaateseadistusega.<nl/>Kaart kujutab ennast lisavaadet samas aknas. Kaartide "
+"vahel saab elemente lohistada."
+
+#: dolphinmainwindow.cpp:1415
+#, kde-format
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Lisa asukohtadesse"
+
+#: dolphinmainwindow.cpp:1416
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "This adds the selected folder to the Places panel."
+msgstr "See lisab valitud kataloogi Asukohtade paneelile."
+
+#: dolphinmainwindow.cpp:1421
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "Sulge kaart"
+
+#: dolphinmainwindow.cpp:1422
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This closes the currently viewed tab. If no more tabs are left this window "
+"will close instead."
+msgstr ""
+"See sulgeb parajasti avatud kaardi. Kui aknas rohkem kaarte avatud ei ole, "
+"suletakse terve aken."
+
+#: dolphinmainwindow.cpp:1427
+#, kde-format
+msgctxt "@info:whatsthis quit"
+msgid "This closes this window."
+msgstr "See sulgeb akna."
+
+#. i18n: This will be the last paragraph for the whatsthis for all three:
+#. Cut, Copy and Paste
+#: dolphinmainwindow.cpp:1436
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para><emphasis>Cut, Copy</emphasis> and <emphasis>Paste</emphasis> work "
+"between many applications and are among the most used commands. That's why "
+"their <emphasis>keyboard shortcuts</emphasis> are prominently placed right "
+"next to each other on the keyboard: <shortcut>Ctrl+X</shortcut>, "
+"<shortcut>Ctrl+C</shortcut> and <shortcut>Ctrl+V</shortcut>.</para>"
+msgstr ""
+"<para><emphasis>Lõika, Kopeeri</emphasis> ja <emphasis>Aseta</emphasis> "
+"toimivad paljude rakenduste vahel ja on ühed enim tarvitatud käsud. "
+"Seepärast on ka nende <emphasis>kiirklahvid</emphasis> klaviatuuril nii "
+"silmatorkavalt üksteise kõrval: <shortcut>Ctrl+X</shortcut>, <shortcut>Ctrl"
+"+C</shortcut> ja <shortcut>Ctrl+V</shortcut>.</para>"
+
+#: dolphinmainwindow.cpp:1443
+#, kde-kuit-format
+msgctxt "@info:whatsthis cut"
+msgid ""
+"This copies the items in your current selection to the <emphasis>clipboard</"
+"emphasis>.<nl/>Use the <emphasis>Paste</emphasis> action afterwards to copy "
+"them from the clipboard to a new location. The items will be removed from "
+"their initial location."
+msgstr ""
+"See kopeerib parajasti valitud elemendid <emphasis>lõikepuhvrisse</emphasis>."
+"<nl/>Kasuta pärast käsku <emphasis>Aseta</emphasis> nende kopeerimiseks "
+"lõikepuhvrist vajalikku asukohta. Kopeeritud elemendid ühtlasi eemaldatakse "
+"algsest asukohast."
+
+#: dolphinmainwindow.cpp:1449
+#, kde-kuit-format
+msgctxt "@info:whatsthis copy"
+msgid ""
+"This copies the items in your current selection to the <emphasis>clipboard</"
+"emphasis>.<nl/>Use the <emphasis>Paste</emphasis> action afterwards to copy "
+"them from the clipboard to a new location."
+msgstr ""
+"See kopeerib parajasti valitud elemendid <emphasis>lõikepuhvrisse</emphasis>."
+"<nl/>Kasuta pärast käsku <emphasis>Aseta</emphasis> nende kopeerimiseks "
+"lõikepuhvrist vajalikku asukohta."
+
+#: dolphinmainwindow.cpp:1457
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "Aseta"
+
+#: dolphinmainwindow.cpp:1458
+#, kde-kuit-format
+msgctxt "@info:whatsthis paste"
+msgid ""
+"This copies the items from your <emphasis>clipboard</emphasis> to the "
+"currently viewed folder.<nl/>If the items were added to the clipboard by the "
+"<emphasis>Cut</emphasis> action they are removed from their old location."
+msgstr ""
+"See kopeerib <emphasis>lõikepuhvris</emphasis> leiduvad elemendid parajasti "
+"avatud katalooi.<nl/>Kui elemendid olid lisatud lõikepuhvrisse käsuga "
+"<emphasis>Lõika</emphasis>, siis need ühtlasi eemaldati algsest asukohast."
+
+#: dolphinmainwindow.cpp:1464
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy to Inactive Split View"
+msgstr "Kopeeri mitteaktiivsesse poolitatud vaatesse"
+
+#: dolphinmainwindow.cpp:1465
+#, kde-kuit-format
+msgctxt "@info:whatsthis Copy"
+msgid ""
+"This copies the selected items from the <emphasis>active</emphasis> view to "
+"the inactive split view."
+msgstr ""
+"See lubab kopeerida valitud elemendid <emphasis>aktiivsest</emphasis> "
+"vaatest mitteaktiivsesse poolitatud vaatesse."
+
+#: dolphinmainwindow.cpp:1468
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Copy to Inactive Split View"
+msgstr "Kopeeri mitteaktiivsesse poolitatud vaatesse"
+
+#: dolphinmainwindow.cpp:1473
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move to Inactive Split View"
+msgstr "Liiguta mitteaktiivsesse poolitatud vaatesse"
+
+#: dolphinmainwindow.cpp:1474
+#, kde-kuit-format
+msgctxt "@info:whatsthis Move"
+msgid ""
+"This moves the selected items from the <emphasis>active</emphasis> view to "
+"the inactive split view."
+msgstr ""
+"See lubab liigutada valitud elemendid <emphasis>aktiivsest</emphasis> "
+"vaatest mitteaktiivsesse poolitatud vaatesse."
+
+#: dolphinmainwindow.cpp:1477
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Move to Inactive Split View"
+msgstr "Liiguta mitteaktiivsesse poolitatud vaatesse"
+
+#: dolphinmainwindow.cpp:1482
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Filter..."
+msgstr "Filter ..."
+
+#: dolphinmainwindow.cpp:1483
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle Filter Bar"
+msgstr "Lülita filtririba"
+
+#: dolphinmainwindow.cpp:1484
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens the <emphasis>Filter Bar</emphasis> at the bottom of the window."
+"<nl/> There you can enter a text to filter the files and folders currently "
+"displayed. Only those that contain the text in their name will be kept in "
+"view."
+msgstr ""
+"See avab akna allservas <emphasis>filtririba</emphasis>.<nl/> Sinna saab "
+"kirjutada teksti, mille järgi filtreeritakse välja kirjutatule vastavad "
+"failid ja kataloogid. Näidatakse ainult neid, mille nimes leidub kirjutatud "
+"tekst."
+
+#: dolphinmainwindow.cpp:1496
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Filter Bar"
+msgstr "Lülita filtririba"
+
+#: dolphinmainwindow.cpp:1497
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Filter"
+msgstr "Filter"
+
+#: dolphinmainwindow.cpp:1505 search/dolphinsearchbox.cpp:336
+#, kde-format
+msgid "Search..."
+msgstr "Otsing ..."
+
+#: dolphinmainwindow.cpp:1506
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search for files and folders"
+msgstr "Failide ja kataloogide otsimine"
+
+#: dolphinmainwindow.cpp:1507
+#, kde-kuit-format
+msgctxt "@info:whatsthis find"
+msgid ""
+"<para>This helps you find files and folders by opening a <emphasis>find bar</"
+"emphasis>. There you can enter search terms and specify settings to find the "
+"objects you are looking for.</para><para>Use this help again on the find bar "
+"so we can have a look at it while the settings are explained.</para>"
+msgstr ""
+"<para>See aitab leida faile ja katalooge avaneva <emphasis>otsinguriba</"
+"emphasis> abil. Sinna saad kirjutada otsitava mõiste ja täpsustada "
+"parameetreid, et vajalik objekt leida.</para><para>Kasuta sama abi uuesti "
+"otsinguribal, et saaksid seadistuste kohta aimu ilma riba samal ajal "
+"sulgemata.</para>"
+
+#: dolphinmainwindow.cpp:1518
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Search Bar"
+msgstr "Lülita otsinguriba"
+
+#: dolphinmainwindow.cpp:1519
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "Otsing"
+
+#: dolphinmainwindow.cpp:1526
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "This selects all files and folders in the current location."
+msgstr "See valib käesolevas asukohas kõik failid ja kataloogid."
+
+#: dolphinmainwindow.cpp:1530 dolphinpart.cpp:186
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Vaheta valik"
+
+#: dolphinmainwindow.cpp:1531
+#, kde-kuit-format
+msgctxt "@info:whatsthis invert"
+msgid ""
+"This selects all objects that you have currently <emphasis>not</emphasis> "
+"selected instead."
+msgstr ""
+"See valib kõik objektid, mis sul praegu <emphasis>ei ole</emphasis> valitud."
+
+#: dolphinmainwindow.cpp:1541
+#, kde-kuit-format
+msgctxt "@info:whatsthis find"
+msgid ""
+"<para>This splits the folder view below into two autonomous views.</"
+"para><para>This way you can see two locations at once and move items between "
+"them quickly.</para>Click this again afterwards to recombine the views."
+msgstr ""
+"<para>See jagab kataloogivaate kaheks eraldi vaateks.</para><para>Sel moel "
+"saab näha korraga kaht asukohta ja liigutada nende vahel kiiresti elemente.</"
+"para>Uuesti siia klõpsates vaated ühendatakse."
+
+#: dolphinmainwindow.cpp:1550
+#, kde-format
+msgctxt "@action:intoolbar Stash"
+msgid "Stash"
+msgstr "Faililadu"
+
+#: dolphinmainwindow.cpp:1551
+#, kde-format
+msgctxt "@info"
+msgid "Opens the stash virtual directory in a split window"
+msgstr "Faililao virtuaalse kataloogi avamine poolitatud aknas"
+
+#: dolphinmainwindow.cpp:1561
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "Peata"
+
+#: dolphinmainwindow.cpp:1562
+#, kde-format
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "Peata laadimine"
+
+#: dolphinmainwindow.cpp:1563
+#, kde-format
+msgctxt "@info"
+msgid "This stops the loading of the contents of the current folder."
+msgstr "See peatab aktiivse kataloogi sisu laadimise."
+
+#: dolphinmainwindow.cpp:1568
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "Muudetav asukoht"
+
+#: dolphinmainwindow.cpp:1570
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This toggles the <emphasis>Location Bar</emphasis> to be editable so you can "
+"directly enter a location you want to go to.<nl/>You can also switch to "
+"editing by clicking to the right of the location and switch back by "
+"confirming the edited location."
+msgstr ""
+"See lülitab <emphasis>asukohariba</emphasis> muudetavaks, nii et saad otse "
+"sisestada asukoha, kuhu soovid minna.<nl/>Samuti saab muutmisrežiimi esile "
+"manada, kui klõpsata asukohast paremale ja siis muudetud asukohta kinnitades "
+"tagasi lülituda."
+
+#: dolphinmainwindow.cpp:1578
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "Asendatav asukoht"
+
+#: dolphinmainwindow.cpp:1583
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This switches to editing the location and selects it so you can quickly "
+"enter a different location."
+msgstr ""
+"See lülitab asukoha muutmise režiimi ja valib asukoha, nii et saad kiiresti "
+"uue asukoha sisestada."
+
+#: dolphinmainwindow.cpp:1615
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Undo close tab"
+msgstr "Ava suletud kaart uuesti"
+
+#: dolphinmainwindow.cpp:1617
+#, kde-format
+msgctxt "@info:whatsthis undo close tab"
+msgid "This returns you to the previously closed tab."
+msgstr "See avab uuesti eelnevalt suletud kaardi."
+
+#: dolphinmainwindow.cpp:1624
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This undoes the last change you made to files or folders.<nl/>Such changes "
+"include <interface>creating, renaming</interface> and <interface>moving</"
+"interface> them to a different location or to the <filename>Trash</"
+"filename>. <nl/>Changes that can't be undone will ask for your confirmation."
+msgstr ""
+"See tühistab viimase muudatuse, mida sa faili või kataloogiga ette võtsid."
+"<nl/>Sellisteks muudatusteks on näiteks nende <interface>loomine, nime "
+"muutmine</interface> ja <interface>liigutamine</interface> teise asukohta "
+"või <filename>prügikasti</filename>.<nl/>Muudatuste korral, mida tühistada "
+"ei saa, küsitakse sinu käest kinnitust."
+
+#: dolphinmainwindow.cpp:1652
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Go to your <filename>Home</filename> folder.<nl/>Every user account has "
+"their own <filename>Home</filename> that contains their data including "
+"folders that contain personal application data."
+msgstr ""
+"Liigub sinu <filename>kodukataloogi</filename>.<nl/>Iga kasutaja kontoga on "
+"seotud tema oma <filename>kodukataloog</filename>, mis sisaldab nende "
+"isiklikke andmeid."
+
+#: dolphinmainwindow.cpp:1659
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "Võrdle faile"
+
+#: dolphinmainwindow.cpp:1667
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a preferred search tool for the viewed location.</"
+"para><para>Use <emphasis>More Search Tools</emphasis> menu to configure it.</"
+"para>"
+msgstr ""
+"<para>Avab vaadatavas asukohas eelistatud otsingutööriista.</"
+"para><para>Selle seadistamiseks vali <emphasis>Rohkem otsingutööriistu</"
+"emphasis>.</para>"
+
+#: dolphinmainwindow.cpp:1675
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "Ava terminal"
+
+#: dolphinmainwindow.cpp:1677
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a <emphasis>terminal</emphasis> application for the viewed "
+"location.</para><para>To learn more about terminals use the help in the "
+"terminal application.</para>"
+msgstr ""
+"<para>See avab <emphasis>terminalirakenduse</emphasis> vaadatavas asukohas.</"
+"para><para>Terminalide kohta leiab täpsemat teavet terminalirakenduse "
+"abimaterjalis.</para>"
+
+#: dolphinmainwindow.cpp:1685 dolphinmainwindow.cpp:2487
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Focus Terminal Panel"
+msgstr "Fookus terminalipaneelile"
+
+#: dolphinmainwindow.cpp:1693
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "&Järjehoidjad"
+
+#: dolphinmainwindow.cpp:1703
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This switches between having a <emphasis>Menubar</emphasis> and having a "
+"<interface>Control</interface> button. Both contain mostly the same commands "
+"and configuration options."
+msgstr ""
+"See lülitab <emphasis>menüüriba</emphasis> ja nupu <interface>Juhtimine</"
+"interface> näitamise vahel. Mõlemad sisaldavad üldjoontes samu käske ja "
+"seadistusvalikuid."
+
+#: dolphinmainwindow.cpp:1731
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Tab %1"
+msgstr "Aktiveeri kaart %1"
+
+#: dolphinmainwindow.cpp:1742
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Last Tab"
+msgstr "Aktiveeri viimane kaart"
+
+#: dolphinmainwindow.cpp:1748
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next Tab"
+msgstr "Järgmine kaart"
+
+#: dolphinmainwindow.cpp:1749
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "Aktiveeri järgmine kaart"
+
+#: dolphinmainwindow.cpp:1755
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous Tab"
+msgstr "Eelmine kaart"
+
+#: dolphinmainwindow.cpp:1756
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "Aktiveeri eelmine kaart"
+
+#: dolphinmainwindow.cpp:1763
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Target"
+msgstr "Näita sihtkohta"
+
+#: dolphinmainwindow.cpp:1769
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Ava uuel kaardil"
+
+#: dolphinmainwindow.cpp:1774
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Tabs"
+msgstr "Ava uutel kaartidel"
+
+#: dolphinmainwindow.cpp:1779
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Ava uues aknas"
+
+#: dolphinmainwindow.cpp:1789
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "Eemalda paneelide lukustus"
+
+#: dolphinmainwindow.cpp:1791
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "Lukusta paneelid"
+
+#: dolphinmainwindow.cpp:1793
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This switches between having panels <emphasis>locked</emphasis> or "
+"<emphasis>unlocked</emphasis>.<nl/>Unlocked panels can be dragged to the "
+"other side of the window and have a close button.<nl/>Locked panels are "
+"embedded more cleanly."
+msgstr ""
+"See lülitab paneelide <emphasis>lukustatud</emphasis> või "
+"<emphasis>lukustamata</emphasis> oleku vahel.<nl/>Lukustamata paneele võib "
+"lohistada teisele poole akent ja neil on sulgemisnupp.<nl/>Lukustatud "
+"paneelid on palju kindlamalt põimitud."
+
+#: dolphinmainwindow.cpp:1802
+#, kde-format
+msgctxt "@title:window"
+msgid "Information"
+msgstr "Teave"
+
+#. i18n: This is the last paragraph for the "What's This"-texts of all four panels.
+#: dolphinmainwindow.cpp:1828
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>To show or hide panels like this go to <interface>Control|Panels</"
+"interface> or <interface>View|Panels</interface>.</para>"
+msgstr ""
+"<para>Paneelide nägemiseks või varjamiseks kasuta kas <interface>Juhtimine|"
+"Paneelid</interface> või <interface>Vaade|Paneelid</interface>.</para>"
+
+#: dolphinmainwindow.cpp:1833
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para> This toggles the <emphasis>information</emphasis> panel at the right "
+"side of the window.</para><para>The panel provides in-depth information "
+"about the items your mouse is hovering over or about the selected items. "
+"Otherwise it informs you about the currently viewed folder.<nl/>For single "
+"items a preview of their contents is provided.</para>"
+msgstr ""
+"<para>Sellega saab lülitada <emphasis>teabe</emphasis>paneeli akna paremas "
+"servas.</para><para>Paneel pakub üksikasjalikku teavet valitud elementide "
+"või elementide kohta hiirekursori all. Muul juhul antakse teavet parajasti "
+"avatud kataloogi kohta.<nl/>Teatavate elementide puhul saab näha ka nende "
+"sisu eelvaatlust.</para>"
+
+#: dolphinmainwindow.cpp:1840
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This panel provides in-depth information about the items your mouse is "
+"hovering over or about the selected items. Otherwise it informs you about "
+"the currently viewed folder.<nl/>For single items a preview of their "
+"contents is provided.</para><para>You can configure which and how details "
+"are given here by right-clicking.</para>"
+msgstr ""
+"<para>See paneel pakub üksikasjalikku teavet valitud elementide või "
+"elementide kohta hiirekursori all. Muul juhul antakse teavet parajasti "
+"avatud kataloogi kohta.<nl/>Teatavate elementide puhul saab näha ka nende "
+"sisu eelvaatlust..</para><para>Seda, milliseid üksikasju ja kuidas "
+"näidatakse, saab seadistada paremklõpsu abil.</para>"
+
+#: dolphinmainwindow.cpp:1848
+#, kde-format
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "Kataloogid"
+
+#: dolphinmainwindow.cpp:1870
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This toggles the <emphasis>folders</emphasis> panel at the left side of the "
+"window.<nl/><nl/>It shows the folders of the <emphasis>file system</"
+"emphasis> in a <emphasis>tree view</emphasis>."
+msgstr ""
+"Sellega saab lülitada <emphasis>kataloogide</emphasis> paneeli akna vasakus "
+"servas.<nl/><nl/>See näitab <emphasis>failisüsteemi</emphasis> kataloogide "
+"<emphasis>puuvaadet</emphasis>."
+
+#: dolphinmainwindow.cpp:1874
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This panel shows the folders of the <emphasis>file system</emphasis> "
+"in a <emphasis>tree view</emphasis>.</para><para>Click a folder to go there. "
+"Click the arrow to the left of a folder to see its subfolders. This allows "
+"quick switching between any folders.</para>"
+msgstr ""
+"<para>See paneel näitab <emphasis>failisüsteemi</emphasis> kataloogide "
+"<emphasis>puuvaadet</emphasis>.</para><para>Kataloogi sisenemiseks klõpsa "
+"sellel. Klõpsuga kataloogi nimest vasakul asuvale noolele saab näha selle "
+"alamkatalooge. Nii saab kiiresti ja mugavalt liikuda mis tahes kataloogi.</"
+"para>"
+
+#: dolphinmainwindow.cpp:1883
+#, kde-format
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: dolphinmainwindow.cpp:1909
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This toggles the <emphasis>terminal</emphasis> panel at the bottom of "
+"the window.<nl/>The location in the terminal will always match the folder "
+"view so you can navigate using either.</para><para>The terminal panel is not "
+"needed for basic computer usage but can be useful for advanced tasks. To "
+"learn more about terminals use the help in a standalone terminal application "
+"like Konsole.</para>"
+msgstr ""
+"<para>Sellega saab lülitada <emphasis>terminali</emphasis>paneeli akna "
+"allosas.<nl/>Terminalis avatud asukoht vastab alati asukohale "
+"kataloogivaates, nii et liikuda saab mõlemapidi.</"
+"para><para>Terminalipaneeli pole tarvis lihtsama arvutikasutuse korral, kuid "
+"keerukamate ülesannete täitmisel võib sellest palju kasu olla. Kui soovid "
+"terminalide ja nende kasutamise kohta rohkem teada saada, uuri mõne "
+"iseseisva terminalirakenduse (näiteks Konsool) käsiraamatut.</para>"
+
+#: dolphinmainwindow.cpp:1916
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the <emphasis>terminal</emphasis> panel. It behaves like a "
+"normal terminal but will match the location of the folder view so you can "
+"navigate using either.</para><para>The terminal panel is not needed for "
+"basic computer usage but can be useful for advanced tasks. To learn more "
+"about terminals use the help in a standalone terminal application like "
+"Konsole.</para>"
+msgstr ""
+"<para>See on <emphasis>terminali</emphasis>paneel. See toimib nagu tavaline "
+"terminal, ainult et sesse avatud asukoht vastab alati asukohale "
+"kataloogivaates, nii et liikuda saab mõlemapidi.</"
+"para><para>Terminalipaneeli pole tarvis lihtsama arvutikasutuse korral, kuid "
+"keerukamate ülesannete täitmisel võib sellest palju kasu olla. Kui soovid "
+"terminalide ja nende kasutamise kohta rohkem teada saada, uuri mõne "
+"iseseisva terminalirakenduse (näiteks Konsool) käsiraamatut.</para>"
+
+#: dolphinmainwindow.cpp:1932
+#, kde-format
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Asukohad"
+
+#: dolphinmainwindow.cpp:1963 panels/places/placespanel.cpp:316
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show Hidden Places"
+msgstr "Näita peidetud asukohti"
+
+#: dolphinmainwindow.cpp:1966
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This displays all places in the places panel that have been hidden. They "
+"will appear semi-transparent unless you uncheck their hide property."
+msgstr ""
+"Sellega saab lasta näidata asukohtade paneelil kõiki peidetud asukohti. Need "
+"on näha poolläbipaistvana, kuni sa ei tühista nende peitmise valikut."
+
+#: dolphinmainwindow.cpp:1981
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This toggles the <emphasis>places</emphasis> panel at the left side of "
+"the window.</para><para>It allows you to go to locations you have bookmarked "
+"and to access disk or media attached to the computer or to the network. It "
+"also contains sections to find recently saved files or files of a certain "
+"type.</para>"
+msgstr ""
+"<para>Sellega saab lülitada <emphasis>asukohtade</emphasis> paneeli akna "
+"vasakus servas.</para><para>See võimaldab liikuda järjehoidjatesse lisatud "
+"asukohtadesse ning pääseda ligi kettale või muudele andmekandjatele, mis on "
+"ühendatud arvutiga või asuvad võrgus. Samuti on siis sektsioonid, mis "
+"aitavad leida hiljuti salvestatud või kindla tüübiga faile.</para>"
+
+#: dolphinmainwindow.cpp:1987
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the <emphasis>Places</emphasis> panel. It allows you to go to "
+"locations you have bookmarked and to access disk or media attached to the "
+"computer or to the network. It also contains sections to find recently saved "
+"files or files of a certain type.</para><para>Click on an entry to go there. "
+"Click with the right mouse button instead to open any entry in a new tab or "
+"new window.</para><para>New entries can be added by dragging folders onto "
+"this panel. Right-click any section or entry to hide it. Right-click an "
+"empty space on this panel and select <interface>Show Hidden Places</"
+"interface> to display it again.</para>"
+msgstr ""
+"<para>See on <emphasis>asukohtade</emphasis> paneel. See võimaldab liikuda "
+"järjehoidjatesse lisatud asukohtadesse ja pääseda ligi kettale või "
+"andmekandjatele, mis on ühendatud arvutiga või asuvad võrgus. Samuti "
+"sisaldab see sektsioone, mis aitavad leida hiljuti salvestatud või kindla "
+"tüübiga faile.</para><para>Asukohta liikumiseks klõpsa kirjel. Paremklõps "
+"laseb mis tahes kirje avada uuel kaardil või uues aknas.</para><para>Uusi "
+"kirjeid saab lisada katalooge paneelile lohistades. Paremklõpsuga "
+"sektsioonil või kirjel saab seda peita. Taasnägemiseks tee paneeli tühjal "
+"alal paremklõps ja vali <interface>Näita peidetud asukohti</interface>.</"
+"para>"
+
+#: dolphinmainwindow.cpp:2000
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show Panels"
+msgstr "Paneelide näitamine"
+
+#: dolphinmainwindow.cpp:2104
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Go to the folder that contains the currently viewed one.</"
+"para><para>All files and folders are organized in a hierarchical "
+"<emphasis>file system</emphasis>. At the top of this hierarchy is a "
+"directory that contains all data connected to this computer—the "
+"<emphasis>root directory</emphasis>.</para>"
+msgstr ""
+"<para>Liikumine kataloogi, mis sisaldab praegu nähtavat kataloogi.</"
+"para><para>Kõik failid ja kataloogid on korraldatud hierarhilisse "
+"<emphasis>failisüsteemi</emphasis>. Hierarhia tipus seisab kataloog, mis "
+"sisaldab kõiki selle arvutiga seotud andmeid - <emphasis>juurkataloog</"
+"emphasis>.</para>"
+
+#: dolphinmainwindow.cpp:2195
+#, kde-format
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Sulge"
+
+#: dolphinmainwindow.cpp:2196
+#, kde-format
+msgctxt "@info"
+msgid "Close left view"
+msgstr "Sulge vasakpoolne vaade"
+
+#: dolphinmainwindow.cpp:2199
+#, kde-format
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Sulge"
+
+#: dolphinmainwindow.cpp:2200
+#, kde-format
+msgctxt "@info"
+msgid "Close right view"
+msgstr "Sulge parempoolne vaade"
+
+#: dolphinmainwindow.cpp:2204
+#, kde-format
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "Poolita"
+
+#: dolphinmainwindow.cpp:2205
+#, kde-format
+msgctxt "@info"
+msgid "Split view"
+msgstr "Poolita vaade"
+
+#: dolphinmainwindow.cpp:2257
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the <emphasis>Menubar</emphasis>. It provides access to "
+"commands and configuration options. Left-click on any of the menus on this "
+"bar to see its contents.</para><para>The Menubar can be hidden by unchecking "
+"<interface>Settings|Show Menubar</interface>. Then most of its contents "
+"become available through a <interface>Control</interface> button on the "
+"<emphasis>Toolbar</emphasis>.</para>"
+msgstr ""
+"<para>See on <emphasis>menüüriba</emphasis>. Selle abil pääseb ligi "
+"käskudele ja seadistamisvalikutele. Vasakklõps riba mis tahes menüül näitab "
+"selle sisu.</para><para>Menüüriba saab peita, kui eemaldada märge "
+"kastikesest <interface>Seadistused|Menüüriba näitamine</interface>. Sel "
+"juhul näeb enamikku selle sisust <emphasis>tööriistariba</emphasis> nupu "
+"<interface>Juhtimine</interface> all.</para>"
+
+#: dolphinmainwindow.cpp:2264
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the <emphasis>Toolbar</emphasis>. It allows quick access to "
+"frequently used actions.</para><para>It is highly customizable. All items "
+"you see in the <interface>Control</interface> menu or in the "
+"<interface>Menubar</interface> can be placed on the Toolbar. Just right-"
+"click on it and select <interface>Configure Toolbars…</interface> or find "
+"this action in the <interface>Control</interface> or <interface>Settings</"
+"interface> menu.</para><para>The location of the bar and the style of its "
+"buttons can also be changed in the right-click menu. Right-click a button if "
+"you want to show or hide its text.</para>"
+msgstr ""
+"<para>See on <emphasis>tööriistariba</emphasis>. See võimaldab kasutada "
+"sagedamini tarvis minevaid toiminguid.</para><para>See on äärmiselt "
+"kohandatav. Kõiki kirjeid, mida näeb menüüs <interface>Juhtimine</interface> "
+"või <interface>menüüriba</interface>l, saab asetada ka tööriistaribale. Tee "
+"sellel lihtsalt paremklõps ja vali <interface>Tööriistaribade "
+"seadistamine ...</interface> või leia sama nimega kirje menüüst "
+"<interface>Seadistused</interface> või <interface>Juhtimine</interface>.</"
+"para><para>Riba asukohta ja selle nuppude stiili saab samuti muuta "
+"paremklõpsuga. Nupul paremklõpsu tehes saab teksti näidata või peita.</para>"
+
+#: dolphinmainwindow.cpp:2276
+#, kde-kuit-format
+msgctxt "@info:whatsthis main view"
+msgid ""
+"<para>Here you can see the <emphasis>folders</emphasis> and <emphasis>files</"
+"emphasis> that are at the location described in the <interface>Location Bar</"
+"interface> above. This area is the central part of this application where "
+"you navigate to the files you want to use.</para><para>For an elaborate and "
+"general introduction to this application <link url='https://userbase.kde.org/"
+"Dolphin/File_Management#Introduction_to_Dolphin'>click here</link>. This "
+"will open an introductory article from the <emphasis>KDE UserBase Wiki</"
+"emphasis>.</para><para>For brief explanations of all the features of this "
+"<emphasis>view</emphasis> <link url='help:/dolphin/dolphin-view.html'>click "
+"here</link> instead. This will open a page from the <emphasis>Handbook</"
+"emphasis> that covers the basics.</para>"
+msgstr ""
+"<para>Siin näeb <emphasis>katalooge</emphasis> ja <emphasis>faile</emphasis> "
+"asukohas, mis on kirjas ülal asuval <interface>asukohariba</interface>l. See "
+"on rakenduse keskne ala, kus saab liikuda failide vahel, mida soovid "
+"kasutada.</para><para>Rakenduse üldisemat tutvustust ja põhjalikumaid "
+"selgitusi <link url='https://userbase.kde.org/Dolphin/"
+"File_Management#Introduction_to_Dolphin'>näeb siin</link> (inglise keeles). "
+"See avab sissejuhatava artikli <emphasis>KDE UserBase wikis</emphasis>.</"
+"para><para>Kõigi selle <emphasis>vaate</emphasis> omaduste kohta lühikeste "
+"seletuste saamiseks <link url='help:/dolphin/dolphin-view.html'>klõpsa siia</"
+"link>. See avab lehekülje <emphasis>käsiraamatus</emphasis>, mis annab "
+"ülevaate põhiasjadest.</para>"
+
+#: dolphinmainwindow.cpp:2292
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a window that lists the <emphasis>keyboard shortcuts</"
+"emphasis>.<nl/>There you can set up key combinations to trigger an action "
+"when they are pressed simultaneously. All commands in this application can "
+"be triggered this way.</para>"
+msgstr ""
+"<para>See avab akna, kus on näha <emphasis>kiirklahvid</emphasis>.<nl/>Seal "
+"saab määrata klahvikombinatsioone, mis koos vajutamisel käivitavad teatava "
+"toimingu. Kõiki selle rakenduse käske saab sel moel käivitada.</para>"
+
+#: dolphinmainwindow.cpp:2298
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a window in which you can change which buttons appear on "
+"the <emphasis>Toolbar</emphasis>.</para><para>All items you see in the "
+"<interface>Control</interface> menu or in the <interface>Menubar</interface> "
+"can also be placed on the Toolbar.</para>"
+msgstr ""
+"<para>See avab akna, kus saab muuta, millised nupud on näha "
+"<emphasis>tööriistaribal</emphasis>.</para><para>Samuti saab tööriistaribale "
+"asetada kõiki kirjeid, mida näeb menüüs <interface>Juhtimine</interface> või "
+"<interface>menüüribal</interface>.</para>"
+
+#: dolphinmainwindow.cpp:2303
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a window where you can change a multitude of settings for this "
+"application. For an explanation of the various settings go to the chapter "
+"<emphasis>Configuring Dolphin</emphasis> in <interface>Help|Dolphin "
+"Handbook</interface>."
+msgstr ""
+"See avab akna, kus saab muuta kõiki rakenduse rohkeid seadistusi. Nende "
+"täpsemaid seletusi leiab <interface>Abi|Dolphini käsiraamat</interface>u "
+"peatükist <emphasis>Dolphini seadistamine</emphasis>."
+
+#: dolphinmainwindow.cpp:2333
+#, kde-kuit-format
+msgctxt "@info:whatsthis handbook"
+msgid ""
+"<para>This opens the Handbook for this application. It provides explanations "
+"for every part of <emphasis>Dolphin</emphasis>.</para>"
+msgstr ""
+"<para>See avab rakenduse käsiraamatu. Selles on ära seletatud kõik, mis "
+"<emphasis>Dolphin</emphasis>isse puutub.</para>"
+
+#: dolphinmainwindow.cpp:2337
+#, kde-kuit-format
+msgctxt "@info:whatsthis second half of handbook hb text without link"
+msgid ""
+"<para>If you want more elaborate introductions to the different features of "
+"<emphasis>Dolphin</emphasis> go to the KDE UserBase Wiki.</para>"
+msgstr ""
+"<para>Kui soovid põhjalikumat sissejuhatust <emphasis>Dolphin</emphasis>i "
+"omaduste kohta, külasta KDE UserBase wikit.</para>"
+
+#: dolphinmainwindow.cpp:2342
+#, kde-kuit-format
+msgctxt "@info:whatsthis second half of handbook text with link"
+msgid ""
+"<para>If you want more elaborate introductions to the different features of "
+"<emphasis>Dolphin</emphasis> <link url='https://userbase.kde.org/Dolphin/"
+"File_Management'>click here</link>. It will open the dedicated page in the "
+"KDE UserBase Wiki.</para>"
+msgstr ""
+"<para>Kui soovid põhjalikumat sissejuhatust <emphasis>Dolphin</emphasis>i "
+"omaduste kohta, <link url='https://userbase.kde.org/Dolphin/"
+"File_Management'>klõpsa siia</link>. See avab vastava lehekülje KDE UserBase "
+"wikis.</para>"
+
+#: dolphinmainwindow.cpp:2348
+#, kde-kuit-format
+msgctxt "@info:whatsthis whatsthis button"
+msgid ""
+"<para>This is the button that invokes the help feature you are using right "
+"now! Click it, then click any component of this application to ask \"What's "
+"this?\" about it. The mouse cursor will change appearance if no help is "
+"available for a spot.</para>"
+msgstr ""
+"<para>See nupp lubab tarvitada just sedasama abi, mida sa praegu kasutad! "
+"Klõpsa sellele ja siis klõpsa rakenduses mis tahes osale, et näha selle "
+"\"Mis see on?\" abiteksti, Hiirekursor muudab kuju, kui kursorialuses kohas "
+"niisugust abi saada ei ole.</para>"
+
+#: dolphinmainwindow.cpp:2354
+#, kde-kuit-format
+msgctxt "@info:whatsthis second half of whatsthis button text without link"
+msgid ""
+"<para>There are two other ways to get help for this application: The "
+"<interface>Dolphin Handbook</interface> in the <interface>Help</interface> "
+"menu and the <emphasis>KDE UserBase Wiki</emphasis> article about "
+"<emphasis>File Management</emphasis> online.</para><para>The \"What's this?"
+"\" help is missing in most other windows so don't get too used to this.</"
+"para>"
+msgstr ""
+"<para>Rakenduse kohta leiab abi veel kahest kohast:  <interface>Dolphini "
+"käsiraamat</interface>ust, mille saab avada menüüst <interface>Abi</"
+"interface>, ja <emphasis>KDE UserBase wiki</emphasis> artiklist "
+"<emphasis>failihalduse</emphasis> kohta, mille leiab veebist.</para><para>"
+"\"Mis see on?\" abi väga paljudes muudes akendes ei leia, nii ära selle "
+"peale raudkindlalt looda.</para>"
+
+#: dolphinmainwindow.cpp:2362
+#, kde-kuit-format
+msgctxt "@info:whatsthis second half of whatsthis button text with link"
+msgid ""
+"<para>There are two other ways to get help: The <link url='help:/dolphin/"
+"index.html'>Dolphin Handbook</link> and the <link url='https://userbase.kde."
+"org/Dolphin/File_Management'>KDE UserBase Wiki</link>.</para><para>The "
+"\"What's this?\" help is missing in most other windows so don't get too used "
+"to this.</para>"
+msgstr ""
+"<para>Rakenduse kohta leiab abi veel kahest kohast: <link url='help:/dolphin/"
+"indexhtml'>Dolphini käsiraamat</link>ust ja <link url='https://userbase.kde."
+"org/Dolphin/File_Management'>KDE UserBase wiki artiklist</link>.</para>."
+"<para>\"Mis see on?\" abi väga paljudes muudes akendes ei leia, nii ära "
+"selle peale raudkindlalt looda.</para>"
+
+#: dolphinmainwindow.cpp:2368
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a window that will guide you through reporting errors or "
+"flaws in this application or in other KDE software.</para>"
+msgstr ""
+"<para>See avab akna, mis juhendab sind teatama vigadest või puudujääkidest "
+"selles või mõnes teises KDE rakenduses.</para>"
+
+#: dolphinmainwindow.cpp:2374
+#, kde-kuit-format
+msgctxt "@info:whatsthis second half of reportbug text with link"
+msgid ""
+"<para>High-quality bug reports are much appreciated. To learn how to make "
+"your bug report as effective as possible <link url='https://community.kde."
+"org/Get_Involved/Bug_Reporting'>click here</link>.</para>"
+msgstr ""
+"<para>Väga oodatud on kvaliteetsed veateated. Kuidas esitada võimalikult "
+"kasulikku ja tõhusat veateadet, võib <link url='https://community.kde.org/"
+"Get_Involved/Bug_Reporting'>teada saada siin</link>.</para>"
+
+#: dolphinmainwindow.cpp:2379
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This opens a <emphasis>web page</emphasis> where you can donate to "
+"support the continued work on this application and many other projects by "
+"the <emphasis>KDE</emphasis> community.</para><para>Donating is the easiest "
+"and fastest way to efficiently support KDE and its projects. KDE projects "
+"are available for free therefore your donation is needed to cover things "
+"that require money like servers, contributor meetings, etc.</"
+"para><para><emphasis>KDE e.V.</emphasis> is the non-profit organization "
+"behind the KDE community.</para>"
+msgstr ""
+"<para>See avab <emphasis>veebilehekülje</emphasis>, kus saab teha annetuse "
+"töö jätkamiseks selle ja teiste <emphasis>KDE</emphasis> projektide kallal.</"
+"para><para>Annetamine on lihtsaim ja kiireim viis tõhusalt toetada KDE-d ja "
+"selle projekte. KDE Projektid on vabalt ja tasuta saadaval, mistõttu iga "
+"kasutaja annetus aitab meil katta kulusid, mida on tarvis serverite "
+"hankimiseks ja ülalpidamiseks, kaastöötajate kohtumiste korraldamiseks jne.</"
+"para><para>KDE kogukonna taga seisab mittetulundusühing <emphasis>KDE e.V.</"
+"emphasis>.</para>"
+
+#: dolphinmainwindow.cpp:2393
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"With this you can change the language this application uses.<nl/>You can "
+"even set secondary languages which will be used if texts are not available "
+"in your preferred language."
+msgstr ""
+"See lubab muuta rakenduse kasutatavat keelt.<nl/>Määrata saab isegi "
+"tagavarakeele, mida kasutatakse siis, kui teksti ei ole sinu eelistatud "
+"keelde tõlgitud."
+
+#: dolphinmainwindow.cpp:2400
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a window that informs you about the version, license, used "
+"libraries and maintainers of this application."
+msgstr ""
+"See avab akna, mis annab teada rakenduse versiooni, litsentsi, kasutatud "
+"teegid ja hooldajad."
+
+#: dolphinmainwindow.cpp:2406
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a window with information about <emphasis>KDE</emphasis>. The KDE "
+"community are the people behind this free software.<nl/>If you like using "
+"this application but don't know about KDE or want to see a cute dragon have "
+"a look!"
+msgstr ""
+"See avab akna teabega <emphasis>KDE</emphasis> kohta. KDE kogukond on kõik "
+"need inimesed, kes on ka selle vaba tarkvara rakenduse taga.<nl/>Kui kasutad "
+"seda rakendust, aga ei tea suurt midagi KDE-st või tahad lihtsalt näha "
+"vahvat lohet, uuri aga asja lähemalt!"
+
+#: dolphinmainwindow.cpp:2490 dolphinmainwindow.cpp:2494
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Defocus Terminal Panel"
+msgstr "Fookus terminalipaneelilt ära"
+
+#: dolphinnavigatorswidgetaction.cpp:208
+#, kde-format
+msgid "Enter server URL (e.g. smb://[ip address])"
+msgstr "Sisesta serveri URL (nt smb://[ip-aadress])"
+
+#: dolphinnavigatorswidgetaction.cpp:235
+#, kde-format
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Tühjenda prügikast"
+
+#: dolphinnavigatorswidgetaction.cpp:236
+#, kde-format
+msgid "Empties Trash to create free space"
+msgstr ""
+
+#: dolphinnavigatorswidgetaction.cpp:263
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Network Folder"
+msgstr "Lisa võrgukataloog"
+
+#: dolphinnavigatorswidgetaction.cpp:298
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgid_plural "Location Bars"
+msgstr[0] "Asukohariba"
+msgstr[1] "Asukoharibad"
+
+#: dolphinpart.cpp:167
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "&Muuda failitüüpi..."
+
+#: dolphinpart.cpp:171
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "Vali sobivad elemendid..."
+
+#: dolphinpart.cpp:176
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr "Tühista sobivate elementide valik..."
+
+#: dolphinpart.cpp:182
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "Tühista kõik valikud"
+
+#: dolphinpart.cpp:199
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Rakendused"
+
+#: dolphinpart.cpp:202
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "&Võrgukataloogid"
+
+#: dolphinpart.cpp:205
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Prügikast"
+
+#: dolphinpart.cpp:208
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "Autostart"
+
+#: dolphinpart.cpp:213
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "Otsi faili..."
+
+#: dolphinpart.cpp:219
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "Ava &terminal"
+
+#: dolphinpart.cpp:491
+#, kde-format
+msgctxt "@title:window"
+msgid "Select"
+msgstr "Valimine"
+
+#: dolphinpart.cpp:492
+#, kde-format
+msgid "Select all items matching this pattern:"
+msgstr "Kõigi järgmise mustriga sobivate elementide valimine:"
+
+#: dolphinpart.cpp:498
+#, kde-format
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr "Valiku tühistamine"
+
+#: dolphinpart.cpp:499
+#, kde-format
+msgid "Unselect all items matching this pattern:"
+msgstr "Kõigi järgmise mustriga sobivate elementide valiku tühistamine:"
+
+#. i18n: ectx: Menu (edit)
+#: dolphinpart.rc:5
+#, kde-format
+msgid "&Edit"
+msgstr "&Redigeerimine"
+
+#. i18n: ectx: Menu (selection)
+#: dolphinpart.rc:15
+#, kde-format
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "Valik"
+
+#. i18n: ectx: Menu (view)
+#: dolphinpart.rc:24
+#, kde-format
+msgid "&View"
+msgstr "&Vaade"
+
+#. i18n: ectx: Menu (go)
+#: dolphinpart.rc:33
+#, kde-format
+msgid "&Go"
+msgstr "&Liikumine"
+
+#. i18n: ectx: Menu (tools)
+#: dolphinpart.rc:41
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "Tööriistad"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinpart.rc:50
+#, kde-format
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "Dolphini tööriistariba"
+
+#: dolphinrecenttabsmenu.cpp:16
+#, kde-format
+msgid "Recently Closed Tabs"
+msgstr "Viimati suletud kaardid"
+
+#: dolphinrecenttabsmenu.cpp:21
+#, kde-format
+msgid "Empty Recently Closed Tabs"
+msgstr "Tühjenda viimati suletud kaardid"
+
+#: dolphintabbar.cpp:128
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Uus kaart"
+
+#: dolphintabbar.cpp:129
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "Haagi kaart lahti"
+
+#: dolphintabbar.cpp:130
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "Sulge teised kaardid"
+
+#: dolphintabbar.cpp:131
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Sulge kaart"
+
+#. i18n: ectx: Menu (location_bar)
+#: dolphinui.rc:58
+#, kde-format
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "Asukohariba"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinui.rc:116
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Peamine tööriistariba"
+
+#: dolphinurlnavigator.cpp:36
+#, kde-kuit-format
+msgctxt "@info:whatsthis location bar"
+msgid ""
+"<para>This describes the location of the files and folders displayed below.</"
+"para><para>The name of the currently viewed folder can be read at the very "
+"right. To the left of it is the name of the folder that contains it. The "
+"whole line is called the <emphasis>path</emphasis> to the current location "
+"because following these folders from left to right leads here.</"
+"para><para>This interactive path is more powerful than one would expect. To "
+"learn more about the basic and advanced features of the location bar <link "
+"url='help:/dolphin/location-bar.html'>click here</link>. This will open the "
+"dedicated page in the Handbook.</para>"
+msgstr ""
+"<para>See näitab allpool näha olevate failide ja kataloogide asukohta.</"
+"para><para>Lõpus paremal on näha parajasti näidatava kataloogi nimi. Sellest "
+"vasakule on seda sisaldava kataloogi nimi. Reale kirjutatut tervikuna "
+"nimetatakse täielikuks või absoluutseks <emphasis>asukohaks</emphasis>, sest "
+"näidatavaid katalooge mööda liikudes jõuabki viimaks näidatavasse kataloogi."
+"</para><para>See interaktiivne asukoht on tegelikult palju võimsam tööriist, "
+"kui esmapilgul võib paista. Asukohariba põhiliste ja lisaomadustega "
+"tutvumiseks <link url='help:/dolphin/location-bar.html'>klõpsa siin</link>. "
+"See avab vajaliku lehekülje käsiraamatus.</para>"
+
+#: dolphinviewcontainer.cpp:73
+#, kde-kuit-format
+msgctxt "@info:whatsthis findbar"
+msgid ""
+"<para>This helps you find files and folders. Enter a <emphasis>search term</"
+"emphasis> and specify search settings with the buttons at the bottom:"
+"<list><item>Filename/Content: Does the item you are looking for contain the "
+"search terms within its filename or its contents?<nl/>The contents of "
+"images, audio files and videos will not be searched.</item><item>From Here/"
+"Everywhere: Do you want to search in this folder and its sub-folders or "
+"everywhere?</item><item>More Options: Click this to search by media type, "
+"access time or rating.</item><item>More Search Tools: Install other means to "
+"find an item.</item></list></para>"
+msgstr ""
+"<para>See võimaldab leida faile ja katalooge. Kirjuta "
+"<emphasis>otsingumõiste</emphasis> ja määra otsingutingimused all olevate "
+"nuppudega:<list><item>Failinimi/Sisu: kas otsitav element peab sisaldama "
+"failinimes või sisus otsingumõistet? <nl/>Pildi. heli- ja videofailide sisu "
+"ei otsita.</item><item>Alates siit/Kõikjal: kas otsida nähtavas kataloogis "
+"ja selle alamkataloogides või kõikjal?</item><item>Rohkem valikuid: seda "
+"valides saab otsida andmekandja tüübi, kasutamise aja või hinnangu järgi.</"
+"item><item>Rohkem otsingutööriistu: võimaldab paigaldada teisi tööriistu "
+"vajaliku elemendi leidmiseks.</item></list></para>"
+
+#: dolphinviewcontainer.cpp:93
+#, kde-format
+msgid "Running Dolphin as root can be dangerous. Please be careful."
+msgstr ""
+"Dolphini käivitamine administraatorina võib kujutada ohtu. Ole ettevaatlik."
+
+#: dolphinviewcontainer.cpp:446 search/dolphinsearchbox.cpp:292
+#, kde-format
+msgid "Search for %1 in %2"
+msgstr "%1 otsimine asukohas %2"
+
+#: dolphinviewcontainer.cpp:482
+#, kde-format
+msgid "Search"
+msgstr "Otsing"
+
+#: dolphinviewcontainer.cpp:484
+#, kde-format
+msgid "Search for %1"
+msgstr "%1 otsimine"
+
+#: dolphinviewcontainer.cpp:568
+#, kde-format
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "Kataloogi laadimine..."
+
+#: dolphinviewcontainer.cpp:576
+#, kde-format
+msgctxt "@info:progress"
+msgid "Sorting..."
+msgstr "Sorteerimine ..."
+
+#: dolphinviewcontainer.cpp:587
+#, kde-format
+msgctxt "@info"
+msgid "Searching..."
+msgstr "Otsimine ..."
+
+#: dolphinviewcontainer.cpp:608
+#, kde-format
+msgctxt "@info:status"
+msgid "No items found."
+msgstr "Ühtegi elementi ei leitud."
+
+#: dolphinviewcontainer.cpp:719
+#, kde-format
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin ei toeta veebilehekülgi, käivitati veebibrauser"
+
+#: dolphinviewcontainer.cpp:723
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Protocol not supported by Dolphin, default application has been launched"
+msgstr "Dolphin ei toeta seda protokolli, käivitati vaikimisi rakendus"
+
+#: dolphinviewcontainer.cpp:730
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "Vigane protokoll"
+
+#: filterbar/filterbar.cpp:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep Filter When Changing Folders"
+msgstr "Filtri säilitamine kataloogi vahetamisel"
+
+#: filterbar/filterbar.cpp:35
+#, kde-format
+msgid "Filter..."
+msgstr "Filter ..."
+
+#: filterbar/filterbar.cpp:44
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide Filter Bar"
+msgstr "Peida filtririba"
+
+#: kitemviews/kfileitemlistwidget.cpp:74
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elementi"
+
+#: kitemviews/kfileitemmodel.cpp:2080
+#, kde-format
+msgctxt "@title:group Groups that start with a digit"
+msgid "0 - 9"
+msgstr "0 - 9"
+
+#: kitemviews/kfileitemmodel.cpp:2082
+#, kde-format
+msgctxt "@title:group"
+msgid "Others"
+msgstr "Muud"
+
+#: kitemviews/kfileitemmodel.cpp:2114
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "Kataloogid"
+
+#: kitemviews/kfileitemmodel.cpp:2122
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Small"
+msgstr "Väike"
+
+#: kitemviews/kfileitemmodel.cpp:2124
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Medium"
+msgstr "Keskmine"
+
+#: kitemviews/kfileitemmodel.cpp:2126
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Big"
+msgstr "Suur"
+
+#: kitemviews/kfileitemmodel.cpp:2172
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Today"
+msgstr "Täna"
+
+#: kitemviews/kfileitemmodel.cpp:2173
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Yesterday"
+msgstr "Eile"
+
+#: kitemviews/kfileitemmodel.cpp:2176
+#, kde-format
+msgctxt "@title:group Date: The week day name: dddd"
+msgid "dddd"
+msgstr "dddd"
+
+#: kitemviews/kfileitemmodel.cpp:2178
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"dddd\"with context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2182
+#, kde-format
+msgctxt "@title:group Date"
+msgid "One Week Ago"
+msgstr "Ühe nädala eest"
+
+#: kitemviews/kfileitemmodel.cpp:2185
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Two Weeks Ago"
+msgstr "Kahe nädala eest"
+
+#: kitemviews/kfileitemmodel.cpp:2188
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Three Weeks Ago"
+msgstr "Kolme nädala eest"
+
+#: kitemviews/kfileitemmodel.cpp:2192
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Earlier this Month"
+msgstr "Varem sel kuul"
+
+#: kitemviews/kfileitemmodel.cpp:2205
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number. You must keep the ' don't use any fancy \" or « or "
+"similar. The ' is not shown to the user, it's there to mark a part of the "
+"text that should not be formatted as a date"
+msgid "'Yesterday' (MMMM, yyyy)"
+msgstr "'Eile' (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2211
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Yesterday' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2221
+#, kde-format
+msgctxt ""
+"@title:group Date: The week day name: dddd, MMMM is full month name in "
+"current locale, and yyyy is full year number."
+msgid "dddd (MMMM, yyyy)"
+msgstr "dddd (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2224
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"dddd (MMMM, yyyy)\" with context "
+"@title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2228
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number. You must keep the ' don't use any fancy \" or « or "
+"similar. The ' is not shown to the user, it's there to mark a part of the "
+"text that should not be formatted as a date"
+msgid "'One Week Ago' (MMMM, yyyy)"
+msgstr "'Ühe nädala eest' (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2234
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'One Week Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2243
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number. You must keep the ' don't use any fancy \" or « or "
+"similar. The ' is not shown to the user, it's there to mark a part of the "
+"text that should not be formatted as a date"
+msgid "'Two Weeks Ago' (MMMM, yyyy)"
+msgstr "'Kahe nädala eest' (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2249
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Two Weeks Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2258
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number. You must keep the ' don't use any fancy \" or « or "
+"similar. The ' is not shown to the user, it's there to mark a part of the "
+"text that should not be formatted as a date"
+msgid "'Three Weeks Ago' (MMMM, yyyy)"
+msgstr "'Kolme nädala eest' (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2264
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Three Weeks Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2273
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number. You must keep the ' don't use any fancy \" or « or "
+"similar. The ' is not shown to the user, it's there to mark a part of the "
+"text that should not be formatted as a date"
+msgid "'Earlier on' MMMM, yyyy"
+msgstr "'Varem sel kuul' (MMMM yyyy)"
+
+#: kitemviews/kfileitemmodel.cpp:2279
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Earlier on' MMMM, yyyy\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2289
+#, kde-format
+msgctxt ""
+"@title:group The month and year: MMMM is full month name in current locale, "
+"and yyyy is full year number"
+msgid "MMMM, yyyy"
+msgstr "MMMM yyyy"
+
+#: kitemviews/kfileitemmodel.cpp:2292
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"MMMM, yyyy\" with context @title:"
+"group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2331 kitemviews/kfileitemmodel.cpp:2344
+#: kitemviews/kfileitemmodel.cpp:2357
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Read, "
+msgstr "Lugemisõigus, "
+
+#: kitemviews/kfileitemmodel.cpp:2334 kitemviews/kfileitemmodel.cpp:2347
+#: kitemviews/kfileitemmodel.cpp:2360
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Write, "
+msgstr "Kirjutamisõigus, "
+
+#: kitemviews/kfileitemmodel.cpp:2337 kitemviews/kfileitemmodel.cpp:2350
+#: kitemviews/kfileitemmodel.cpp:2363
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Execute, "
+msgstr "Käivitamisõigus, "
+
+#: kitemviews/kfileitemmodel.cpp:2339 kitemviews/kfileitemmodel.cpp:2352
+#: kitemviews/kfileitemmodel.cpp:2365
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Forbidden"
+msgstr "Keelatud"
+
+#: kitemviews/kfileitemmodel.cpp:2367
+#, kde-format
+msgctxt "@title:group Files and folders by permissions"
+msgid "User: %1 | Group: %2 | Others: %3"
+msgstr "Kasutaja: %1 | Grupp: %2 | Teised: %3"
+
+#: kitemviews/kfileitemmodel.cpp:2456
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Nimi"
+
+#: kitemviews/kfileitemmodel.cpp:2457
+#, kde-format
+msgctxt "@label"
+msgid "Size"
+msgstr "Suurus"
+
+#: kitemviews/kfileitemmodel.cpp:2458
+#, kde-format
+msgctxt "@label"
+msgid "Modified"
+msgstr "Muudetud"
+
+#: kitemviews/kfileitemmodel.cpp:2459
+#, kde-format
+msgctxt "@label"
+msgid "Created"
+msgstr "Loodud"
+
+#: kitemviews/kfileitemmodel.cpp:2460
+#, kde-format
+msgctxt "@label"
+msgid "Accessed"
+msgstr "Vaadatud"
+
+#: kitemviews/kfileitemmodel.cpp:2461
+#, kde-format
+msgctxt "@label"
+msgid "Type"
+msgstr "Tüüp"
+
+#: kitemviews/kfileitemmodel.cpp:2462
+#, kde-format
+msgctxt "@label"
+msgid "Rating"
+msgstr "Hinnang"
+
+#: kitemviews/kfileitemmodel.cpp:2463
+#, kde-format
+msgctxt "@label"
+msgid "Tags"
+msgstr "Sildid"
+
+#: kitemviews/kfileitemmodel.cpp:2464
+#, kde-format
+msgctxt "@label"
+msgid "Comment"
+msgstr "Kommentaar"
+
+#: kitemviews/kfileitemmodel.cpp:2465
+#, kde-format
+msgctxt "@label"
+msgid "Title"
+msgstr "Pealkiri"
+
+#: kitemviews/kfileitemmodel.cpp:2465 kitemviews/kfileitemmodel.cpp:2466
+#: kitemviews/kfileitemmodel.cpp:2467
+#, kde-format
+msgctxt "@label"
+msgid "Document"
+msgstr "Dokument"
+
+#: kitemviews/kfileitemmodel.cpp:2466
+#, kde-format
+msgctxt "@label"
+msgid "Word Count"
+msgstr "Sõnade arv"
+
+#: kitemviews/kfileitemmodel.cpp:2467
+#, kde-format
+msgctxt "@label"
+msgid "Line Count"
+msgstr "Ridade arv"
+
+#: kitemviews/kfileitemmodel.cpp:2468
+#, kde-format
+msgctxt "@label"
+msgid "Date Photographed"
+msgstr "Foto tegemisaeg"
+
+#: kitemviews/kfileitemmodel.cpp:2468 kitemviews/kfileitemmodel.cpp:2469
+#: kitemviews/kfileitemmodel.cpp:2470 kitemviews/kfileitemmodel.cpp:2471
+#, kde-format
+msgctxt "@label"
+msgid "Image"
+msgstr "Pilt"
+
+#: kitemviews/kfileitemmodel.cpp:2469
+#, kde-format
+msgctxt "@label"
+msgid "Width"
+msgstr "Laius"
+
+#: kitemviews/kfileitemmodel.cpp:2470
+#, kde-format
+msgctxt "@label"
+msgid "Height"
+msgstr "Kõrgus"
+
+#: kitemviews/kfileitemmodel.cpp:2471
+#, kde-format
+msgctxt "@label"
+msgid "Orientation"
+msgstr "Orientatsioon"
+
+#: kitemviews/kfileitemmodel.cpp:2472
+#, kde-format
+msgctxt "@label"
+msgid "Artist"
+msgstr "Esitaja"
+
+#: kitemviews/kfileitemmodel.cpp:2472 kitemviews/kfileitemmodel.cpp:2473
+#: kitemviews/kfileitemmodel.cpp:2474 kitemviews/kfileitemmodel.cpp:2475
+#: kitemviews/kfileitemmodel.cpp:2476 kitemviews/kfileitemmodel.cpp:2477
+#: kitemviews/kfileitemmodel.cpp:2478
+#, kde-format
+msgctxt "@label"
+msgid "Audio"
+msgstr "Heli"
+
+#: kitemviews/kfileitemmodel.cpp:2473
+#, kde-format
+msgctxt "@label"
+msgid "Genre"
+msgstr "Žanr"
+
+#: kitemviews/kfileitemmodel.cpp:2474
+#, kde-format
+msgctxt "@label"
+msgid "Album"
+msgstr "Album"
+
+#: kitemviews/kfileitemmodel.cpp:2475
+#, kde-format
+msgctxt "@label"
+msgid "Duration"
+msgstr "Kestus"
+
+#: kitemviews/kfileitemmodel.cpp:2476
+#, kde-format
+msgctxt "@label"
+msgid "Bitrate"
+msgstr "Bitikiirus"
+
+#: kitemviews/kfileitemmodel.cpp:2477
+#, kde-format
+msgctxt "@label"
+msgid "Track"
+msgstr "Rada"
+
+#: kitemviews/kfileitemmodel.cpp:2478
+#, kde-format
+msgctxt "@label"
+msgid "Release Year"
+msgstr "Väljalaskeaasta"
+
+#: kitemviews/kfileitemmodel.cpp:2479
+#, kde-format
+msgctxt "@label"
+msgid "Aspect Ratio"
+msgstr "Kuvasuhe"
+
+#: kitemviews/kfileitemmodel.cpp:2479 kitemviews/kfileitemmodel.cpp:2480
+#, kde-format
+msgctxt "@label"
+msgid "Video"
+msgstr "Video"
+
+#: kitemviews/kfileitemmodel.cpp:2480
+#, kde-format
+msgctxt "@label"
+msgid "Frame Rate"
+msgstr "Kaadrisagedus"
+
+#: kitemviews/kfileitemmodel.cpp:2481
+#, kde-format
+msgctxt "@label"
+msgid "Path"
+msgstr "Asukoht"
+
+#: kitemviews/kfileitemmodel.cpp:2481 kitemviews/kfileitemmodel.cpp:2482
+#: kitemviews/kfileitemmodel.cpp:2483 kitemviews/kfileitemmodel.cpp:2484
+#: kitemviews/kfileitemmodel.cpp:2485 kitemviews/kfileitemmodel.cpp:2486
+#: kitemviews/kfileitemmodel.cpp:2487
+#, kde-format
+msgctxt "@label"
+msgid "Other"
+msgstr "Muu"
+
+#: kitemviews/kfileitemmodel.cpp:2482
+#, kde-format
+msgctxt "@label"
+msgid "Deletion Time"
+msgstr "Kustutamisaeg"
+
+#: kitemviews/kfileitemmodel.cpp:2483
+#, kde-format
+msgctxt "@label"
+msgid "Link Destination"
+msgstr "Lingi sihtkoht"
+
+#: kitemviews/kfileitemmodel.cpp:2484
+#, kde-format
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr "Alla laaditud asukohast"
+
+#: kitemviews/kfileitemmodel.cpp:2485
+#, kde-format
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Õigused"
+
+#: kitemviews/kfileitemmodel.cpp:2486
+#, kde-format
+msgctxt "@label"
+msgid "Owner"
+msgstr "Omanik"
+
+#: kitemviews/kfileitemmodel.cpp:2487
+#, kde-format
+msgctxt "@label"
+msgid "User Group"
+msgstr "Kasutaja grupp"
+
+#: kitemviews/kfileitemmodel.cpp:2586
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Tundmatu viga."
+
+#: main.cpp:76
+#, kde-format
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:77
+#, kde-format
+msgctxt "@title"
+msgid "File Manager"
+msgstr "Failihaldur"
+
+#: main.cpp:79
+#, kde-format
+msgctxt "@info:credit"
+msgid ""
+"(C) 2006-2018 Peter Penz, Frank Reininghaus, Emmanuel Pescosta and Elvis "
+"Angelaccio"
+msgstr ""
+"(C) 2006-2018: Peter Penz, Frank Reininghaus, Emmanuel Pescosta ja Elvis "
+"Angelaccio"
+
+#: main.cpp:81
+#, kde-format
+msgctxt "@info:credit"
+msgid "Elvis Angelaccio"
+msgstr "Elvis Angelaccio"
+
+#: main.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (since 2018) and developer"
+msgstr "Hooldaja (alates 2018) ja arendaja"
+
+#: main.cpp:84
+#, kde-format
+msgctxt "@info:credit"
+msgid "Emmanuel Pescosta"
+msgstr "Emmanuel Pescosta"
+
+#: main.cpp:85
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2014-2018) and developer"
+msgstr "Hooldaja (2014-2018) ja arendaja"
+
+#: main.cpp:87
+#, kde-format
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr "Frank Reininghaus"
+
+#: main.cpp:88
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2012-2014) and developer"
+msgstr "Hooldaja (2012-2014) ja arendaja"
+
+#: main.cpp:90
+#, kde-format
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "Peter Penz"
+
+#: main.cpp:91
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and developer (2006-2012)"
+msgstr "Hooldaja ja arendaja (2006-2012)"
+
+#: main.cpp:93
+#, kde-format
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: main.cpp:94 main.cpp:97 main.cpp:100 main.cpp:103 main.cpp:106 main.cpp:109
+#: main.cpp:112
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "Arendaja"
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:99
+#, kde-format
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:102
+#, kde-format
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: main.cpp:105
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "Kevin Ottens"
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "Holger Freyther"
+
+#: main.cpp:111
+#, kde-format
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "Max Blazejak"
+
+#: main.cpp:114
+#, kde-format
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "Michael Austin"
+
+#: main.cpp:115
+#, kde-format
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "Dokumentatsioon"
+
+#: main.cpp:124
+#, kde-format
+msgctxt "@info:shell"
+msgid "The files and folders passed as arguments will be selected."
+msgstr "Argumentidena antud failide ja kataloogide valimine."
+
+#: main.cpp:126
+#, kde-format
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr "Dolphin käivitatakse poolitatud vaatega."
+
+#: main.cpp:127
+#, kde-format
+msgctxt "@info:shell"
+msgid "Dolphin will explicitly open in a new window."
+msgstr "Dolphin avatakse uues aknas."
+
+#: main.cpp:128
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start Dolphin Daemon (only required for DBus Interface)"
+msgstr "Dolphini deemoni käivitamine (nõutav ainult DBus-i liidese puhul)"
+
+#: main.cpp:129
+#, kde-format
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "Avatav dokument"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:10
+#, kde-format
+msgid "Hidden files shown"
+msgstr "Peidetud failide näitamine"
+
+#. i18n: ectx: label, entry (LimitFoldersPanelToHome), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:14
+#, kde-format
+msgid "Limit folders panel to home directory if inside home"
+msgstr ""
+"Kataloogide paneeli piiramine kodukataloogiga, kui viibitakse kodukataloogis"
+
+#. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:18
+#, kde-format
+msgid "Automatic scrolling"
+msgstr "Automaatne kerimine"
+
+#: panels/folders/treeviewcontextmenu.cpp:53
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Lõika"
+
+#: panels/folders/treeviewcontextmenu.cpp:57
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: panels/folders/treeviewcontextmenu.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename..."
+msgstr "Nimeta ümber..."
+
+#: panels/folders/treeviewcontextmenu.cpp:87
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Viska prügikasti"
+
+#: panels/folders/treeviewcontextmenu.cpp:97
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Kustuta"
+
+#: panels/folders/treeviewcontextmenu.cpp:107
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Hidden Files"
+msgstr "Peidetud failide näitamine"
+
+#: panels/folders/treeviewcontextmenu.cpp:117
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Limit to Home Directory"
+msgstr "Piirdumine kodukataloogiga"
+
+#: panels/folders/treeviewcontextmenu.cpp:126
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatic Scrolling"
+msgstr "Automaatne kerimine"
+
+#: panels/folders/treeviewcontextmenu.cpp:136 panels/places/placespanel.cpp:202
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Omadused"
+
+#. i18n: ectx: label, entry (previewsShown), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:10
+#, kde-format
+msgid "Previews shown"
+msgstr "Eelvaatluste näitamine"
+
+#. i18n: ectx: label, entry (previewsAutoPlay), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:14
+#, kde-format
+msgid "Auto-Play media files"
+msgstr "Meediafailide automaatne esitamine"
+
+#. i18n: ectx: label, entry (dateFormat), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:18
+#, kde-format
+msgid "Date display format"
+msgstr "Kuupäeva esitamise vorming"
+
+#: panels/information/informationpanel.cpp:162
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "Eelvaatlus"
+
+#: panels/information/informationpanel.cpp:167
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Auto-Play media files"
+msgstr "Meediafailide automaatne esitamine"
+
+#: panels/information/informationpanel.cpp:172
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Seadista..."
+
+#: panels/information/informationpanel.cpp:178
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Condensed Date"
+msgstr "Kuupäev lühidalt"
+
+#: panels/information/informationpanelcontent.cpp:115
+#, kde-format
+msgctxt "@label::textbox"
+msgid "Select which data should be shown:"
+msgstr "Järgmiste andmete näitamine:"
+
+#: panels/information/informationpanelcontent.cpp:311
+#, kde-format
+msgctxt "@label"
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] "%1 element valitud"
+msgstr[1] "%1 elementi valitud"
+
+#: panels/information/phononwidget.cpp:153
+#, kde-format
+msgid "play"
+msgstr "esita"
+
+#: panels/information/phononwidget.cpp:159
+#, kde-format
+msgid "pause"
+msgstr "paus"
+
+#. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
+#: panels/places/dolphin_placespanelsettings.kcfg:11
+#, kde-format
+msgid ""
+"Size of icons in the Places Panel (-1 means \"use the style's small size\")"
+msgstr ""
+"Ikoonide suurus asukohtade paneelil (-1 tähendab stiili väikseimat suurust)"
+
+#: panels/places/placesitemmodel.cpp:177
+#, kde-format
+msgctxt "@item"
+msgid "Eject"
+msgstr "Väljasta"
+
+#: panels/places/placesitemmodel.cpp:212
+#, kde-format
+msgctxt "@item"
+msgid "Release"
+msgstr "Vabasta"
+
+#: panels/places/placesitemmodel.cpp:214
+#, kde-format
+msgctxt "@item"
+msgid "Safely Remove"
+msgstr "Eemalda turvaliselt"
+
+#: panels/places/placesitemmodel.cpp:217
+#, kde-format
+msgctxt "@item"
+msgid "Unmount"
+msgstr "Lahuta"
+
+#: panels/places/placesitemmodel.cpp:239
+#, kde-format
+msgctxt "@info"
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "Seade \"%1\" ei ole plaat ja seda ei saa väljastada."
+
+#: panels/places/placesitemmodel.cpp:459
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Vähemalt üks selle seadme failidest on rakenduses avatud."
+
+#: panels/places/placesitemmodel.cpp:466
+#, kde-kuit-format
+msgid ""
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
+msgid_plural ""
+"One or more files on this device are opened in following applications: "
+"<application>%2</application>."
+msgstr[0] ""
+"Vähemalt üks selle seadme failidest on avatud rakenduses <application>%2</"
+"application>."
+msgstr[1] ""
+"Vähemalt üks selle seadme failidest on avatud järgmistes rakendustes: "
+"<application>%2</application>"
+
+#: panels/places/placesitemmodel.cpp:468
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: panels/places/placesitemmodel.cpp:499
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr "\"%1\" sisenemisel tekkis tõrge, süsteem teatas: %2"
+
+#: panels/places/placesitemmodel.cpp:503
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1'"
+msgstr "\"%1\" sisenemisel tekkis tõrge"
+
+#: panels/places/placespanel.cpp:198
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Open in New Tab"
+msgstr "Ava uuel kaardil"
+
+#: panels/places/placespanel.cpp:199
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Open in New Window"
+msgstr "Ava uues aknas"
+
+#: panels/places/placespanel.cpp:232
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mount"
+msgstr "Ühenda"
+
+#: panels/places/placespanel.cpp:241
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Trash..."
+msgstr "Seadista prügikasti ..."
+
+#: panels/places/placespanel.cpp:245
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Edit..."
+msgstr "Muuda ..."
+
+#: panels/places/placespanel.cpp:250
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Remove"
+msgstr "Eemalda"
+
+#: panels/places/placespanel.cpp:253
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide"
+msgstr "Peida"
+
+#: panels/places/placespanel.cpp:314
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "Lisa kirje ..."
+
+#: panels/places/placespanel.cpp:324
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Icon Size"
+msgstr "Ikooni suurus"
+
+#: panels/places/placespanel.cpp:335
+#, kde-format
+msgctxt "Small icon size"
+msgid "Small (%1x%2)"
+msgstr "Väike (%1x%2)"
+
+#: panels/places/placespanel.cpp:336
+#, kde-format
+msgctxt "Medium icon size"
+msgid "Medium (%1x%2)"
+msgstr "Keskmine (%1x%2)"
+
+#: panels/places/placespanel.cpp:337
+#, kde-format
+msgctxt "Large icon size"
+msgid "Large (%1x%2)"
+msgstr "Suur (%1x%2)"
+
+#: panels/places/placespanel.cpp:338
+#, kde-format
+msgctxt "Huge icon size"
+msgid "Huge (%1x%2)"
+msgstr "Hiiglaslik (%1x%2)"
+
+#: panels/places/placespanel.cpp:385
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide Section '%1'"
+msgstr "Peida sektsioon \"%1\""
+
+#: panels/terminal/terminalpanel.cpp:146
+#, kde-format
+msgid ""
+"Terminal cannot be shown because Konsole is not installed. Please install it "
+"and then reopen the panel."
+msgstr ""
+"Terminali ei saa avada, sest Konsooli pole paigaldatud. Palun paigalda see "
+"ja ava siis paneel uuesti."
+
+#: panels/terminal/terminalpanel.cpp:152
+#, kde-format
+msgid "Install Konsole"
+msgstr "Konsooli paigaldamine"
+
+#. i18n: ectx: label, entry (Location), group (Search)
+#: search/dolphin_searchsettings.kcfg:10
+#, kde-format
+msgid "Location"
+msgstr "Asukoht"
+
+#. i18n: ectx: label, entry (What), group (Search)
+#: search/dolphin_searchsettings.kcfg:14
+#, kde-format
+msgid "What"
+msgstr "Mis"
+
+#: search/dolphinfacetswidget.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Any Type"
+msgstr "Kõik tüübid"
+
+#: search/dolphinfacetswidget.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Folders"
+msgstr "Kataloogid"
+
+#: search/dolphinfacetswidget.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Documents"
+msgstr "Dokumendid"
+
+#: search/dolphinfacetswidget.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Images"
+msgstr "Pildid"
+
+#: search/dolphinfacetswidget.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Audio Files"
+msgstr "Helifailid"
+
+#: search/dolphinfacetswidget.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Videos"
+msgstr "Videod"
+
+#: search/dolphinfacetswidget.cpp:40
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Any Date"
+msgstr "Kõik kuupäevad"
+
+#: search/dolphinfacetswidget.cpp:41
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Today"
+msgstr "Täna"
+
+#: search/dolphinfacetswidget.cpp:42
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Yesterday"
+msgstr "Eile"
+
+#: search/dolphinfacetswidget.cpp:43
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "This Week"
+msgstr "See nädal"
+
+#: search/dolphinfacetswidget.cpp:44
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "This Month"
+msgstr "See kuu"
+
+#: search/dolphinfacetswidget.cpp:45
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "This Year"
+msgstr "See aasta"
+
+#: search/dolphinfacetswidget.cpp:49
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Any Rating"
+msgstr "Kõik hinnangud"
+
+#: search/dolphinfacetswidget.cpp:50
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "1 or more"
+msgstr "1 või rohkem"
+
+#: search/dolphinfacetswidget.cpp:51
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "2 or more"
+msgstr "2 või rohkem"
+
+#: search/dolphinfacetswidget.cpp:52
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "3 or more"
+msgstr "3 või rohkem"
+
+#: search/dolphinfacetswidget.cpp:53
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "4 or more"
+msgstr "4 või rohkem"
+
+#: search/dolphinfacetswidget.cpp:54
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Highest Rating"
+msgstr "Kõrgeim hinnang"
+
+#: search/dolphinfacetswidget.cpp:57
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Clear Selection"
+msgstr "Puhasta valik"
+
+#: search/dolphinfacetswidget.cpp:247
+#, kde-format
+msgctxt "String list separator"
+msgid ", "
+msgstr ", "
+
+#: search/dolphinfacetswidget.cpp:249
+#, kde-format
+msgctxt "@action:button %2 is a list of tags"
+msgid "Tag: %2"
+msgid_plural "Tags: %2"
+msgstr[0] "Silt: %2"
+msgstr[1] "Sildid: %2"
+
+#: search/dolphinfacetswidget.cpp:251
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Tags"
+msgstr "Lisa silte"
+
+#: search/dolphinsearchbox.cpp:101
+#, kde-format
+msgctxt "action:button"
+msgid "From Here (%1)"
+msgstr "Alates siit (%1)"
+
+#: search/dolphinsearchbox.cpp:102
+#, kde-format
+msgctxt "action:button"
+msgid "Limit search to '%1' and its subfolders"
+msgstr "Otsingu piiramine \"%1\" ja selle alamkataloogidega"
+
+#: search/dolphinsearchbox.cpp:349
+#, kde-format
+msgctxt "action:button"
+msgid "Save this search to quickly access it again in the future"
+msgstr "Salvesta otsing võimalikuks kiireks kasutamiseks edaspidi"
+
+#: search/dolphinsearchbox.cpp:358
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit searching"
+msgstr "Otsingu lõpetamine"
+
+#: search/dolphinsearchbox.cpp:369
+#, kde-format
+msgctxt "action:button"
+msgid "Filename"
+msgstr "Failinimi"
+
+#: search/dolphinsearchbox.cpp:373
+#, kde-format
+msgctxt "action:button"
+msgid "Content"
+msgstr "Sisu"
+
+#: search/dolphinsearchbox.cpp:384
+#, kde-format
+msgctxt "action:button"
+msgid "From Here"
+msgstr "Siin"
+
+#: search/dolphinsearchbox.cpp:388
+#, kde-format
+msgctxt "action:button"
+msgid "Your files"
+msgstr "Sinu failid"
+
+#: search/dolphinsearchbox.cpp:389
+#, kde-format
+msgctxt "action:button"
+msgid "Search in your home directory"
+msgstr "Otsing kodukataloogis"
+
+#: search/dolphinsearchbox.cpp:403
+#, kde-format
+msgid "More Search Tools"
+msgstr "Rohkem otsingutööriistu"
+
+#: search/dolphinsearchbox.cpp:465
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr "\"%1\" päringu tulemused"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:61
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which services should be shown in the context menu:"
+msgstr "Järgmiste teenuste näitamine kontekstimenüüs:"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:65
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Search..."
+msgstr "Otsing ..."
+
+#: settings/contextmenu/contextmenusettingspage.cpp:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Download New Services..."
+msgstr "Laadi alla uusi teenuseid..."
+
+#: settings/contextmenu/contextmenusettingspage.cpp:201
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Dolphin must be restarted to apply the updated version control systems "
+#| "settings."
+msgctxt "@info"
+msgid ""
+"Dolphin must be restarted to apply the updated version control system "
+"settings."
+msgstr ""
+"Versioonihaldussüsteemide uuendatud seadistuste rakendamiseks tuleb Dolphin "
+"taaskäivitada."
+
+#: settings/contextmenu/contextmenusettingspage.cpp:203
+#, kde-format
+msgctxt "@info"
+msgid "Restart now?"
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:242
+#, kde-format
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "Kustutamine"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:248
+#, kde-format
+msgctxt "@option:check"
+msgid "'Copy To' and 'Move To' commands"
+msgstr "Kopeerimis- ja liigutamiskäsud"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:290
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:12
+#: settings/dolphin_detailsmodesettings.kcfg:16
+#: settings/dolphin_iconsmodesettings.kcfg:12
+#, kde-format
+msgid "Use system font"
+msgstr "Süsteemse fondi kasutamine"
+
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#. i18n: ectx: label, entry (FontFamily), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:16
+#: settings/dolphin_detailsmodesettings.kcfg:12
+#: settings/dolphin_iconsmodesettings.kcfg:16
+#, kde-format
+msgid "Font family"
+msgstr "Fondipere"
+
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#. i18n: ectx: label, entry (FontSize), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:20
+#: settings/dolphin_detailsmodesettings.kcfg:20
+#: settings/dolphin_iconsmodesettings.kcfg:20
+#, kde-format
+msgid "Font size"
+msgstr "Fondi suurus"
+
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#. i18n: ectx: label, entry (ItalicFont), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:24
+#: settings/dolphin_detailsmodesettings.kcfg:24
+#: settings/dolphin_iconsmodesettings.kcfg:24
+#, kde-format
+msgid "Italic"
+msgstr "Kaldkiri"
+
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#. i18n: ectx: label, entry (FontWeight), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:28
+#: settings/dolphin_detailsmodesettings.kcfg:28
+#: settings/dolphin_iconsmodesettings.kcfg:28
+#, kde-format
+msgid "Font weight"
+msgstr "Fondi kõrgus"
+
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#. i18n: ectx: label, entry (IconSize), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:32
+#: settings/dolphin_detailsmodesettings.kcfg:32
+#: settings/dolphin_iconsmodesettings.kcfg:32
+#, kde-format
+msgid "Icon size"
+msgstr "Ikooni suurus"
+
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#. i18n: ectx: label, entry (PreviewSize), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:36
+#: settings/dolphin_detailsmodesettings.kcfg:36
+#: settings/dolphin_iconsmodesettings.kcfg:36
+#, kde-format
+msgid "Preview size"
+msgstr "Eelvaatluse suurus"
+
+#. i18n: ectx: label, entry (MaximumTextWidthIndex), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:40
+#, kde-format
+msgid "Maximum text width index (0 means unlimited)"
+msgstr "Teksti maksimaalse laiuse indeks (0 tähendab piiramatu)"
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:10
+#, kde-format
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "Kopeerimis- ja liigutamiskäsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowAddToPlaces), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:14
+#, kde-format
+msgid "Show 'Add to Places' in context menu."
+msgstr "Asukohtadesse lisamise käsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowSortBy), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:18
+#, kde-format
+msgid "Show 'Sort By' in context menu."
+msgstr "Sorteerimisvalikute näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowViewMode), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:22
+#, kde-format
+msgid "Show 'View Mode' in context menu."
+msgstr "Vaaterežiimi näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowOpenInNewTab), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:26
+#, kde-format
+msgid "Show 'Open in New Tab' and 'Open in New Tabs' in context menu."
+msgstr "Uuel kaardil avamise käskude näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowOpenInNewWindow), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:30
+#, kde-format
+msgid "Show 'Open in New Window' in context menu."
+msgstr "Uues aknas avamise käsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowCopyLocation), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:34
+#, kde-format
+msgid "Show 'Copy Location' in context menu."
+msgstr "Asukoha kopeerimise käsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowDuplicateHere), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:38
+#, kde-format
+msgid "Show 'Duplicate Here' in context menu."
+msgstr "Kloonimiskäsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ShowOpenTerminal), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:42
+#, kde-format
+msgid "Show 'Open Terminal' in context menu."
+msgstr "Terminali avamise käsu näitamine kontekstimenüüs"
+
+#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:40
+#, kde-format
+msgid "Position of columns"
+msgstr "Veergude asend"
+
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:44
+#, kde-format
+msgid "Expandable folders"
+msgstr "Laiendatavad kataloogid"
+
+#. i18n: ectx: label, entry (DirectorySizeCount), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:48
+#, kde-format
+msgid "Whether or not content count is used as directory size"
+msgstr "Kas sisu arvestada kataloogi suuruse juures või mitte"
+
+#. i18n: ectx: label, entry (RecursiveDirectorySizeLimit), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:52
+#, kde-format
+msgid "Recursive directory size limit"
+msgstr "Rekursiivne kataloogi suuruse piirang"
+
+#. i18n: ectx: label, entry (UseShortRelativeDates), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:56
+#, kde-format
+msgid "if true we use short relative dates, if not short dates"
+msgstr ""
+"Märkimisel näidatakse lühikesi suhtelisi kuupäevi, muidu lühikesi "
+"absoluutseid"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:11
+#, kde-format
+msgctxt "@label"
+msgid "Hidden files shown"
+msgstr "Peidetud failide näitamine"
+
+#. i18n: ectx: whatsthis, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:12
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', "
+"will be shown in the file view."
+msgstr ""
+"Sisselülitamisel näidatakse failivaates peidetud faile, mille alguses seisab "
+"punkt (.)."
+
+#. i18n: ectx: label, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#, kde-format
+msgctxt "@label"
+msgid "Version"
+msgstr "Versioon"
+
+#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:20
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This option defines the used version of the view properties."
+msgstr "See valik määrab kasutatava vaate omaduste versiooni."
+
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:25
+#, kde-format
+msgctxt "@label"
+msgid "View Mode"
+msgstr "Vaaterežiim"
+
+#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:26
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option controls the style of the view. Currently supported values "
+"include icons (0), details (1) and column (2) views."
+msgstr ""
+"See määrab vaate stiili. Praegu on toetatud ikoonid (0), üksikasjad (1) ja "
+"veerud (2)."
+
+#. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:31
+#, kde-format
+msgctxt "@label"
+msgid "Previews shown"
+msgstr "Eelvaatluste näitamine"
+
+#. i18n: ectx: whatsthis, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:32
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an "
+"icon."
+msgstr "Sisselülitamisel näidatakse failisisu eelvaatlust ikoonina."
+
+#. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:37
+#, kde-format
+msgctxt "@label"
+msgid "Grouped Sorting"
+msgstr "Rühmitatud sortimine"
+
+#. i18n: ectx: whatsthis, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:38
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, the sorted items are categorized into groups."
+msgstr "Sisselülitamisel rühmitatakse sorteeritud elemendid kategooria järgi."
+
+#. i18n: ectx: label, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:43
+#, kde-format
+msgctxt "@label"
+msgid "Sort files by"
+msgstr "Failide sorteerimine"
+
+#. i18n: ectx: whatsthis, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:44
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option defines which attribute (text, size, date, etc.) sorting is "
+"performed on."
+msgstr ""
+"See määrab, millise atribuudi järgi (tekst, suurus, kuupäev jne.) toimub "
+"sorteerimine."
+
+#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:49
+#, kde-format
+msgctxt "@label"
+msgid "Order in which to sort files"
+msgstr "Failide sorteerimise järjekord"
+
+#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:56
+#, kde-format
+msgctxt "@label"
+msgid "Show folders first when sorting files and folders"
+msgstr "Failide ja kataloogide sortimisel kataloogide näitamine esimesena"
+
+#. i18n: ectx: label, entry (SortHiddenLast), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:61
+#, kde-format
+msgctxt "@label"
+msgid "Show hidden files and folders last"
+msgstr "Peidetud failide ja kataloogide näitamine viimasena"
+
+#. i18n: ectx: label, entry (VisibleRoles), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:66
+#, kde-format
+msgctxt "@label"
+msgid "Visible roles"
+msgstr "Nähtavad rollid"
+
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:71
+#, kde-format
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "Päiseveergude laius"
+
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:76
+#, kde-format
+msgctxt "@label"
+msgid "Properties last changed"
+msgstr "Omaduste viimane muutmine"
+
+#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:77
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The last time these properties were changed by the user."
+msgstr "Viimane kord, kui kasutaja muutis neid omadusi."
+
+#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:82
+#, kde-format
+msgctxt "@label"
+msgid "Additional Information"
+msgstr "Lisateave"
+
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:15
+#, kde-format
+msgid "Should the URL be editable for the user"
+msgstr "Kas kasutajal peaks olema võimalus redigeerida URL-e"
+
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: settings/dolphin_generalsettings.kcfg:19
+#, kde-format
+msgid "Text completion mode of the URL Navigator"
+msgstr "URL-i navigaatori tekstilõpetamise režiim"
+
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: settings/dolphin_generalsettings.kcfg:23
+#, kde-format
+msgid "Should the full path be shown inside the location bar"
+msgstr "Kas näidata asukoharibal täielikku asukohta"
+
+#. i18n: ectx: label, entry (ShowFullPathInTitlebar), group (General)
+#: settings/dolphin_generalsettings.kcfg:27
+#, kde-format
+msgid "Should the full path be shown in the title bar"
+msgstr "Kas näidata tiitliribal täielikku asukohta"
+
+#. i18n: ectx: label, entry (OpenExternallyCalledFolderInNewTab), group (General)
+#: settings/dolphin_generalsettings.kcfg:31
+#, kde-format
+msgid ""
+"Should an externally called folder open in a new tab in an existing Dolphin "
+"instance"
+msgstr "Kas väljast avatav kataloog avada töötava Dolphini isendi uuel kaardil"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: settings/dolphin_generalsettings.kcfg:35
+#, kde-format
+msgid ""
+"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
+msgstr ""
+"Dolphini sisemine versioon, sisaldab kolm arvu pea- ja lisaversiooni ning "
+"redaktsiooni kohta"
+
+#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
+#: settings/dolphin_generalsettings.kcfg:39
+#, kde-format
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the "
+"UI)"
+msgstr ""
+"Kas käivitamisseadistusi on muudetud (sisemine säte, mida ei näidata "
+"kasutajaliideses)"
+
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:43
+#, kde-format
+msgid "Home URL"
+msgstr "Kodu URL"
+
+#. i18n: ectx: label, entry (RememberOpenedTabs), group (General)
+#: settings/dolphin_generalsettings.kcfg:47
+#, kde-format
+msgid "Remember open folders and tabs"
+msgstr "Avatud kataloogide ja kaartide meeldejätmine"
+
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:51
+#, kde-format
+msgid "Split the view into two panes"
+msgstr "Vaate poolitamine kaheks paneeliks"
+
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: settings/dolphin_generalsettings.kcfg:56
+#, kde-format
+msgid "Should the filter bar be shown"
+msgstr "Kas näidata filtririba"
+
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: settings/dolphin_generalsettings.kcfg:60
+#, kde-format
+msgid "Should the view properties be used for all folders"
+msgstr "Kas kasutada vaate omadusi kõigi kataloogide puhul"
+
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: settings/dolphin_generalsettings.kcfg:64
+#, kde-format
+msgid "Browse through archives"
+msgstr "Arhiivide sirvimine"
+
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: settings/dolphin_generalsettings.kcfg:68
+#, kde-format
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr "Kinnituse küsimine mitme kaardiga akna sulgemisel"
+
+#. i18n: ectx: label, entry (ConfirmClosingTerminalRunningProgram), group (General)
+#: settings/dolphin_generalsettings.kcfg:72
+#, kde-format
+msgid ""
+"Ask for confirmation when closing windows with a program that is still "
+"running in the Terminal panel."
+msgstr ""
+"Kinnituse küsimine akende sulgemisel, milles jätkuvalt töötab "
+"terminalipaneelil mõni programm."
+
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: settings/dolphin_generalsettings.kcfg:76
+#, kde-format
+msgid "Rename inline"
+msgstr "Elemendi kohapeal ümbernimetamine"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:80
+#, kde-format
+msgid "Show selection toggle"
+msgstr "Valikulüliti näitamine"
+
+#. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:84
+#, kde-format
+msgid "Use tab for switching between right and left split"
+msgstr "Parema ja vasaku poole vahel saab liikuda tabeldusklahviga"
+
+#. i18n: ectx: label, entry (CloseActiveSplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:88
+#, kde-format
+msgid "Close active pane when toggling off split view"
+msgstr "Aktiivse paneeli sulgemine vaate poolitamise lülitamisel"
+
+#. i18n: ectx: label, entry (OpenNewTabAfterLastTab), group (General)
+#: settings/dolphin_generalsettings.kcfg:92
+#, kde-format
+msgid "New tab will be open after last one"
+msgstr "Uus kaart avatakse viimase kaardi järel"
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:96
+#, kde-format
+msgid "Show tooltips"
+msgstr "Kohtspikrite näitamine"
+
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: settings/dolphin_generalsettings.kcfg:100
+#, kde-format
+msgid "Timestamp since when the view properties are valid"
+msgstr "Ajatempel, mil vaate omadused kehtivad"
+
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: settings/dolphin_generalsettings.kcfg:103
+#, kde-format
+msgid "Use auto-expanding folders for all view types"
+msgstr ""
+"Automaatselt avanevate kataloogide kasutamine kõigi vaatetüüpide korral"
+
+#. i18n: ectx: label, entry (ShowStatusBar), group (General)
+#: settings/dolphin_generalsettings.kcfg:107
+#, kde-format
+msgid "Show the statusbar"
+msgstr "Olekuriba näitamine"
+
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: settings/dolphin_generalsettings.kcfg:111
+#, kde-format
+msgid "Show zoom slider in the statusbar"
+msgstr "Suurendusliuguri näitamine olekuribal"
+
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: settings/dolphin_generalsettings.kcfg:115
+#, kde-format
+msgid "Show the space information in the statusbar"
+msgstr "Ruumiteabe näitamine olekuribal"
+
+#. i18n: ectx: label, entry (LockPanels), group (General)
+#: settings/dolphin_generalsettings.kcfg:119
+#, kde-format
+msgid "Lock the layout of the panels"
+msgstr "Paneelide paigutuse lukustamine"
+
+#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
+#: settings/dolphin_generalsettings.kcfg:123
+#, kde-format
+msgid "Enlarge Small Previews"
+msgstr "Väikeste eelvaatluste suurendamine"
+
+#. i18n: ectx: label, entry (SortingChoice), group (General)
+#: settings/dolphin_generalsettings.kcfg:132
+#, kde-format
+msgid ""
+"Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
+"items"
+msgstr ""
+"Elementide loomuliku, tõstutundliku või tõstutundmatu sortimise vahel "
+"valimine"
+
+#. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:40
+#, kde-format
+msgid "Text width index"
+msgstr "Teksti laiuse indeks"
+
+#. i18n: ectx: label, entry (MaximumTextLines), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:44
+#, kde-format
+msgid "Maximum textlines (0 means unlimited)"
+msgstr "Tekstiridade maksimaalne arv (0 tähendab piiramatu)"
+
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: settings/dolphin_versioncontrolsettings.kcfg:10
+#, kde-format
+msgid "Enabled plugins"
+msgstr "Lubatud pluginad"
+
+#: settings/dolphinsettingsdialog.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Configure..."
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Seadista..."
+
+#: settings/dolphinsettingsdialog.cpp:55
+#, kde-format
+msgctxt "@title:group General settings"
+msgid "General"
+msgstr "Üldine"
+
+#: settings/dolphinsettingsdialog.cpp:62
+#, kde-format
+msgctxt "@title:group"
+msgid "Startup"
+msgstr "Käivitamine"
+
+#: settings/dolphinsettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title:group"
+msgid "View Modes"
+msgstr "Vaaterežiimid"
+
+#: settings/dolphinsettingsdialog.cpp:76
+#, kde-format
+msgctxt "@title:group"
+msgid "Navigation"
+msgstr "Liikumine"
+
+#: settings/dolphinsettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Context Menu"
+msgstr "Kontekstimenüü"
+
+#: settings/dolphinsettingsdialog.cpp:103
+#, kde-format
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "Prügikast"
+
+#: settings/dolphinsettingsdialog.cpp:113
+#, kde-format
+msgctxt "@title:group"
+msgid "User Feedback"
+msgstr "Kasutaja tagasiside"
+
+#: settings/dolphinsettingsdialog.cpp:183
+#, kde-format
+msgid ""
+"You have unsaved changes. Do you want to apply the changes or discard them?"
+msgstr ""
+"Sul on salvestamata muudatusi. Kas salvestada muudatused või unustada need?"
+
+#: settings/dolphinsettingsdialog.cpp:184
+#, kde-format
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: settings/general/behaviorsettingspage.cpp:37
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use common display style for all folders"
+msgstr "Ühine vaatestiil kõigi kataloogide puhul"
+
+#: settings/general/behaviorsettingspage.cpp:38
+#, kde-format
+msgctxt "@option:radio"
+msgid "Remember display style for each folder"
+msgstr "Vaatestiil jäetakse iga kataloogi puhul meelde"
+
+#: settings/general/behaviorsettingspage.cpp:39
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Dolphin will create a hidden .directory file in each folder you change view "
+"properties for."
+msgstr ""
+"Dolphin loob peidetud .directory-faili igas kataloogis, mille vaateomadusi "
+"muudad."
+
+#: settings/general/behaviorsettingspage.cpp:44
+#, kde-format
+msgctxt "@title:group"
+msgid "View: "
+msgstr "Vaade:"
+
+#: settings/general/behaviorsettingspage.cpp:52
+#, kde-format
+msgctxt "option:radio"
+msgid "Natural"
+msgstr "Loomulik"
+
+#: settings/general/behaviorsettingspage.cpp:53
+#, kde-format
+msgctxt "option:radio"
+msgid "Alphabetical, case insensitive"
+msgstr "Tähestiku järgi, tõstutundetu"
+
+#: settings/general/behaviorsettingspage.cpp:54
+#, kde-format
+msgctxt "option:radio"
+msgid "Alphabetical, case sensitive"
+msgstr "Tähestiku järgi, tõstutundlik"
+
+#: settings/general/behaviorsettingspage.cpp:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Sorting mode: "
+msgstr "Sortimisviis:"
+
+#: settings/general/behaviorsettingspage.cpp:70
+#, kde-format
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "Kohtspikrite näitamine"
+
+#: settings/general/behaviorsettingspage.cpp:71
+#: settings/general/behaviorsettingspage.cpp:79
+#, kde-format
+msgctxt "@title:group"
+msgid "Miscellaneous: "
+msgstr "Muu:"
+
+#: settings/general/behaviorsettingspage.cpp:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "Valiku lülitamisvõimaluse näitamine"
+
+#: settings/general/behaviorsettingspage.cpp:83
+#, kde-format
+msgctxt "option:check"
+msgid "Rename inline"
+msgstr "Elemendi kohapeal ümbernimetamine"
+
+#: settings/general/behaviorsettingspage.cpp:87
+#, kde-format
+msgctxt "option:check"
+msgid "Switch between split views panes with tab key"
+msgstr "Liikumine poolitatud vaadete vahel tabeldusklahviga"
+
+#: settings/general/behaviorsettingspage.cpp:91
+#, kde-format
+msgctxt "option:check"
+msgid "Turning off split view closes active pane"
+msgstr "Poolitatud vaate väljalülitamine sulgeb aktiivse paneeli"
+
+#: settings/general/behaviorsettingspage.cpp:93
+#, kde-format
+msgid "When deactivated, turning off split view will close the inactive pane"
+msgstr ""
+"Märkimata jätmisel sulgeb jagatud vaate väljalülitamine mitteaktiivse paneeli"
+
+#: settings/general/configurepreviewplugindialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Preview for %1"
+msgstr "%1 - eelvaatluse seadistamine"
+
+#: settings/general/confirmationssettingspage.cpp:48
+#, kde-format
+msgctxt "@title:group"
+msgid "Ask for confirmation in all KDE applications when:"
+msgstr "Kinnituse küsimine kõigis KDE rakendustes järgmise toimingu korral:"
+
+#: settings/general/confirmationssettingspage.cpp:52
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Moving files or folders to trash"
+msgstr "Failide või kataloogide viskamisel prügikasti"
+
+#: settings/general/confirmationssettingspage.cpp:54
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Emptying trash"
+msgstr "Prügikasti tühjendamisel"
+
+#: settings/general/confirmationssettingspage.cpp:56
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Deleting files or folders"
+msgstr "Failide või kataloogide kustutamisel"
+
+#: settings/general/confirmationssettingspage.cpp:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Ask for confirmation in Dolphin when:"
+msgstr "Kinnituse küsimine Dolphinis:"
+
+#: settings/general/confirmationssettingspage.cpp:62
+#, kde-format
+msgctxt "@option:check Ask for confirmation in Dolphin when"
+msgid "Closing windows with multiple tabs"
+msgstr "Mitme kaardiga akende sulgemisel"
+
+#: settings/general/confirmationssettingspage.cpp:66
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Closing windows with a program running in the Terminal panel"
+msgstr "Töötava terminalipaneeliga akende sulgemisel"
+
+#: settings/general/confirmationssettingspage.cpp:70
+#, kde-format
+msgctxt "@title:group"
+msgid "When opening an executable file:"
+msgstr "Teostusfaili avamisel:"
+
+#: settings/general/confirmationssettingspage.cpp:75
+#, kde-format
+msgid "Always ask"
+msgstr "Alati küsitakse"
+
+#: settings/general/confirmationssettingspage.cpp:75
+#, kde-format
+msgid "Open in application"
+msgstr "Avatakse rakenduses"
+
+#: settings/general/confirmationssettingspage.cpp:75
+#, kde-format
+msgid "Run script"
+msgstr "Käivitatakse skript"
+
+#: settings/general/generalsettingspage.cpp:30
+#: settings/kcm/kcmdolphingeneral.cpp:35
+#, kde-format
+msgctxt "@title:tab Behavior settings"
+msgid "Behavior"
+msgstr "Käitumine"
+
+#: settings/general/generalsettingspage.cpp:35
+#: settings/kcm/kcmdolphingeneral.cpp:40
+#, kde-format
+msgctxt "@title:tab Previews settings"
+msgid "Previews"
+msgstr "Eelvaatlused"
+
+#: settings/general/generalsettingspage.cpp:40
+#: settings/kcm/kcmdolphingeneral.cpp:45
+#, kde-format
+msgctxt "@title:tab Confirmations settings"
+msgid "Confirmations"
+msgstr "Kinnitused"
+
+#: settings/general/generalsettingspage.cpp:45
+#, kde-format
+msgctxt "@title:tab Status Bar settings"
+msgid "Status Bar"
+msgstr "Olekuriba"
+
+#: settings/general/previewssettingspage.cpp:43
+#, kde-format
+msgctxt "@title:group"
+msgid "Show previews in the view for:"
+msgstr "Eelvaatluse näitamine:"
+
+#: settings/general/previewssettingspage.cpp:63
+#, kde-format
+msgid "Skip previews for local files above:"
+msgstr "Eelvaatlust ei näidata kohalikel failidel, mis on suuremad kui:"
+
+#: settings/general/previewssettingspage.cpp:67
+#: settings/general/previewssettingspage.cpp:80
+#, kde-format
+msgctxt "Mebibytes; used as a suffix in a spinbox showing e.g. '3 MiB'"
+msgid " MiB"
+msgstr " MiB"
+
+#: settings/general/previewssettingspage.cpp:69
+#, kde-format
+msgid "No limit"
+msgstr "Piiramata"
+
+#: settings/general/previewssettingspage.cpp:76
+#, kde-format
+msgctxt "@label"
+msgid "Skip previews for remote files above:"
+msgstr "Eelvaatlust ei näidata võrgufailidel, mis on suuremad kui:"
+
+#: settings/general/previewssettingspage.cpp:82
+#, kde-format
+msgid "No previews"
+msgstr "Eelvaatlus välja lülitatud"
+
+#: settings/general/statusbarsettingspage.cpp:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Show status bar"
+msgstr "Olekuriba näitamine"
+
+#: settings/general/statusbarsettingspage.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Show zoom slider"
+msgstr "Suurendusliuguri näitamine"
+
+#: settings/general/statusbarsettingspage.cpp:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Show space information"
+msgstr "Ruumiteabe näitamine"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:35
+#: settings/viewmodes/viewsettingspage.cpp:28
+#, kde-format
+msgctxt "@title:tab"
+msgid "Icons"
+msgstr "Ikoonid"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:40
+#: settings/viewmodes/viewsettingspage.cpp:33
+#, kde-format
+msgctxt "@title:tab"
+msgid "Compact"
+msgstr "Kompaktne"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:45
+#: settings/viewmodes/viewsettingspage.cpp:38
+#, kde-format
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: settings/navigation/navigationsettingspage.cpp:30
+#, kde-format
+msgctxt "option:radio"
+msgid "After current tab"
+msgstr "Aktiivse kaardi järel"
+
+#: settings/navigation/navigationsettingspage.cpp:31
+#, kde-format
+msgctxt "option:radio"
+msgid "At end of tab bar"
+msgstr "Kaardiriba lõpus"
+
+#: settings/navigation/navigationsettingspage.cpp:35
+#, kde-format
+msgctxt "@title:group"
+msgid "Open new tabs: "
+msgstr "Uued kaardid avatakse:"
+
+#: settings/navigation/navigationsettingspage.cpp:40
+#, kde-format
+msgctxt "@option:check"
+msgid "Open archives as folder"
+msgstr "Arhiivide avamine kataloogina"
+
+#: settings/navigation/navigationsettingspage.cpp:41
+#, kde-format
+msgctxt "option:check"
+msgid "Open folders during drag operations"
+msgstr "Kataloogide avamine lohistamisel"
+
+#: settings/navigation/navigationsettingspage.cpp:42
+#, kde-format
+msgctxt "@title:group"
+msgid "General: "
+msgstr "Üldine: "
+
+#: settings/startup/startupsettingspage.cpp:45
+#, kde-format
+msgctxt "@option:radio Startup Settings"
+msgid "Folders, tabs, and window state from last time"
+msgstr "Eelmise korra kataloogid, kaardid ja akna olek"
+
+#: settings/startup/startupsettingspage.cpp:68
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Home Location"
+msgstr "Vali kodu asukoht"
+
+#: settings/startup/startupsettingspage.cpp:78
+#, kde-format
+msgctxt "@action:button"
+msgid "Use Current Location"
+msgstr "Kasuta aktiivset asukohta"
+
+#: settings/startup/startupsettingspage.cpp:82
+#, kde-format
+msgctxt "@action:button"
+msgid "Use Default Location"
+msgstr "Kasuta vaikimisi asukohta"
+
+#: settings/startup/startupsettingspage.cpp:94
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Show on startup:"
+msgstr "Käivitamisel näidatakse:"
+
+#: settings/startup/startupsettingspage.cpp:100
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Begin in split view mode"
+msgstr "Alustamine poolitatud vaaterežiimis"
+
+#: settings/startup/startupsettingspage.cpp:101
+#, kde-format
+msgid "New windows:"
+msgstr "Uued aknad:"
+
+#: settings/startup/startupsettingspage.cpp:102
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show filter bar"
+msgstr "Filtririba näitamine"
+
+#: settings/startup/startupsettingspage.cpp:104
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Make location bar editable"
+msgstr "Redigeeritav asukohariba"
+
+#: settings/startup/startupsettingspage.cpp:109
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Open new folders in tabs"
+msgstr "Uute kataloogide avamine kaartidel"
+
+#: settings/startup/startupsettingspage.cpp:110
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "General:"
+msgstr "Üldine:"
+
+#: settings/startup/startupsettingspage.cpp:111
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show full path inside location bar"
+msgstr "Täieliku asukoha näitamine asukoharibal"
+
+#: settings/startup/startupsettingspage.cpp:113
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show full path in title bar"
+msgstr "Täieliku asukoha näitamine tiitliribal"
+
+#: settings/startup/startupsettingspage.cpp:235
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The location for the home folder is invalid or does not exist, it will not "
+"be applied."
+msgstr "Kodukataloogi asukoht on vigane või see puudub, seda ei rakendata."
+
+#: settings/viewmodes/dolphinfontrequester.cpp:28
+#, kde-format
+msgctxt "@item:inlistbox Font"
+msgid "System Font"
+msgstr "Süsteemne font"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox Font"
+msgid "Custom Font"
+msgstr "Kohandatud font"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:33
+#, kde-format
+msgctxt "@action:button Choose font"
+msgid "Choose..."
+msgstr "Vali..."
+
+#: settings/viewmodes/viewsettingstab.cpp:55
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Default icon size:"
+msgstr "Vaikimisi ikoonisuurus:"
+
+#: settings/viewmodes/viewsettingstab.cpp:63
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Preview icon size:"
+msgstr "Eelvaatluse ikoonisuurus:"
+
+#: settings/viewmodes/viewsettingstab.cpp:71
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label font:"
+msgstr "Pealdise font:"
+
+#: settings/viewmodes/viewsettingstab.cpp:76
+#, kde-format
+msgctxt "@item:inlistbox Label width"
+msgid "Small"
+msgstr "Väike"
+
+#: settings/viewmodes/viewsettingstab.cpp:77
+#, kde-format
+msgctxt "@item:inlistbox Label width"
+msgid "Medium"
+msgstr "Keskmine"
+
+#: settings/viewmodes/viewsettingstab.cpp:78
+#, kde-format
+msgctxt "@item:inlistbox Label width"
+msgid "Large"
+msgstr "Suur"
+
+#: settings/viewmodes/viewsettingstab.cpp:79
+#, kde-format
+msgctxt "@item:inlistbox Label width"
+msgid "Huge"
+msgstr "Tohutu"
+
+#: settings/viewmodes/viewsettingstab.cpp:80
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "Pealdise laius:"
+
+#: settings/viewmodes/viewsettingstab.cpp:83
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "Unlimited"
+msgstr "Piiramatu"
+
+#: settings/viewmodes/viewsettingstab.cpp:84
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "1"
+msgstr "1"
+
+#: settings/viewmodes/viewsettingstab.cpp:85
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "2"
+msgstr "2"
+
+#: settings/viewmodes/viewsettingstab.cpp:86
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "3"
+msgstr "3"
+
+#: settings/viewmodes/viewsettingstab.cpp:87
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "4"
+msgstr "4"
+
+#: settings/viewmodes/viewsettingstab.cpp:88
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "5"
+msgstr "5"
+
+#: settings/viewmodes/viewsettingstab.cpp:89
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum lines:"
+msgstr "Maks. ridu:"
+
+#: settings/viewmodes/viewsettingstab.cpp:94
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Unlimited"
+msgstr "Piiramatu"
+
+#: settings/viewmodes/viewsettingstab.cpp:95
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Small"
+msgstr "Väike"
+
+#: settings/viewmodes/viewsettingstab.cpp:96
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Medium"
+msgstr "Keskmine"
+
+#: settings/viewmodes/viewsettingstab.cpp:97
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Large"
+msgstr "Suur"
+
+#: settings/viewmodes/viewsettingstab.cpp:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum width:"
+msgstr "Maksimumlaius:"
+
+#: settings/viewmodes/viewsettingstab.cpp:102
+#, kde-format
+msgctxt "@option:check"
+msgid "Expandable"
+msgstr "Laiendatavad"
+
+#: settings/viewmodes/viewsettingstab.cpp:103
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Folders:"
+msgstr "Kataloogid:"
+
+#: settings/viewmodes/viewsettingstab.cpp:107
+#, kde-format
+msgctxt "option:radio"
+msgid "Number of items"
+msgstr "Elementide arv"
+
+#: settings/viewmodes/viewsettingstab.cpp:108
+#, kde-format
+msgctxt "option:radio"
+msgid "Size of contents, up to "
+msgstr "Sisu suurus kuni:"
+
+#: settings/viewmodes/viewsettingstab.cpp:116
+#, kde-format
+msgid " level deep"
+msgid_plural " levels deep"
+msgstr[0] "-tasandiline"
+msgstr[1] "-tasandiline"
+
+#: settings/viewmodes/viewsettingstab.cpp:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Folder size displays:"
+msgstr "Kataloogi suurus näitab:"
+
+#: settings/viewmodes/viewsettingstab.cpp:134
+#, kde-format
+msgctxt "option:radio as in relative date"
+msgid "Relative (e.g. '%1')"
+msgstr "Suhteline (nt \"%1\")"
+
+#: settings/viewmodes/viewsettingstab.cpp:137
+#, kde-format
+msgctxt "option:radio as in absolute date"
+msgid "Absolute (e.g. '%1')"
+msgstr "Absoluutne (nt \"%1\")"
+
+#: settings/viewmodes/viewsettingstab.cpp:144
+#, kde-format
+msgctxt "@title:group"
+msgid "Date style:"
+msgstr "Kuupäevastiil:"
+
+#: settings/viewmodes/viewsettingstab.cpp:295
+#: statusbar/dolphinstatusbar.cpp:321
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "Suurus: 1 piksel"
+msgstr[1] "Suurus: %1 pikslit"
+
+#: settings/viewpropertiesdialog.cpp:59
+#, kde-format
+msgctxt "@title:window"
+msgid "View Display Style"
+msgstr "Vaatestiil"
+
+#: settings/viewpropertiesdialog.cpp:71
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Icons"
+msgstr "Ikoonid"
+
+#: settings/viewpropertiesdialog.cpp:72
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Compact"
+msgstr "Kompaktne"
+
+#: settings/viewpropertiesdialog.cpp:73
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: settings/viewpropertiesdialog.cpp:76
+#, kde-format
+msgctxt "@item:inlistbox Sort"
+msgid "Ascending"
+msgstr "Kasvav"
+
+#: settings/viewpropertiesdialog.cpp:77
+#, kde-format
+msgctxt "@item:inlistbox Sort"
+msgid "Descending"
+msgstr "Kahanev"
+
+#: settings/viewpropertiesdialog.cpp:85
+#, kde-format
+msgctxt "@option:check"
+msgid "Show folders first"
+msgstr "Kataloogid eespool"
+
+#: settings/viewpropertiesdialog.cpp:86
+#, kde-format
+msgctxt "@option:check"
+msgid "Show hidden files last"
+msgstr "Peidetud failid viimasena"
+
+#: settings/viewpropertiesdialog.cpp:87
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview"
+msgstr "Eelvaatluse näitamine"
+
+#: settings/viewpropertiesdialog.cpp:88
+#, kde-format
+msgctxt "@option:check"
+msgid "Show in groups"
+msgstr "Näitamine gruppides"
+
+#: settings/viewpropertiesdialog.cpp:89
+#, kde-format
+msgctxt "@option:check"
+msgid "Show hidden files"
+msgstr "Peidetud failide näitamine"
+
+#: settings/viewpropertiesdialog.cpp:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Additional Information"
+msgstr "Lisateave"
+
+#: settings/viewpropertiesdialog.cpp:132
+#, kde-format
+msgid "Choose what to see on each file or folder:"
+msgstr "Failide või kataloogide puhul näidatakse:"
+
+#: settings/viewpropertiesdialog.cpp:142
+#, kde-format
+msgctxt "@label:listbox"
+msgid "View mode:"
+msgstr "Vaaterežiim:"
+
+#: settings/viewpropertiesdialog.cpp:143
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sorting:"
+msgstr "Sorteerimine:"
+
+#: settings/viewpropertiesdialog.cpp:147
+#, kde-format
+msgid "View options:"
+msgstr "Vaate valikud:"
+
+#: settings/viewpropertiesdialog.cpp:175
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "Current folder"
+msgstr "Aktiivsele kataloogile"
+
+#: settings/viewpropertiesdialog.cpp:178
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "Current folder and sub-folders"
+msgstr "Aktiivsele kataloogile ja alamkataloogidele"
+
+#: settings/viewpropertiesdialog.cpp:180
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "All folders"
+msgstr "Kõigile kataloogidele"
+
+#: settings/viewpropertiesdialog.cpp:189
+#, kde-format
+msgctxt "@title:group"
+msgid "Apply to:"
+msgstr "Rakendatakse:"
+
+#: settings/viewpropertiesdialog.cpp:194
+#, kde-format
+msgctxt "@option:check"
+msgid "Use as default view settings"
+msgstr "Kasutamine vaate vaikeväärtusena"
+
+#: settings/viewpropertiesdialog.cpp:350
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The view properties of all sub-folders will be changed. Do you want to "
+"continue?"
+msgstr "Kõigi alamkataloogide vaate omadusi on muudetud. Kas jätkata?"
+
+#: settings/viewpropertiesdialog.cpp:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The view properties of all folders will be changed. Do you want to continue?"
+msgstr "Kõigi kataloogide vaate omadusi on muudetud. Kas jätkata?"
+
+#: settings/viewpropsprogressinfo.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Applying View Properties"
+msgstr "Vaate omaduste rakendamine"
+
+#: settings/viewpropsprogressinfo.cpp:48 settings/viewpropsprogressinfo.cpp:112
+#, kde-format
+msgctxt "@info:progress"
+msgid "Counting folders: %1"
+msgstr "Kataloogide loendamine: %1"
+
+#: settings/viewpropsprogressinfo.cpp:128
+#, kde-format
+msgctxt "@info:progress"
+msgid "Folders: %1"
+msgstr "Kataloogid: %1"
+
+#: statusbar/dolphinstatusbar.cpp:53
+#, kde-format
+msgctxt "Used as a noun, i.e. 'Here is the zoom level:'"
+msgid "Zoom:"
+msgstr "Suurendus:"
+
+#: statusbar/dolphinstatusbar.cpp:57
+#, kde-format
+msgid "Zoom"
+msgstr "Suurendus"
+
+#: statusbar/dolphinstatusbar.cpp:58
+#, kde-format
+msgctxt "Description for zoom-slider (accessibility)"
+msgid "Sets the size of the file icons."
+msgstr "Failiikoonide suurenduse määramine."
+
+#: statusbar/dolphinstatusbar.cpp:72
+#, kde-format
+msgid "Stop"
+msgstr "Peata"
+
+#: statusbar/dolphinstatusbar.cpp:74
+#, kde-format
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "Laadimise peatamine"
+
+#: statusbar/dolphinstatusbar.cpp:129
+#, kde-kuit-format
+msgctxt "@info:whatsthis Statusbar"
+msgid ""
+"<para>This is the <emphasis>Statusbar</emphasis>. It contains three elements "
+"by default (left to right):<list><item>A <emphasis>text field</emphasis> "
+"that displays the size of selected items. If only one item is selected the "
+"name and type is shown as well.</item><item>A <emphasis>zoom slider</"
+"emphasis> that allows you to adjust the size of the icons in the view.</"
+"item><item><emphasis>Space information</emphasis> about the current storage "
+"device.</item></list></para>"
+msgstr ""
+"<para>See on <emphasis>olekuriba</emphasis>. Vaikimisi on sellele kolm "
+"elementi (vasakult paremale):<list><item><emphasis>Tekstiväli</emphasis>, "
+"mis näitab valitud elementide suurus. Kui valitud on ainult üks element, "
+"näidatakse ka selle nime ja tüüpi.</item><item><emphasis>Suurendusliugur</"
+"emphasis>, mis võimaldab muuta vaate ikoonide suurust.</"
+"item><item><emphasis>Aktiivse salvestusseadme </emphasis>ruumiteave.</item></"
+"list></para>"
+
+#: statusbar/dolphinstatusbar.cpp:264
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Suurendusliuguri näitamine"
+
+#: statusbar/dolphinstatusbar.cpp:268
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Ruumiteabe näitamine"
+
+#: statusbar/statusbarspaceinfo.cpp:116
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 vaba"
+
+#: trash/dolphintrash.cpp:58
+#, kde-format
+msgid "Trash Emptied"
+msgstr "Prügikast on tühi"
+
+#: trash/dolphintrash.cpp:59
+#, kde-format
+msgid "The Trash was emptied."
+msgstr "Prügikast on tühjendatud."
+
+#: userfeedback/placesdatasource.cpp:24
+#, kde-format
+msgctxt "name of kuserfeedback data source provided by dolphin"
+msgid "Places"
+msgstr "Asukohad"
+
+#: userfeedback/placesdatasource.cpp:30
+#, kde-format
+msgctxt "description of kuserfeedback data source provided by dolphin"
+msgid "Count of available Network Shares"
+msgstr "Saadaolevate võrguketaste arv"
+
+#: userfeedback/settingsdatasource.cpp:23
+#, kde-format
+msgctxt "name of kuserfeedback data source provided by dolphin"
+msgid "Settings"
+msgstr "Seadistused"
+
+#: userfeedback/settingsdatasource.cpp:28
+#, kde-format
+msgctxt "description of kuserfeedback data source provided by dolphin"
+msgid "A subset of Dolphin settings."
+msgstr "Osa Dolphini seadistusi"
+
+#: views/dolphinremoteencoding.cpp:38
+#, kde-format
+msgid "Select Remote Charset"
+msgstr "Kaugkodeeringu valimine"
+
+#: views/dolphinremoteencoding.cpp:102
+#, kde-format
+msgid "Reload"
+msgstr "Laadi uuesti"
+
+#: views/dolphinremoteencoding.cpp:103
+#, kde-format
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: views/dolphinview.cpp:604
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 kataloog valitud"
+msgstr[1] "%1 kataloogi valitud"
+
+#: views/dolphinview.cpp:605
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "1 fail valitud"
+msgstr[1] "%1 faili valitud"
+
+#: views/dolphinview.cpp:607
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "1 kataloog"
+msgstr[1] "%1 kataloogi"
+
+#: views/dolphinview.cpp:608
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] "1 fail"
+msgstr[1] "%1 faili"
+
+#: views/dolphinview.cpp:612
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:616
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:622
+#, kde-format
+msgctxt "@info:status"
+msgid "0 Folders, 0 Files"
+msgstr "0 kataloogi, 0 faili"
+
+#: views/dolphinview.cpp:823 views/dolphinview.cpp:832
+#, kde-format
+msgctxt "<filename> copy"
+msgid "%1 copy"
+msgstr "%1 koopia"
+
+#: views/dolphinview.cpp:984
+#, kde-format
+msgid "Are you sure you want to open 1 item?"
+msgid_plural "Are you sure you want to open %1 items?"
+msgstr[0] "Kas tõesti avada 1 element?"
+msgstr[1] "Kas tõesti avada %1 elementi?"
+
+#: views/dolphinview.cpp:1094
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatic Column Widths"
+msgstr "Automaatne veergude laius"
+
+#: views/dolphinview.cpp:1099
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Custom Column Widths"
+msgstr "Kohandatud veergude laius"
+
+#: views/dolphinview.cpp:1648
+#, kde-format
+msgctxt "@info:status"
+msgid "Trash operation completed."
+msgstr "Viskamine prügikasti tehtud."
+
+#: views/dolphinview.cpp:1657
+#, kde-format
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "Kustutamine tehtud."
+
+#: views/dolphinview.cpp:1793
+#, kde-format
+msgctxt "@action:button"
+msgid "Rename and Hide"
+msgstr "Muuda nime ja peida"
+
+#: views/dolphinview.cpp:1796
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this file's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+"Punkti lisamine failinime ette peidab selle vaatest.\n"
+"Kas tõesti nime muuta?"
+
+#: views/dolphinview.cpp:1798
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this folder's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+"Punkti lisamine katalooginime ette peidab selle vaatest.\n"
+"Kas tõesti nime muuta?"
+
+#: views/dolphinview.cpp:1800
+#, kde-format
+msgid "Hide this File?"
+msgstr "Kas peita see fail?"
+
+#: views/dolphinview.cpp:1800
+#, kde-format
+msgid "Hide this Folder?"
+msgstr "Kas peita see kataloog?"
+
+#: views/dolphinview.cpp:1852
+#, kde-format
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "Asukoht on tühi."
+
+#: views/dolphinview.cpp:1854
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "Asukoht '%1' on vigane."
+
+#: views/dolphinview.cpp:2099
+#, kde-format
+msgid "Loading..."
+msgstr "Laadimine ..."
+
+#: views/dolphinview.cpp:2118
+#, kde-format
+msgid "No items matching the filter"
+msgstr "Filtrile ei vasta ükski element"
+
+#: views/dolphinview.cpp:2120
+#, kde-format
+msgid "No items matching the search"
+msgstr "Otsingule ei vasta ükski element"
+
+#: views/dolphinview.cpp:2122
+#, kde-format
+msgid "Trash is empty"
+msgstr "Prügikast on tühi"
+
+#: views/dolphinview.cpp:2124
+#, kde-format
+msgid "No tags"
+msgstr "Silte pole"
+
+#: views/dolphinview.cpp:2126
+#, kde-format
+msgid "No recently used items"
+msgstr "Viimati kasutatud elemente pole"
+
+#: views/dolphinview.cpp:2128
+#, kde-format
+msgid "No shared folders found"
+msgstr "Jagatud katalooge ei leitud"
+
+#: views/dolphinview.cpp:2130
+#, kde-format
+msgid "No relevant network resources found"
+msgstr "Asjakohaseid võrguressursse ei leitud"
+
+#: views/dolphinview.cpp:2132
+#, kde-format
+msgid "No MTP-compatible devices found"
+msgstr "MTP-ga ühilduvaid seadmeid ei leitud"
+
+#: views/dolphinview.cpp:2134
+#, kde-format
+msgid "No Bluetooth devices found"
+msgstr "Bluetoothi-seadmeid ei leitud"
+
+#: views/dolphinview.cpp:2136
+#, kde-format
+msgid "Folder is empty"
+msgstr "Kataloog on tühi"
+
+#: views/dolphinviewactionhandler.cpp:89
+#, kde-format
+msgctxt "@action"
+msgid "Create Folder..."
+msgstr "Loo kataloog ..."
+
+#: views/dolphinviewactionhandler.cpp:98
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This renames the items in your current selection.<nl/>Renaming multiple "
+"items at once amounts to their new names differing only in a number."
+msgstr ""
+"See muudab parajasti valitud elementide nime.<nl/>Mitme elemendi nime "
+"muutmisel korraga antakse neile nimi, mis erineb ainult numbri poolest."
+
+#: views/dolphinviewactionhandler.cpp:108
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This moves the items in your current selection to the <filename>Trash</"
+"filename>.<nl/>The trash is a temporary storage where items can be deleted "
+"from if disk space is needed."
+msgstr ""
+"See viskab parajasti valitud elemendid <filename>prügikasti</filename>.<nl/"
+">Prügikast on ajutine salvestuskoht, kust saab elemente kustutada, kui "
+"kettal on rohkem ruumi tarvis."
+
+#: views/dolphinviewactionhandler.cpp:119
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This deletes the items in your current selection completely. They can not be "
+"recovered by normal means."
+msgstr ""
+"See kustutab parajasti valitud elemendi lõplikult. Neid ei saa enam "
+"tavaliste meetoditega taastada."
+
+#: views/dolphinviewactionhandler.cpp:129
+#, kde-format
+msgctxt "@action \"Move to Trash\" for non-local files, etc."
+msgid "Delete (using shortcut for Trash)"
+msgstr "Kustuta (prügikasti visates)"
+
+#: views/dolphinviewactionhandler.cpp:135
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Duplicate Here"
+msgstr "Klooni siin"
+
+#: views/dolphinviewactionhandler.cpp:143
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Omadused"
+
+#: views/dolphinviewactionhandler.cpp:145
+#, kde-kuit-format
+msgctxt "@info:whatsthis properties"
+msgid ""
+"This shows a complete list of properties of the currently selected items in "
+"a new window.<nl/>If nothing is selected the window will be about the "
+"currently viewed folder instead.<nl/>You can configure advanced options "
+"there like managing read- and write-permissions."
+msgstr ""
+"See näitab parajasti valitud elementide omaduste täielikku loetelu uues "
+"aknas.<nl/>Kui midagi pole valitud, näidatakse teavet parajasti nähtava "
+"kataloogi kohta.<nl/>Ilmuvas aknas saab ka seadistada täpsemaid valikuid, "
+"näiteks failide lugemise ja kirjutamise õigusi."
+
+#: views/dolphinviewactionhandler.cpp:155
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Kopeeri asukoht"
+
+#: views/dolphinviewactionhandler.cpp:157
+#, kde-format
+msgctxt "@info:whatsthis copy_location"
+msgid "This will copy the path of the first selected item into the clipboard."
+msgstr "See kopeerib esimese valitud elemendi asukoha lõikepuhvrisse."
+
+#: views/dolphinviewactionhandler.cpp:190
+#, kde-kuit-format
+msgctxt "@info:whatsthis Icons view mode"
+msgid ""
+"<para>This switches to a view mode that focuses on the folder and file "
+"icons. This mode makes it easy to distinguish folders from files and to "
+"detect items with distinctive <emphasis>file types</emphasis>.</para><para> "
+"This mode is handy to browse through pictures when the <interface>Preview</"
+"interface> option is enabled.</para>"
+msgstr ""
+"<para>Sellega saab lülituda vaaterežiimi, mis keskendub kataloogide ja "
+"failide ikoonidele. Selles režiimis on hõlpus katalooge ja faile eristada "
+"ning tuvastada elemente konkreetse <emphasis>failitüübi</emphasis> järgi.</"
+"para><para>See on eriti mugav piltide sirvimisel, kui sisse on lülitatud ka "
+"<interface>eelvaatluse</interface> võimalus.</para>"
+
+#: views/dolphinviewactionhandler.cpp:197
+#, kde-kuit-format
+msgctxt "@info:whatsthis Compact view mode"
+msgid ""
+"<para>This switches to a compact view mode that lists the folders and files "
+"in columns with the names beside the icons.</para><para>This helps to keep "
+"the overview in folders with many items.</para>"
+msgstr ""
+"<para>Sellega saab lülituda kompaktsesse vaaterežiimi, mis näitab katalooge "
+"ja faile veergudes, nimed ikoonide kõrval.</para><para>See aitab saada "
+"parema ülevaate paljude elementidega kataloogidest.</para>"
+
+#: views/dolphinviewactionhandler.cpp:201
+#, kde-kuit-format
+msgctxt "@info:whatsthis Details view mode"
+msgid ""
+"<para>This switches to a list view mode that focuses on folder and file "
+"details.</para><para>Click on a detail in the column header to sort the "
+"items by it. Click again to sort the other way around. To select which "
+"details should be displayed click the header with the right mouse button.</"
+"para><para>You can view the contents of a folder without leaving the current "
+"location by clicking to the left of it. This way you can view the contents "
+"of multiple folders in the same list.</para>"
+msgstr ""
+"<para>Sellega saab lülituda vaaterežiimi, mis keskendub kataloogide ja "
+"failide üksikasjadele.</para><para>Veerupäisel klõpsates saab elemendid "
+"selle üksikasja järgi sortida. Uue klõpsuga veerupäisele muudetakse "
+"järjekord vasupidiseks. Seda, milliseid üksikasju näidatakse, saab valida, "
+"kui teha päisel paremklõps.</para><para>Kataloogide sisu saab näha vaatest "
+"lahkumata, kui klõpsata katalooginimest vasakule. Nii saab näha ühes ja "
+"samas kohas paljude kataloogide sisu.</para>"
+
+#: views/dolphinviewactionhandler.cpp:211
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "View Mode"
+msgstr "Vaaterežiim"
+
+#: views/dolphinviewactionhandler.cpp:221
+#, kde-format
+msgctxt "@info:whatsthis zoom in"
+msgid "This increases the icon size."
+msgstr "See suurendab ikoonide suurust."
+
+#: views/dolphinviewactionhandler.cpp:224
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Reset Zoom Level"
+msgstr "Lähtesta suurendus"
+
+#: views/dolphinviewactionhandler.cpp:225
+#, kde-format
+msgid "Zoom To Default"
+msgstr "Vaikimisi suurendus"
+
+#: views/dolphinviewactionhandler.cpp:226
+#, kde-format
+msgctxt "@info:whatsthis zoom reset"
+msgid "This resets the icon size to default."
+msgstr "See lülitab ikoonide suuruse tagasi vaikeväärtusele."
+
+#: views/dolphinviewactionhandler.cpp:234
+#, kde-format
+msgctxt "@info:whatsthis zoom out"
+msgid "This reduces the icon size."
+msgstr "See vähendab ikoonide suurust."
+
+#: views/dolphinviewactionhandler.cpp:237
+#, kde-format
+msgctxt "@action:inmenu menu of zoom actions"
+msgid "Zoom"
+msgstr "Suurendus"
+
+#: views/dolphinviewactionhandler.cpp:245
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Show Previews"
+msgstr "Eelvaatluse näitamine"
+
+#: views/dolphinviewactionhandler.cpp:246
+#, kde-format
+msgctxt "@info"
+msgid "Show preview of files and folders"
+msgstr "Failide ja kataloogide eelvaatluse näitamine"
+
+#: views/dolphinviewactionhandler.cpp:247
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this is enabled, the icons are based on the actual file or folder "
+"contents.<nl/>For example the icons of images become scaled down versions of "
+"the images."
+msgstr ""
+"Selle lubamisel kajastavad ikoonid faili või kataloogi tegelikku sisu.<nl/"
+">Näiteks pildifailide korral näidatakse pildi pisiversiooni."
+
+#: views/dolphinviewactionhandler.cpp:255
+#, kde-format
+msgctxt "@action:inmenu Sort"
+msgid "Folders First"
+msgstr "Kataloogid esimesena"
+
+#: views/dolphinviewactionhandler.cpp:259
+#, kde-format
+msgctxt "@action:inmenu Sort"
+msgid "Hidden Files Last"
+msgstr "Peidetud failid viimasena"
+
+#: views/dolphinviewactionhandler.cpp:267
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "Sorteerimine"
+
+#: views/dolphinviewactionhandler.cpp:302
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show Additional Information"
+msgstr "Lisateabe näitamine"
+
+#: views/dolphinviewactionhandler.cpp:313
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show in Groups"
+msgstr "Gruppides näitamine"
+
+#: views/dolphinviewactionhandler.cpp:314
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This groups files and folders by their first letter."
+msgstr "Sellega saab failid ja kataloogid rühmitada esitähe järgi."
+
+#: views/dolphinviewactionhandler.cpp:319
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Peidetud failide näitamine"
+
+#: views/dolphinviewactionhandler.cpp:320
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When this is enabled <emphasis>hidden</emphasis> files and folders are "
+"visible. They will be displayed semi-transparent.</para><para>Hidden items "
+"only differ from other ones in that their name starts with a \".\". In "
+"general there is no need for users to access them which is why they are "
+"hidden.</para>"
+msgstr ""
+"<para>Selle lubamisel näeb <emphasis>peidetud</emphasis> faile ja katalooge. "
+"Neid näidatakse poolläbipaistvana.</para><para>Peidetud elemendid erinevad "
+"teistest ainult selle poolest, et nende nime alguses seisab punkt (\".\"). "
+"Üldiselt ei ole kasutajatel tarvis neid faile mingil moel kasutada, mistõttu "
+"need ongi vaikimisi peidetud.</para>"
+
+#: views/dolphinviewactionhandler.cpp:330
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Adjust View Display Style..."
+msgstr "Muuda vaatestiili omadusi ..."
+
+#: views/dolphinviewactionhandler.cpp:332
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a window in which all folder view properties can be adjusted."
+msgstr "See avab akna, milles saab kohandada kõiki kataloogivaate omadusi."
+
+#: views/dolphinviewactionhandler.cpp:621
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "Ikoonid"
+
+#: views/dolphinviewactionhandler.cpp:622
+#, kde-format
+msgctxt "@info"
+msgid "Icons view mode"
+msgstr "Ikoonivaate režiim"
+
+#: views/dolphinviewactionhandler.cpp:632
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Compact"
+msgstr "Kompaktne"
+
+#: views/dolphinviewactionhandler.cpp:633
+#, kde-format
+msgctxt "@info"
+msgid "Compact view mode"
+msgstr "Kompaktne vaaterežiim"
+
+#: views/dolphinviewactionhandler.cpp:643
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: views/dolphinviewactionhandler.cpp:644
+#, kde-format
+msgctxt "@info"
+msgid "Details view mode"
+msgstr "Üksikasjade vaate režiim"
+
+#: views/dolphinviewactionhandler.cpp:667
+#, kde-format
+msgctxt "Sort descending"
+msgid "Z-A"
+msgstr "Y-A"
+
+#: views/dolphinviewactionhandler.cpp:668
+#, kde-format
+msgctxt "Sort ascending"
+msgid "A-Z"
+msgstr "A-Y"
+
+#: views/dolphinviewactionhandler.cpp:670
+#, kde-format
+msgctxt "Sort descending"
+msgid "Largest First"
+msgstr "Suurim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:671
+#, kde-format
+msgctxt "Sort ascending"
+msgid "Smallest First"
+msgstr "Väikseim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:673
+#, kde-format
+msgctxt "Sort descending"
+msgid "Newest First"
+msgstr "Uusim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:674
+#, kde-format
+msgctxt "Sort ascending"
+msgid "Oldest First"
+msgstr "Vanim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:676
+#, kde-format
+msgctxt "Sort descending"
+msgid "Highest First"
+msgstr "Kõrgeim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:677
+#, kde-format
+msgctxt "Sort ascending"
+msgid "Lowest First"
+msgstr "Madalaim esimesena"
+
+#: views/dolphinviewactionhandler.cpp:679
+#, kde-format
+msgctxt "Sort descending"
+msgid "Descending"
+msgstr "Kahanev"
+
+#: views/dolphinviewactionhandler.cpp:680
+#, kde-format
+msgctxt "Sort ascending"
+msgid "Ascending"
+msgstr "Kasvav"
+
+#: views/dolphinviewactionhandler.cpp:770
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. The user's "
+"selection is empty when this text is shown."
+msgid "Actions for Current View"
+msgstr "Toimingud aktiivse vaate jaoks"
+
+#: views/dolphinviewactionhandler.cpp:775
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 is the name of "
+"the singular selected file/folder."
+msgid "Actions for \"%1\""
+msgstr "Toimingud elemendi \"%1\" jaoks"
+
+#: views/dolphinviewactionhandler.cpp:780
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 and %2 are "
+"names of files/folders."
+msgid "Actions for \"%1\" and \"%2\""
+msgstr "Toimingud elementide \"%1\" ja \"%2\" jaoks"
+
+#: views/dolphinviewactionhandler.cpp:785
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1, %2 and %3 are "
+"names of files/folders."
+msgid "Actions for \"%1\", \"%2\" and \"%3\""
+msgstr "Toimingud elementide \"%1\", \"%2\" ja \"%3\" jaoks"
+
+#: views/dolphinviewactionhandler.cpp:799
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 is the amount "
+"of selected files/folders."
+msgid "Actions for One Selected File"
+msgid_plural "Actions for %1 Selected Files"
+msgstr[0] "Toimingud ühe valitud faili jaoks"
+msgstr[1] "Toimingud %1 valitud faili jaoks"
+
+#: views/dolphinviewactionhandler.cpp:803
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 is the amount "
+"of selected files/folders."
+msgid "Actions for One Selected Folder"
+msgid_plural "Actions for %1 Selected Folders"
+msgstr[0] "Toimingud ühe valitud kataloogi jaoks"
+msgstr[1] "Toimingud %1 valitud kataloogi jaoks"
+
+#: views/dolphinviewactionhandler.cpp:807
+#, kde-format
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 is the amount "
+"of selected files/folders."
+msgid "Actions for One Selected Item"
+msgid_plural "Actions for %1 Selected Items"
+msgstr[0] "Toimingud ühe valitud elemendi jaoks"
+msgstr[1] "Toimingud %1 valitud elemendi jaoks"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:229
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating version information..."
+msgstr "Versiooniteabe uuendamine ..."
+
+#~ msgctxt "@title:window"
+#~ msgid "Dolphin Preferences"
+#~ msgstr "Dolphini seadistused"
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Sett&ings"
+#~ msgstr "Sead&istused"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Control"
+#~ msgstr "Juhtimine"
+
+#~ msgctxt "@action"
+#~ msgid "Show menu"
+#~ msgstr "Näita menüüd"
+
+#~ msgctxt "@title:group"
+#~ msgid "Services"
+#~ msgstr "Teenused"
+
+#~ msgctxt "@title"
+#~ msgid "Dolphin Part"
+#~ msgstr "Dolphini komponent"
+
+#~ msgctxt "@action:inmenu Tools"
+#~ msgid "Show Filter Bar"
+#~ msgstr "Näita filtririba"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Url Navigator"
+#~ msgid_plural "Url Navigators"
+#~ msgstr[0] "URL-i navigaator"
+#~ msgstr[1] "URL-i navigaatorid"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Unknown"
+#~ msgstr "Teadmata"
+
+#~ msgctxt "@info"
+#~ msgid "Visibility of hidden files and folders"
+#~ msgstr "Peidetud failide ja kataloogide nähtavus"
+
+#~ msgctxt "@info:status"
+#~ msgid "Unknown size"
+#~ msgstr "Teadmata suurus"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Start in:"
+#~ msgstr "Käivitatakse kataloogis:"
+
+#~ msgctxt "@label:checkbox"
+#~ msgid "Window options:"
+#~ msgstr "Akna valikud:"
+
+#~ msgctxt "<file path><filename> copy.<extension>"
+#~ msgid "%1%2 copy%3"
+#~ msgstr "%1%2 koopia%3"
+
+#~ msgctxt "@action:inmenu Add current folder to places"
+#~ msgid "Add '%1' to Places"
+#~ msgstr "Lisa '%1' asukohtadesse"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Item"
+#~ msgstr "Elemendi ümbernimetamine"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Items"
+#~ msgstr "Elementide ümbernimetamine"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Rename"
+#~ msgstr "Nimeta ümbe&r"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the item <filename>%1</filename> to:"
+#~ msgstr "Elemendi <filename>%1</filename> uus nimi:"
+
+#~ msgctxt "@info:status"
+#~ msgid "New name #"
+#~ msgstr "Uus nimi #"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the %1 selected item to:"
+#~ msgid_plural "Rename the %1 selected items to:"
+#~ msgstr[0] "%1 valitud elemendi uus nimi:"
+#~ msgstr[1] "%1 valitud elemendi uus nimi:"
+
+#~ msgctxt "@info"
+#~ msgid "# will be replaced by ascending numbers starting with:"
+#~ msgstr "# asendatakse kasvava numbriga alates:"
+
+#~ msgctxt "@title:window"
+#~ msgid "View Properties"
+#~ msgstr "Vaate omadused"
+
+#~ msgid "Show facets widget"
+#~ msgstr "Paneelividina näitamine"
+
+#, fuzzy
+#~| msgctxt "action:button"
+#~| msgid "Fewer Options"
+#~ msgctxt "@action:button"
+#~ msgid "Fewer Options"
+#~ msgstr "Vähem valikuid"
+
+#, fuzzy
+#~| msgctxt "action:button"
+#~| msgid "More Options"
+#~ msgctxt "@action:button"
+#~ msgid "More Options"
+#~ msgstr "Rohkem valikuid"
+
+#~ msgctxt "@option:check"
+#~ msgid "Any"
+#~ msgstr "Suvaline"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Folders"
+#~ msgctxt "@option:check"
+#~ msgid "Folders"
+#~ msgstr "Kataloogid"
+
+#~ msgctxt "@option:option"
+#~ msgid "Anytime"
+#~ msgstr "Suvaline aeg"
+
+#~ msgctxt "@option:option"
+#~ msgid "Today"
+#~ msgstr "Täna"
+
+#~ msgctxt "@option:option"
+#~ msgid "Yesterday"
+#~ msgstr "Eile"
+
+#~ msgctxt "@option:check Ask for confirmation when"
+#~ msgid "Executing scripts or desktop files"
+#~ msgstr "Skriptide või desktop-failide täitmisel"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Go"
+#~ msgstr "Liikumine"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Tools"
+#~ msgstr "Tööriistad"
+
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Panels"
+#~ msgstr "Paneelid"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Preview"
+#~ msgstr "Eelvaatlus"
+
+#~ msgid "stop"
+#~ msgstr "peata"
+
+#~ msgctxt "@action:inmenu Add selected folder to places"
+#~ msgid "Add to Places"
+#~ msgstr "Lisa asukohtadesse"
+
+#~ msgctxt "@action:inmenu Sort"
+#~ msgid "Descending"
+#~ msgstr "Kahanev"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure Shown Data"
+#~ msgstr "Näidatavate andmete seadistamine"
+
+#~ msgctxt "@label::textbox"
+#~ msgid "Select which data should be shown in the information panel:"
+#~ msgstr "Järgmiste andmete näitamine teabepaneelil:"
+
+#~ msgctxt "action:button"
+#~ msgid "Everywhere"
+#~ msgstr "Kõikjal"
+
+#~ msgctxt "@item:intable Image orientation"
+#~ msgid "Unchanged"
+#~ msgstr "Muutmata"
+
+#~ msgctxt "@item:intable Image orientation"
+#~ msgid "Horizontally flipped"
+#~ msgstr "Rõhtselt peegeldatud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "180° rotated"
+#~ msgstr "180° pööratud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "Vertically flipped"
+#~ msgstr "Püstiselt peegeldatud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "Transposed"
+#~ msgstr "Transponeeritud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "90° rotated"
+#~ msgstr "90° pööratud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "Transversed"
+#~ msgstr "Transverditud"
+
+#~ msgctxt "@item:intable image orientation"
+#~ msgid "270° rotated"
+#~ msgstr "270° pööratud"
+
+#~ msgctxt "@label"
+#~ msgid "Label:"
+#~ msgstr "Nimi:"
+
+#~ msgid "Enter descriptive label here"
+#~ msgstr "Sisesta kirjeldav nimi"
+
+#~ msgctxt "@label"
+#~ msgid "Location:"
+#~ msgstr "Asukoht:"
+
+#~ msgctxt "@label"
+#~ msgid "Choose an icon:"
+#~ msgstr "Ikoon:"
+
+#~ msgid "&Only show when using this application (%1)"
+#~ msgstr "Näidatakse ainult selle rakenduse (%1) dial&oogides"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Places Entry"
+#~ msgstr "Asukohtade kirje lisamine"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Places Entry"
+#~ msgstr "Asukohtade kirje muutmine"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Show All Entries"
+#~ msgstr "Näita kõiki kirjeid"
+
+#~ msgctxt "@title:group"
+#~ msgid "Properties"
+#~ msgstr "Omadused"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Additional Information"
+#~ msgctxt "@title:group"
+#~ msgid "Additional Information Shown"
+#~ msgstr "Lisateave"
+
+#~ msgctxt "@title:group"
+#~ msgid "Apply View Properties To"
+#~ msgstr "Vaate omaduste rakendamine"
+
+#~ msgctxt "@option:check"
+#~ msgid "Use these view properties as default"
+#~ msgstr "Ühiste vaate omaduste vaikimisi kasutamine"
+
+#~ msgctxt "option:check"
+#~ msgid "Use tab for switching between right and left split view"
+#~ msgstr "Parema ja vasaku vaate vahel saab liikuda tabeldusklahviga"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Location:"
+#~ msgstr "Asukoht:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Icon Size"
+#~ msgstr "Ikooni suurus"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Preview:"
+#~ msgstr "Eelvaatlus:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Font:"
+#~ msgstr "Font:"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Width:"
+#~ msgstr "Laius:"
+
+#~ msgctxt "@item:inlistbox Text width"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@item:inlistbox Text width"
+#~ msgid "Medium"
+#~ msgstr "Keskmine"
+
+#~ msgctxt "@option:check"
+#~ msgid "Expandable folders"
+#~ msgstr "Laiendatavad kataloogid"
+
+#~ msgctxt "@label"
+#~ msgid "Select which additional information should be shown:"
+#~ msgstr "Järgmise lisateabe näitamine:"
+
+#~ msgctxt "@action:button"
+#~ msgid "Additional Information"
+#~ msgstr "Lisateave"
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Select All"
+#~ msgstr "Vali kõik"
+
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Reload"
+#~ msgstr "Laadi uuesti"
+
+#~ msgctxt "@label"
+#~ msgid "Image Size"
+#~ msgstr "Pildi suurus"
+
+#~ msgctxt "@item"
+#~ msgid "Places"
+#~ msgstr "Asukohad"
+
+#~ msgctxt "@item"
+#~ msgid "Recently Saved"
+#~ msgstr "Viimati salvestatud"
+
+#~ msgctxt "@item"
+#~ msgid "Search For"
+#~ msgstr "Otsing"
+
+#~ msgctxt "@item"
+#~ msgid "Devices"
+#~ msgstr "Seadmed"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Home"
+#~ msgstr "Kodu"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Network"
+#~ msgstr "Võrk"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Root"
+#~ msgstr "Juur"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Trash"
+#~ msgstr "Prügikast"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Today"
+#~ msgstr "Täna"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Yesterday"
+#~ msgstr "Eile"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "This Month"
+#~ msgstr "See kuu"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Last Month"
+#~ msgstr "Eelmine kuu"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Documents"
+#~ msgstr "Dokumendid"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Images"
+#~ msgstr "Pildid"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Audio Files"
+#~ msgstr "Helifailid"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Videos"
+#~ msgstr "Videod"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Search"
+#~ msgstr "Tühjenda prügikast"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Delete"
+#~ msgstr "&Kustuta"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Move to Trash"
+#~ msgstr "&Viska prügikasti"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Rename..."
+#~ msgstr "Nimeta ümber..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Help"
+#~ msgstr "Abi"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Move to Trash"
+#~ msgstr "Viska prügikasti"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Open '%1' in New Tab"
+#~ msgstr "Ava \"%1\" uuel kaardil"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Delete"
+#~ msgstr "Kustuta"
+
+#~ msgctxt "@label"
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgctxt "option:check"
+#~ msgid "Natural sorting of items"
+#~ msgstr "Elementide loomulik sortimine"
+
+#, fuzzy
+#~| msgctxt "@option:radio Apply View Properties To"
+#~| msgid "Current folder"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - current folder"
+#~ msgstr "Aktiivsele kataloogile"
+
+#, fuzzy
+#~| msgctxt "@option:radio Apply View Properties To"
+#~| msgid "Current folder"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - current device"
+#~ msgstr "Aktiivsele kataloogile"
+
+#, fuzzy
+#~| msgctxt "@item"
+#~| msgid "Devices"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - all devices"
+#~ msgstr "Seadmed"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Into Folder"
+#~ msgstr "Aseta kataloogi"
+
+#~ msgctxt "@title:group The week day name: %A"
+#~ msgid "%A"
+#~ msgstr "%A"
+
+#~ msgctxt ""
+#~ "@title:group The week day name: %A, %B is full month name in current "
+#~ "locale, and %Y is full year number"
+#~ msgid "%A (%B, %Y)"
+#~ msgstr "%A (%B %Y)"
+
+#~ msgctxt ""
+#~ "@title:group The month and year: %B is full month name in current locale, "
+#~ "and %Y is full year number"
+#~ msgid "%B, %Y"
+#~ msgstr "%B %Y"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to empty the Trash? All items will be deleted."
+#~ msgstr "Kas tõesti tühjendada prügikast? Kõik elemendid kustutatakse."
+
+#~ msgctxt "@title:group"
+#~ msgid "Mouse"
+#~ msgstr "Hiir"
+
+#~ msgctxt "@option:check Mouse Settings"
+#~ msgid "Double-click to open files and folders"
+#~ msgstr "Failide ja kataloogide avamine topeltklõpsuga"
+
+#~ msgctxt "@info:status"
+#~ msgid "A folder cannot be dropped into itself"
+#~ msgstr "Kataloogi ei saa iseendasse lohistada"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "Aseta"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Find:"
+#~ msgstr "Otsing:"
+
+#~ msgctxt "@info:status"
+#~ msgid "Update of version information failed."
+#~ msgstr "Versiooniteabe uuendamine nurjus."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Text"
+#~ msgstr "Kopeeri tekst"
+
+#~ msgctxt "@info:status"
+#~ msgid "<filename>%1</filename> selected"
+#~ msgstr "<filename>%1</filename> valitud"
+
+#~ msgctxt "@title:group Date"
+#~ msgid "Last Week"
+#~ msgstr "Eelmine nädal"
+
+#~ msgctxt ""
+#~ "@title:group Date: %B is full month name in current locale, and %Y is "
+#~ "full year number"
+#~ msgid "Last Week (%B, %Y)"
+#~ msgstr "Eelmine nädal (%B %Y)"
+
+#~ msgid "Zoom slider"
+#~ msgstr "Suurendusliugur"
+
+#~ msgctxt "@item Recently Accessed"
+#~ msgid "Today"
+#~ msgstr "Täna"
+
+#~ msgctxt "@item Recently Accessed"
+#~ msgid "Yesterday"
+#~ msgstr "Eile"
+
+#~ msgctxt "@label"
+#~ msgid "Trash"
+#~ msgstr "Viska prügikasti"
+
+#~| msgctxt "@label:slider"
+#~| msgid "Maximum file size:"
+#~ msgctxt "@option:option"
+#~ msgid "Maximum Rating"
+#~ msgstr "Maksimumhinnang"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Medium"
+#~ msgstr "Keskmine"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Information Message"
+#~ msgstr "Kopeeri infoteade"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Error Message"
+#~ msgstr "Kopeeri veateade"
+
+#~ msgctxt "@item:intable"
+#~ msgid "No destination"
+#~ msgstr "Sihtkoht puudub"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show 'Delete' command"
+#~ msgstr "Kustutamiskäsu näitamine"
+
+#~ msgctxt "@title:group"
+#~ msgid "Do not create previews for"
+#~ msgstr "Eelvaatlust ei näidata"
+
+#~ msgctxt "@label Don't create previews for: <Local files above:> XX MByte"
+#~ msgid "Local files above:"
+#~ msgstr "Kohalikud failid, mis on suuremad kui:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Version Control Systems"
+#~ msgstr "Versioonihaldussüsteemid"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Configure and control Dolphin"
+#~ msgstr "Dolphini seadistamine"
+
+#~ msgctxt "@item:intable"
+#~ msgid "items"
+#~ msgstr "elementi"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Permissions"
+#~ msgstr "Õigused"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Owner"
+#~ msgstr "Omanik"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Group"
+#~ msgstr "Grupp"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Destination"
+#~ msgstr "Sihtkoht"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Path"
+#~ msgstr "Asukoht"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Name"
+#~ msgstr "Nime järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Size"
+#~ msgstr "Suuruse järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Permissions"
+#~ msgstr "Õiguste järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Owner"
+#~ msgstr "Omaniku järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Group"
+#~ msgstr "Grupi järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Link Destination"
+#~ msgstr "Lingi sihtkoha järgi"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Path"
+#~ msgstr "Asukoha järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Name"
+#~ msgstr "Nime järgi"
+
+#~ msgctxt "@label"
+#~ msgid "Additional information"
+#~ msgstr "Lisainfo"
+
+#~ msgctxt "@info:status filename (type)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "@option:check"
+#~ msgid "Rename inline"
+#~ msgstr "Elemendi kohapeal ümbernimetamine"
+
+#~ msgctxt "@info:status"
+#~ msgid "<filename>%1</filename> selected (%2)"
+#~ msgstr "<filename>%1</filename> valitud (%2)"
+
+#~ msgid ""
+#~ "Is the application started the first time (internal setting not shown in "
+#~ "the UI)"
+#~ msgstr ""
+#~ "Kas rakendus käivitatakse esimest korda (sisemine säte, mida ei näidata "
+#~ "kasutajaliideses)"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Column"
+#~ msgstr "Veerg"
+
+#~ msgctxt "@title:group"
+#~ msgid "Grid"
+#~ msgstr "Alusvõrk"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Arrangement:"
+#~ msgstr "Paigutus:"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Columns"
+#~ msgstr "Veergudes"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Rows"
+#~ msgstr "Ridades"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Grid spacing:"
+#~ msgstr "Alusvõrgu vahed:"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "None"
+#~ msgstr "Puudub"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Medium"
+#~ msgstr "Keskmine"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Column"
+#~ msgstr "Veerg"
+
+#~ msgctxt "@option:check"
+#~ msgid "Expandable Folders"
+#~ msgstr "Laiendatavad kataloogid"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Columns"
+#~ msgstr "Veerud"
+
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Columns"
+#~ msgstr "Veerud"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Resize column"
+#~ msgstr "Veeru laiuse muutmine"
+
+#~ msgctxt "@title:group Name"
+#~ msgid "Others"
+#~ msgstr "Muud"
+
+#~ msgctxt "@title::column"
+#~ msgid "Link Destination"
+#~ msgstr "Lingi sihtkoht"
+
+#~ msgctxt "@title::column"
+#~ msgid "Path"
+#~ msgstr "Asukoht"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Deselect Item"
+#~ msgstr "Tühista elemendi valimine"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select Item"
+#~ msgstr "Vali element"
+
+#~ msgctxt "@label"
+#~ msgid "Show hidden files"
+#~ msgstr "Peidetud failide näitamine"
+
+#~ msgctxt "@label"
+#~ msgid "Show preview"
+#~ msgstr "Eelvaatluse näitamine"
+
+#~ msgctxt "@label"
+#~ msgid "Additional information (deprecated, use AdditionInfoV2 instead)"
+#~ msgstr "Lisateave (iganenud, kasuta selle asemel AdditionInfoV2)"
+
+#~ msgid "Arrangement"
+#~ msgstr "Paigutus"
+
+#~ msgid "Item height"
+#~ msgstr "Elemendi kõrgus"
+
+#~ msgid "Item width"
+#~ msgstr "Elemendi laius"
+
+#~ msgid "Grid spacing"
+#~ msgstr "Alusvõrgu vahed"
+
+#~ msgid "Number of textlines"
+#~ msgstr "Tekstiridade arv"
+
+#~ msgctxt "@action:button"
+#~ msgid "Configure..."
+#~ msgstr "Seadista..."
+
+#~ msgctxt "@label::textbox"
+#~ msgid "Select which data should be shown in the tooltip:"
+#~ msgstr "Järgmiste andmete näitamine kohtspikrites:"
+
+#~ msgid "Remove folder restriction"
+#~ msgstr "Kataloogipiirangu eemaldamine"
+
+#~ msgctxt "@title:group"
+#~ msgid "Tag"
+#~ msgstr "Silt"
+
+#~ msgctxt "@action:button"
+#~ msgid "Today"
+#~ msgstr "Täna"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yesterday"
+#~ msgstr "Eile"
+
+#~ msgctxt "@title:group"
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Parent Folder in New Window"
+#~ msgstr "Ava emakataloog uues aknas"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The new name is empty. A name with at least one character must be entered."
+#~ msgstr "Uus nimi on tühi. Tuleb anda vähemalt ühest märgist koosnev nimi."
+
+#~ msgctxt "@info:status"
+#~ msgid "The name must contain at least one # character."
+#~ msgstr "Nimi peab sisaldama täpselt üht # märki."
+
+#~ msgctxt "@info"
+#~ msgid "Close"
+#~ msgstr "Sulge"
+
+#~ msgctxt "@title:menu"
+#~ msgid "View Mode"
+#~ msgstr "Vaaterežiim"
+
+#~ msgctxt "@label"
+#~ msgid "No Tags Available"
+#~ msgstr "Sildid puuduvad"
+
+#~ msgctxt "@label"
+#~ msgid "Byte"
+#~ msgstr "B"
+
+#~ msgctxt "@label"
+#~ msgid "KByte"
+#~ msgstr "KB"
+
+#~ msgctxt "@label"
+#~ msgid "MByte"
+#~ msgstr "MB"
+
+#~ msgctxt "@label"
+#~ msgid "GByte"
+#~ msgstr "GB"
+
+#~ msgctxt "@label"
+#~ msgid "All"
+#~ msgstr "Kõik"
+
+#~ msgctxt "@label"
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgctxt "@label"
+#~ msgid "Filenames"
+#~ msgstr "Failinimed"
+
+#~ msgctxt "@label"
+#~ msgid "Search:"
+#~ msgstr "Otsing:"
+
+#~ msgctxt "@label"
+#~ msgid "What:"
+#~ msgstr "Mis:"
+
+#~ msgctxt "@info"
+#~ msgid "Add search option"
+#~ msgstr "Otsimisvaliku lisamine"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Salvesta"
+
+#~ msgctxt "@info"
+#~ msgid "Save search options"
+#~ msgstr "Otsimisvalikute salvestamine"
+
+#~ msgctxt "@action:button"
+#~ msgid "Close"
+#~ msgstr "Sulge"
+
+#~ msgctxt "@info"
+#~ msgid "Close search options"
+#~ msgstr "Otsimisvalikute sulgemine"
+
+#~ msgctxt "@label"
+#~ msgid "Greater Than"
+#~ msgstr "suurem kui"
+
+#~ msgctxt "@label"
+#~ msgid "Greater Than or Equal to"
+#~ msgstr "suurem kui või võrdne"
+
+#~ msgctxt "@label"
+#~ msgid "Less Than"
+#~ msgstr "väiksem kui"
+
+#~ msgctxt "@label"
+#~ msgid "Less Than or Equal to"
+#~ msgstr "väiksem või võrdne"
+
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Suurus:"
+
+#~ msgctxt "@label All (tags)"
+#~ msgid "All"
+#~ msgstr "Kõik"
+
+#~ msgctxt "@label"
+#~ msgid "Equal to"
+#~ msgstr "võrdub"
+
+#~ msgctxt "@label"
+#~ msgid "Not Equal to"
+#~ msgstr "ei võrdu"
+
+#~ msgctxt "@label Any (rating)"
+#~ msgid "Any"
+#~ msgstr "Suvaline"
+
+#~ msgctxt "@label"
+#~ msgid "Rating:"
+#~ msgstr "Hinnang:"
+
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "Nimi:"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save Search Options"
+#~ msgstr "Otsimisvalikute salvestamine"
+
+#~ msgid "Criteria"
+#~ msgstr "Kriteeriumid"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Permissions"
+#~ msgstr "Õigused"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Owner"
+#~ msgstr "Omanik"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Group"
+#~ msgstr "Grupp"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Normal"
+#~ msgstr "Tavaline"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Update required"
+#~ msgstr "Vajab uuendamist"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Locally modified"
+#~ msgstr "Kohalikult muudetud"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Added"
+#~ msgstr "Lisatud"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Conflicting"
+#~ msgstr "Konfliktis"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Date"
+#~ msgstr "Kuupäev"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Permissions"
+#~ msgstr "Õigused"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Owner"
+#~ msgstr "Omanik"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Group"
+#~ msgstr "Grupp"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Size"
+#~ msgstr "Suuruse järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Date"
+#~ msgstr "Kuupäeva järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Permissions"
+#~ msgstr "Õiguste järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Owner"
+#~ msgstr "Omaniku järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Group"
+#~ msgstr "Grupi järgi"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Type"
+#~ msgstr "Tüübi järgi"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Additional Information"
+#~ msgstr "Lisainfo"
+
+#~ msgctxt "@option:check"
+#~ msgid "Use thumbnails embedded in files"
+#~ msgstr "Failidesse põimitud pisipiltide kasutamine"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Update"
+#~ msgstr "SVN-i uuendamine"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Show Local SVN Changes"
+#~ msgstr "Näita kohalikke SVN-i muudatusi"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Commit..."
+#~ msgstr "SVN-i sissekandmine..."
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Add"
+#~ msgstr "SVN-i lisamine"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Delete"
+#~ msgstr "SVN-i kustutamine"
+
+#~ msgctxt "@info:status"
+#~ msgid "Updating SVN repository..."
+#~ msgstr "SVN-hoidla uuendamine"
+
+#~ msgctxt "@info:status"
+#~ msgid "Update of SVN repository failed."
+#~ msgstr "SVN-hoidla uuendamine nurjus."
+
+#~ msgctxt "@info:status"
+#~ msgid "Updated SVN repository."
+#~ msgstr "SVN-hoidla on uuendatud."
+
+#~ msgctxt "@title:window"
+#~ msgid "SVN Commit"
+#~ msgstr "SVN-i sissekanne"
+
+#~ msgctxt "@action:button"
+#~ msgid "Commit"
+#~ msgstr "Kanna sisse"
+
+#~ msgctxt "@info:status"
+#~ msgid "Commit of SVN changes failed."
+#~ msgstr "SVN-i muudatuste sissekandmine nurjus."
+
+#~ msgctxt "@info:status"
+#~ msgid "Committing SVN changes..."
+#~ msgstr "SVN-i muudatuste sissekandmine..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Committed SVN changes."
+#~ msgstr "SVN-i muudatused kanti sisse."
+
+#~ msgctxt "@info:status"
+#~ msgid "Adding files to SVN repository..."
+#~ msgstr "Failide lisamine SVN-hoidlasse..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Adding of files to SVN repository failed."
+#~ msgstr "Failide lisamine SVN-hoidlasse nurjus."
+
+#~ msgctxt "@info:status"
+#~ msgid "Added files to SVN repository."
+#~ msgstr "Failid lisati SVN-hoidlasse."
+
+#~ msgctxt "@info:status"
+#~ msgid "Removing files from SVN repository..."
+#~ msgstr "Failide eemaldamine SVN-hoidlast..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Removing of files from SVN repository failed."
+#~ msgstr "Failide eemaldamine SVN-hoidlast nurjus."
+
+#~ msgctxt "@info:status"
+#~ msgid "Removed files from SVN repository."
+#~ msgstr "Failid eemaldati SVN-hoidlast."
+
+#~ msgctxt "@label"
+#~ msgid "Total Size:"
+#~ msgstr "Kogusuurus:"
+
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Type"
+#~ msgctxt "@label file type"
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Tags"
+#~ msgstr "Siltide muutmine"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Configure which tags should be applied."
+#~ msgstr "Määramine, milliseid silte rakendada."
+
+#~ msgctxt "@label"
+#~ msgid "Create new tag:"
+#~ msgstr "Uus silt:"
+
+#~ msgctxt "@info"
+#~ msgid "Delete tag"
+#~ msgstr "Sildi kustutamine"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Should the tag <resource>%1</resource> really be deleted for all files?"
+#~ msgstr "Kas tõesti kustutada kõigil failidel silt <resource>%1</resource>?"
+
+#~ msgctxt "@title"
+#~ msgid "Delete tag"
+#~ msgstr "Sildi kustutamine"
+
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "Kustuta"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Loobu"
+
+#~ msgctxt "@label"
+#~ msgid "Add Tags..."
+#~ msgstr "Lisa silte..."
+
+#~ msgctxt "@label"
+#~ msgid "Change..."
+#~ msgstr "Muuda..."
+
+#~ msgctxt "@info:progress"
+#~ msgid "Changing annotations"
+#~ msgstr "Annotatsioonide muutmine"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "Muudetud"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "Omanik"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "Õigused"
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Comment"
+#~ msgstr "Kommentaari muutmine"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Comment"
+#~ msgstr "Kommentaari lisamine"
+
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Size"
+#~ msgctxt "@label file content size"
+#~ msgid "Size"
+#~ msgstr "Suurus"
+
+#~ msgctxt "@label file depends from"
+#~ msgid "Depends"
+#~ msgstr "Sõltub"
+
+#~ msgctxt "@label parent directory"
+#~ msgid "Part of"
+#~ msgstr "Kuulub kataloogi"
+
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Modified"
+#~ msgctxt "@label modified date of file"
+#~ msgid "Modified"
+#~ msgstr "Muudetud"
+
+#~| msgctxt "@item:inlistbox Sort"
+#~| msgid "By Type"
+#~ msgctxt "@label"
+#~ msgid "MIME Type"
+#~ msgstr "MIME tüüp"
+
+#~| msgid "Location"
+#~ msgctxt "@label file URL"
+#~ msgid "Location"
+#~ msgstr "Asukoht"
+
+#~| msgctxt "@info:status"
+#~| msgid "Created folder."
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Looja"
+
+#~| msgctxt "@action:button"
+#~| msgid "Cancel"
+#~ msgctxt "@label"
+#~ msgid "Channels"
+#~ msgstr "Kanalid"
+
+#~ msgctxt "@label number of characters"
+#~ msgid "Characters"
+#~ msgstr "Märgid"
+
+#~ msgctxt "@label"
+#~ msgid "Codec"
+#~ msgstr "Koodek"
+
+#~ msgctxt "@label"
+#~ msgid "Color Depth"
+#~ msgstr "Värvisügavus"
+
+#~ msgctxt "@label"
+#~ msgid "Interlace Mode"
+#~ msgstr "Realaotuse režiim"
+
+#~| msgctxt "@label"
+#~| msgid "Lines:"
+#~ msgctxt "@label number of lines"
+#~ msgid "Lines"
+#~ msgstr "Read"
+
+#~ msgctxt "@label"
+#~ msgid "Programming Language"
+#~ msgstr "Programmeerimiskeel"
+
+#~ msgctxt "@label number of words"
+#~ msgid "Words"
+#~ msgstr "Sõnad"
+
+#~ msgctxt "@label EXIF aperture value"
+#~ msgid "Aperture"
+#~ msgstr "Ava läbimõõt"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Exposure Bias Value"
+#~ msgstr "Särinihke väärtus"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Exposure Time"
+#~ msgstr "Säriaeg"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Flash"
+#~ msgstr "Välklamp"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Focal Length"
+#~ msgstr "Fookuskaugus"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Focal Length 35 mm"
+#~ msgstr "Fookuskaugus (35 mm)"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "ISO Speed Ratings"
+#~ msgstr "ISO kiirus"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Make"
+#~ msgstr "Valmistaja"
+
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Modified"
+#~ msgctxt "@label EXIF"
+#~ msgid "Model"
+#~ msgstr "Mudel"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "White Balance"
+#~ msgstr "Värvustasakaal"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Width x Height:"
+#~ msgctxt "@label image width and height"
+#~ msgid "Width x Height"
+#~ msgstr "Laius x kõrgus:"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Rating"
+#~ msgstr "Hinnang"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Tags"
+#~ msgstr "Sildid"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Comment"
+#~ msgstr "Kommentaar"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Filenames"
+#~ msgctxt "@label"
+#~ msgid "File Name"
+#~ msgstr "Failinimed"
+
+#~ msgctxt "@label"
+#~ msgid "Type:"
+#~ msgstr "Tüüp:"
+
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "Muudetud:"
+
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "Omanik:"
+
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "Õigused:"
+
+#~ msgctxt "@label"
+#~ msgid "Tags:"
+#~ msgstr "Sildid:"
+
+#~ msgctxt "@label"
+#~ msgid "Comment:"
+#~ msgstr "Kommentaar:"
+
+#~ msgctxt "@action:inmenu Settings"
+#~ msgid "Get Service Menu..."
+#~ msgstr "Teenuste menüü hankimine..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Navigation Bar"
+#~ msgstr "Liikumisriba"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Click to begin the search"
+#~ msgstr "Klõpsa otsingu alustamiseks"
+
+#~ msgctxt "@label"
+#~ msgid "Date Modified"
+#~ msgstr "Muutmise kuupäev"
+
+#~ msgctxt "@info:status"
+#~ msgid "Copy operation completed."
+#~ msgstr "Kopeerimine tehtud."
+
+#~ msgctxt "@info:status"
+#~ msgid "Move operation completed."
+#~ msgstr "Liigutamine tehtud."
+
+#~ msgctxt "@info:status"
+#~ msgid "Link operation completed."
+#~ msgstr "Linkimine tehtud."
+
+#~ msgctxt "@info:status"
+#~ msgid "Renaming operation completed."
+#~ msgstr "Ümbernimetamine tehtud."
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Text"
+#~ msgctxt "label"
+#~ msgid "Texts"
+#~ msgstr "Tekst"
+
+#~ msgctxt "@title:window subtitle to previous message"
+#~ msgid "with optional icon and description"
+#~ msgstr "ikooni ja kirjelduse lisamise võimalusega"
+
+#~ msgctxt "@label Indicator when no tags defined"
+#~ msgid "No Tags"
+#~ msgstr "Sildid puuduvad"
+
+#~ msgid "Do you really want to delete tag '%1'?"
+#~ msgstr "Kas tõesti kustutada silt '%1'?"
+
+#~ msgctxt "@label"
+#~ msgid "Detailed description (optional):"
+#~ msgstr "Üksikasjalik kirjeldus (pole kohustuslik):"
+
+#, fuzzy
+#~| msgid "&Edit"
+#~ msgctxt "@item::intable"
+#~ msgid "Editing"
+#~ msgstr "&Redigeerimine"
+
+#~ msgctxt "@title:group Tags"
+#~ msgid "Not yet tagged"
+#~ msgstr "Pole veel sildistatud"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Move To Trash"
+#~ msgstr "Viska prügikasti"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu File"
+#~| msgid "Rename..."
+#~ msgctxt "@action:inmenu File"
+#~ msgid "&Rename..."
+#~ msgstr "Nimeta ümber..."
+
+#, fuzzy
+#~| msgctxt "@action:inmenu File"
+#~| msgid "Properties"
+#~ msgctxt "@action:inmenu File"
+#~ msgid "&Properties"
+#~ msgstr "Omadused"
+
+#, fuzzy
+#~| msgctxt "@action:intoolbar"
+#~| msgid "Preview"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "P&review"
+#~ msgstr "Eelvaatlus"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort"
+#~| msgid "Descending"
+#~ msgctxt "@action:inmenu Sort"
+#~ msgid "Des&cending"
+#~ msgstr "Alanevalt"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu View"
+#~| msgid "Show Hidden Files"
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Show &Hidden Files"
+#~ msgstr "Näita peidetud faile"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Size"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Size"
+#~ msgstr "Suurus"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Date"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "D&ate"
+#~ msgstr "Kuupäev"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Permissions"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Pe&rmissions"
+#~ msgstr "Õigused"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Owner"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Owner"
+#~ msgstr "Omanik"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Group"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Gro&up"
+#~ msgstr "Grupp"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Type"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Type"
+#~ msgstr "Tüüp"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Size"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Size"
+#~ msgstr "Suuruse järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Date"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Date"
+#~ msgstr "Kuupäeva järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Permissions"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Pe&rmissions"
+#~ msgstr "Õiguste järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Owner"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Owner"
+#~ msgstr "Omaniku järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Group"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Group"
+#~ msgstr "Grupi järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Type"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Type"
+#~ msgstr "Tüübi järgi"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Icons"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "&Icons"
+#~ msgstr "Ikoonid"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Details"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Det&ails"
+#~ msgstr "Üksikasjad"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Columns"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Col&umns"
+#~ msgstr "Veerud"
+
+#~ msgctxt "@action:inmenu Tools"
+#~ msgid "Quick View"
+#~ msgstr "Kiirvaade"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Aseta üks kataloog"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "Aseta üks fail"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "Aseta üks element"
+#~ msgstr[1] "Aseta %1 elementi"
+
+#~ msgctxt "@option:check"
+#~ msgid "Browse through archives"
+#~ msgstr "Arhiivide sirvimine"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "All settings will be reset to default values. Do you want to continue?"
+#~ msgstr ""
+#~ "Kõik seadistused lähtestatakse vaikeväärtustele. Kas kindlasti jätkata?"
+
+#~ msgctxt "@title:tab General settings"
+#~ msgid "General"
+#~ msgstr "Üldine"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The dropped item <filename>%1</filename> is already inside the folder "
+#~ "<filename>%2</filename>"
+#~ msgstr ""
+#~ "Lohistatud element <filename>%1</filename> asub juba kataloogis <filename>"
+#~ "%2</filename> "
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The dropped items are already inside the folder <filename>%1</filename>"
+#~ msgstr ""
+#~ "Lohistatud elemendid asuvad juba kataloogis <filename>%1</filename> "
+
+#~ msgctxt "@action:inmenu Navigation Bar"
+#~ msgid "Show Full Location"
+#~ msgstr "Näita täielikku asukohta"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Move Here\t<shortcut>%1</shortcut>"
+#~ msgstr "Lii&guta siia\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Copy Here\t<shortcut>%1</shortcut>"
+#~ msgstr "&Kopeeri siia\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Link Here\t<shortcut>%1</shortcut>"
+#~ msgstr "&Lingi siia\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Cancel"
+#~ msgstr "Loobu"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Left to Right"
+#~ msgstr "Vasakult paremale"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Top to Bottom"
+#~ msgstr "Ülevalt alla"
+
+#~ msgctxt "@item:inrange Column Width"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@item:inrange Column Width"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Medium"
+#~ msgstr "Keskmine"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@action:button"
+#~ msgid "Change Icon && Preview Size..."
+#~ msgstr "Muuda ikooni ja eelvaatluse suurust...."
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Icon & Preview Size"
+#~ msgstr "Ikooni ja eelvaatluse suuruse muutmine"
+
+#~ msgctxt "@item:inrange Icon Size"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@item:inrange Icon Size"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@item:inrange Preview Size"
+#~ msgid "Small"
+#~ msgstr "Väike"
+
+#~ msgctxt "@item:inrange Preview Size"
+#~ msgid "Large"
+#~ msgstr "Suur"
+
+#~ msgctxt "@info:status"
+#~ msgid "Getting size..."
+#~ msgstr "Suuruse hankimine..."
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Properties"
+#~ msgstr "Omadused"
+
+#~ msgctxt "@action:inmenu Open With"
+#~ msgid "&Other..."
+#~ msgstr "&Muu..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Open With..."
+#~ msgstr "Ava rakendusega..."
+
+#~ msgctxt "@label"
+#~ msgid "Bold"
+#~ msgstr "Rasvane"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Categorized Sorting"
+#~ msgctxt "@title:group Name"
+#~ msgid "Uncategorized"
+#~ msgstr "Kategoriseeritud sorteerimine"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Tags"
+#~ msgstr "Siltide järgi"

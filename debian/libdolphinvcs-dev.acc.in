@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    15.08.0
+</version>
+
+<headers>
+    /usr/include/Dolphin/
+    /usr/include/dolphin_export.h
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libdolphinvcs.so
+</libs>
+
+<gcc_options>
+    -fPIC
+    -I/usr/lib/@@DEB_HOST_MULTIARCH@@/qt5/mkspecs/common/posix/
+</gcc_options>
+
+</descriptor>

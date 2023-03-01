@@ -1,0 +1,63 @@
+/*
+ * SPDX-FileCopyrightText: 2011 Peter Penz <peter.penz19@gmail.com>
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+#ifndef VIEWMODESETTINGS_H
+#define VIEWMODESETTINGS_H
+
+#include "kitemviews/kstandarditemlistview.h"
+#include "viewsettingstab.h"
+#include "views/dolphinview.h"
+
+#include <QString>
+
+#include <variant>
+
+class CompactModeSettings;
+class DetailsModeSettings;
+class IconsModeSettings;
+
+/**
+ * @short Helper class for accessing similar properties of IconsModeSettings,
+ *        CompactModeSettings and DetailsModeSettings.
+ */
+class ViewModeSettings
+{
+public:
+    explicit ViewModeSettings(DolphinView::Mode mode);
+    explicit ViewModeSettings(ViewSettingsTab::Mode mode);
+    explicit ViewModeSettings(KStandardItemListView::ItemLayout itemLayout);
+
+    void setIconSize(int iconSize);
+    int iconSize() const;
+
+    void setPreviewSize(int previewSize);
+    int previewSize() const;
+
+    void setUseSystemFont(bool useSystemFont);
+    bool useSystemFont() const;
+
+    void setFontFamily(const QString &fontFamily);
+    QString fontFamily() const;
+
+    void setFontSize(qreal fontSize);
+    qreal fontSize() const;
+
+    void setItalicFont(bool italic);
+    bool italicFont() const;
+
+    void setFontWeight(int fontWeight);
+    int fontWeight() const;
+
+    void useDefaults(bool useDefaults);
+
+    void readConfig();
+    void save();
+
+private:
+    std::variant<IconsModeSettings *, CompactModeSettings *, DetailsModeSettings *> m_viewModeSettingsVariant;
+};
+
+#endif

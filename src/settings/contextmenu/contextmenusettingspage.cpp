@@ -1,0 +1,379 @@
+/*
+ * SPDX-FileCopyrightText: 2009-2010 Peter Penz <peter.penz19@gmail.com>
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+#include "contextmenusettingspage.h"
+
+#include "dolphin_generalsettings.h"
+#include "dolphin_versioncontrolsettings.h"
+#include "dolphin_contextmenusettings.h"
+#include "settings/serviceitemdelegate.h"
+#include "settings/servicemodel.h"
+#include "global.h"
+
+#include <KDesktopFile>
+#include <KLocalizedString>
+#include <KMessageBox>
+#include <KNS3/Button>
+#include <KPluginMetaData>
+#include <KService>
+#include <KServiceTypeTrader>
+#include <KDesktopFileActions>
+
+#include <kio_version.h>
+
+#include <QGridLayout>
+#include <QLabel>
+#include <QListWidget>
+#include <QScroller>
+#include <QShowEvent>
+#include <QSortFilterProxyModel>
+#include <QLineEdit>
+#include <QApplication>
+
+namespace
+{
+    const bool ShowDeleteDefault = false;
+    const char VersionControlServicePrefix[] = "_version_control_";
+    const char DeleteService[] = "_delete";
+    const char CopyToMoveToService[] ="_copy_to_move_to";
+
+    bool laterSelected = false;
+}
+
+ContextMenuSettingsPage::ContextMenuSettingsPage(QWidget* parent,
+                                                 const KActionCollection* actions,
+                                                 const QStringList& actionIds) :
+    SettingsPageBase(parent),
+    m_initialized(false),
+    m_serviceModel(nullptr),
+    m_sortModel(nullptr),
+    m_listView(nullptr),
+    m_enabledVcsPlugins(),
+    m_actions(actions),
+    m_actionIds(actionIds)
+{
+    QVBoxLayout* topLayout = new QVBoxLayout(this);
+
+    QLabel* label = new QLabel(i18nc("@label:textbox",
+                                     "Select which services should "
+                                     "be shown in the context menu:"), this);
+    label->setWordWrap(true);
+    m_searchLineEdit = new QLineEdit(this);
+    m_searchLineEdit->setPlaceholderText(i18nc("@label:textbox", "Search..."));
+    connect(m_searchLineEdit, &QLineEdit::textChanged, this, [this](const QString &filter){
+        m_sortModel->setFilterFixedString(filter);
+    });
+
+    m_listView = new QListView(this);
+    QScroller::grabGesture(m_listView->viewport(), QScroller::TouchGesture);
+
+    auto *delegate = new ServiceItemDelegate(m_listView, m_listView);
+    m_serviceModel = new ServiceModel(this);
+    m_sortModel = new QSortFilterProxyModel(this);
+    m_sortModel->setSourceModel(m_serviceModel);
+    m_sortModel->setSortRole(Qt::DisplayRole);
+    m_sortModel->setSortLocaleAware(true);
+    m_sortModel->setFilterRole(Qt::DisplayRole);
+    m_sortModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
+    m_listView->setModel(m_sortModel);
+    m_listView->setItemDelegate(delegate);
+    m_listView->setVerticalScrollMode(QListView::ScrollPerPixel);
+    connect(m_listView, &QListView::clicked, this, &ContextMenuSettingsPage::changed);
+
+#ifndef Q_OS_WIN
+    auto *downloadButton = new KNS3::Button(i18nc("@action:button", "Download New Services..."),
+                                                  QStringLiteral("servicemenu.knsrc"),
+                                                  this);
+    connect(downloadButton, &KNS3::Button::dialogFinished, this, [this](const KNS3::Entry::List &changedEntries) {
+           if (!changedEntries.isEmpty()) {
+               m_serviceModel->clear();
+               loadServices();
+           }
+    });
+
+#endif
+
+    topLayout->addWidget(label);
+    topLayout->addWidget(m_searchLineEdit);
+    topLayout->addWidget(m_listView);
+#ifndef Q_OS_WIN
+    topLayout->addWidget(downloadButton);
+#endif
+
+    m_enabledVcsPlugins = VersionControlSettings::enabledPlugins();
+    std::sort(m_enabledVcsPlugins.begin(), m_enabledVcsPlugins.end());
+}
+
+ContextMenuSettingsPage::~ContextMenuSettingsPage() {
+}
+
+bool ContextMenuSettingsPage::entryVisible(const QString& id)
+{
+    if (id == "add_to_places") {
+        return ContextMenuSettings::showAddToPlaces();
+    } else if (id == "sort") {
+        return ContextMenuSettings::showSortBy();
+    } else if (id == "view_mode") {
+        return ContextMenuSettings::showViewMode();
+    } else if (id == "open_in_new_tab") {
+        return ContextMenuSettings::showOpenInNewTab();
+    } else if (id == "open_in_new_window") {
+        return ContextMenuSettings::showOpenInNewWindow();
+    } else if (id == "copy_location") {
+        return ContextMenuSettings::showCopyLocation();
+    } else if (id == "duplicate") {
+        return ContextMenuSettings::showDuplicateHere();
+    } else if (id == "open_terminal") {
+        return ContextMenuSettings::showOpenTerminal();
+    }
+    return false;
+}
+
+void ContextMenuSettingsPage::setEntryVisible(const QString& id, bool visible)
+{
+    if (id == "add_to_places") {
+        ContextMenuSettings::setShowAddToPlaces(visible);
+    } else if (id == "sort") {
+        ContextMenuSettings::setShowSortBy(visible);
+    } else if (id == "view_mode") {
+        ContextMenuSettings::setShowViewMode(visible);
+    } else if (id == "open_in_new_tab") {
+        ContextMenuSettings::setShowOpenInNewTab(visible);
+    } else if (id == "open_in_new_window") {
+        ContextMenuSettings::setShowOpenInNewWindow(visible);
+    } else if (id == "copy_location") {
+        ContextMenuSettings::setShowCopyLocation(visible);
+    } else if (id == "duplicate") {
+        ContextMenuSettings::setShowDuplicateHere(visible);
+    } else if (id == "open_terminal") {
+        ContextMenuSettings::setShowOpenTerminal(visible);
+    }
+}
+
+void ContextMenuSettingsPage::applySettings()
+{
+    if (!m_initialized) {
+        return;
+    }
+
+    KConfig config(QStringLiteral("kservicemenurc"), KConfig::NoGlobals);
+    KConfigGroup showGroup = config.group("Show");
+
+    QStringList enabledPlugins;
+
+    const QAbstractItemModel *model = m_listView->model();
+    for (int i = 0; i < model->rowCount(); ++i) {
+        const QModelIndex index = model->index(i, 0);
+        const QString service = model->data(index, ServiceModel::DesktopEntryNameRole).toString();
+        const bool checked = model->data(index, Qt::CheckStateRole).toBool();
+
+        if (service.startsWith(VersionControlServicePrefix)) {
+            if (checked) {
+                enabledPlugins.append(model->data(index, Qt::DisplayRole).toString());
+            }
+        } else if (service == QLatin1String(DeleteService)) {
+            KSharedConfig::Ptr globalConfig = KSharedConfig::openConfig(QStringLiteral("kdeglobals"), KConfig::NoGlobals);
+            KConfigGroup configGroup(globalConfig, "KDE");
+            configGroup.writeEntry("ShowDeleteCommand", checked);
+            configGroup.sync();
+        } else if (service == QLatin1String(CopyToMoveToService)) {
+            ContextMenuSettings::setShowCopyMoveMenu(checked);
+            ContextMenuSettings::self()->save();
+        } else if (m_actionIds.contains(service)) {
+            setEntryVisible(service, checked);
+            ContextMenuSettings::self()->save();
+        } else {
+            showGroup.writeEntry(service, checked);
+        }
+    }
+
+    showGroup.sync();
+
+    if (m_enabledVcsPlugins != enabledPlugins) {
+        VersionControlSettings::setEnabledPlugins(enabledPlugins);
+        VersionControlSettings::self()->save();
+
+        if (!laterSelected) {
+            KMessageBox::ButtonCode promptRestart = KMessageBox::questionYesNo(window(),
+                                    i18nc("@info", "Dolphin must be restarted to apply the "
+                                                "updated version control system settings."),
+                                    i18nc("@info", "Restart now?"),
+                                    KGuiItem(QApplication::translate("KStandardGuiItem", "&Restart"), QStringLiteral("dialog-restart")),
+                                    KGuiItem(QApplication::translate("KStandardGuiItem", "&Later"), QStringLiteral("dialog-later"))
+                        );
+            if (promptRestart == KMessageBox::ButtonCode::Yes) {
+                Dolphin::openNewWindow();
+                qApp->quit();
+            } else {
+                laterSelected = true;
+            }
+        }
+    }
+}
+
+void ContextMenuSettingsPage::restoreDefaults()
+{
+    QAbstractItemModel* model = m_listView->model();
+    for (int i = 0; i < model->rowCount(); ++i) {
+        const QModelIndex index = model->index(i, 0);
+        const QString service = model->data(index, ServiceModel::DesktopEntryNameRole).toString();
+
+        const bool checked = !service.startsWith(VersionControlServicePrefix)
+                             && service != QLatin1String(DeleteService)
+                             && service != QLatin1String(CopyToMoveToService);
+        model->setData(index, checked, Qt::CheckStateRole);
+    }
+}
+
+void ContextMenuSettingsPage::showEvent(QShowEvent* event)
+{
+    if (!event->spontaneous() && !m_initialized) {
+        loadServices();
+
+        loadVersionControlSystems();
+
+        // Add "Show 'Delete' command" as service
+        KSharedConfig::Ptr globalConfig = KSharedConfig::openConfig(QStringLiteral("kdeglobals"), KConfig::IncludeGlobals);
+        KConfigGroup configGroup(globalConfig, "KDE");
+        addRow(QStringLiteral("edit-delete"),
+               i18nc("@option:check", "Delete"),
+               DeleteService,
+               configGroup.readEntry("ShowDeleteCommand", ShowDeleteDefault));
+
+        // Add "Show 'Copy To' and 'Move To' commands" as service
+        addRow(QStringLiteral("edit-copy"),
+               i18nc("@option:check", "'Copy To' and 'Move To' commands"),
+               CopyToMoveToService,
+               ContextMenuSettings::showCopyMoveMenu());
+
+        if (m_actions){
+            // Add other built-in actions
+            for (const QString& id : m_actionIds) {
+                const QAction* action = m_actions->action(id);
+                if (action) {
+                    addRow(action->icon().name(), action->text(), id, entryVisible(id));
+                }
+            }
+        }
+
+        m_sortModel->sort(Qt::DisplayRole);
+
+        m_initialized = true;
+    }
+    SettingsPageBase::showEvent(event);
+}
+
+void ContextMenuSettingsPage::loadServices()
+{
+    const KConfig config(QStringLiteral("kservicemenurc"), KConfig::NoGlobals);
+    const KConfigGroup showGroup = config.group("Show");
+
+    // Load generic services
+    const KService::List entries = KServiceTypeTrader::self()->query(QStringLiteral("KonqPopupMenu/Plugin"));
+    for (const KService::Ptr &service : entries) {
+        const QString file = QStandardPaths::locate(QStandardPaths::GenericDataLocation, "kservices5/" % service->entryPath());
+        const QList<KServiceAction> serviceActions = KDesktopFileActions::userDefinedServices(file, true);
+
+        const KDesktopFile desktopFile(file);
+        const QString subMenuName = desktopFile.desktopGroup().readEntry("X-KDE-Submenu");
+
+        for (const KServiceAction &action : serviceActions) {
+            const QString serviceName = action.name();
+            const bool addService = !action.noDisplay() && !action.isSeparator() && !isInServicesList(serviceName);
+
+            if (addService) {
+                const QString itemName = subMenuName.isEmpty()
+                                         ? action.text()
+                                         : i18nc("@item:inmenu", "%1: %2", subMenuName, action.text());
+                const bool checked = showGroup.readEntry(serviceName, true);
+                addRow(action.icon(), itemName, serviceName, checked);
+            }
+        }
+    }
+
+    // Load service plugins, this is deprecated in KIO 5.82
+#if KIO_VERSION < QT_VERSION_CHECK(6, 0, 0)
+    const KService::List pluginServices = KServiceTypeTrader::self()->query(QStringLiteral("KFileItemAction/Plugin"));
+    for (const KService::Ptr &service : pluginServices) {
+        const QString desktopEntryName = service->desktopEntryName();
+        if (!isInServicesList(desktopEntryName)) {
+            const bool checked = showGroup.readEntry(desktopEntryName, true);
+            addRow(service->icon(), service->name(), desktopEntryName, checked);
+        }
+    }
+#endif
+
+    // Load JSON-based plugins that implement the KFileItemActionPlugin interface
+    const auto jsonPlugins = KPluginLoader::findPlugins(QStringLiteral("kf5/kfileitemaction"));
+
+    for (const auto &jsonMetadata : jsonPlugins) {
+        const QString desktopEntryName = jsonMetadata.pluginId();
+        if (!isInServicesList(desktopEntryName)) {
+            const bool checked = showGroup.readEntry(desktopEntryName, true);
+            addRow(jsonMetadata.iconName(), jsonMetadata.name(), desktopEntryName, checked);
+        }
+    }
+
+    m_sortModel->sort(Qt::DisplayRole);
+    m_searchLineEdit->setFocus(Qt::OtherFocusReason);
+}
+
+void ContextMenuSettingsPage::loadVersionControlSystems()
+{
+    const QStringList enabledPlugins = VersionControlSettings::enabledPlugins();
+
+    // Create a checkbox for each available version control plugin
+    QSet<QString> loadedPlugins;
+
+    const QVector<KPluginMetaData> plugins = KPluginLoader::findPlugins(QStringLiteral("dolphin/vcs"));
+    for (const auto &plugin : plugins) {
+        const QString pluginName = plugin.name();
+        addRow(QStringLiteral("code-class"),
+               pluginName,
+               VersionControlServicePrefix + pluginName,
+               enabledPlugins.contains(pluginName));
+        loadedPlugins += pluginName;
+    }
+
+    const KService::List pluginServices = KServiceTypeTrader::self()->query(QStringLiteral("FileViewVersionControlPlugin"));
+    for (const auto &plugin : pluginServices) {
+        const QString pluginName = plugin->name();
+        if (loadedPlugins.contains(pluginName)) {
+            continue;
+        }
+        addRow(QStringLiteral("code-class"),
+               pluginName,
+               VersionControlServicePrefix + pluginName,
+               enabledPlugins.contains(pluginName));
+    }
+
+    m_sortModel->sort(Qt::DisplayRole);
+}
+
+bool ContextMenuSettingsPage::isInServicesList(const QString &service) const
+{
+    for (int i = 0; i < m_serviceModel->rowCount(); ++i) {
+        const QModelIndex index = m_serviceModel->index(i, 0);
+        if (m_serviceModel->data(index, ServiceModel::DesktopEntryNameRole).toString() == service) {
+            return true;
+        }
+    }
+    return false;
+}
+
+void ContextMenuSettingsPage::addRow(const QString &icon,
+                                     const QString &text,
+                                     const QString &value,
+                                     bool checked)
+{
+    m_serviceModel->insertRow(0);
+
+    const QModelIndex index = m_serviceModel->index(0, 0);
+    m_serviceModel->setData(index, icon, Qt::DecorationRole);
+    m_serviceModel->setData(index, text, Qt::DisplayRole);
+    m_serviceModel->setData(index, value, ServiceModel::DesktopEntryNameRole);
+    m_serviceModel->setData(index, checked, Qt::CheckStateRole);
+}

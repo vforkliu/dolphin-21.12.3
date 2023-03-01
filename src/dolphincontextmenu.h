@@ -1,0 +1,165 @@
+/*
+ * SPDX-FileCopyrightText: 2006 Peter Penz <peter.penz19@gmail.com>
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+#ifndef DOLPHINCONTEXTMENU_H
+#define DOLPHINCONTEXTMENU_H
+
+#include <KFileCopyToMenu>
+#include <KFileItem>
+#include <KFileItemActions>
+
+#include <QMenu>
+#include <QUrl>
+
+class QAction;
+class DolphinMainWindow;
+class KFileItemActions;
+class KFileItemListProperties;
+class DolphinRemoveAction;
+
+/**
+ * @brief Represents the context menu which appears when doing a right
+ *        click on an item or the viewport of the file manager.
+ *
+ * Beside static menu entries (e. g. 'Paste' or 'Properties') two
+ * dynamic sub menus are shown when opening a context menu above
+ * an item:
+ * - 'Open With': Contains all applications which are registered to
+ *                open items of the given MIME type.
+ * - 'Actions':   Contains all actions which can be applied to the
+ *                given item.
+ */
+class DolphinContextMenu : public QMenu
+{
+    Q_OBJECT
+
+public:
+    enum Command
+    {
+        None,
+        OpenParentFolder,
+        OpenParentFolderInNewWindow,
+        OpenParentFolderInNewTab
+    };
+
+    /**
+     * @parent        Pointer to the main window the context menu
+     *                belongs to.
+     * @pos           Position in screen coordinates.
+     * @fileInfo      Pointer to the file item the context menu
+     *                is applied. If 0 is passed, the context menu
+     *                is above the viewport.
+     * @baseUrl       Base URL of the viewport where the context menu
+     *                should be opened.
+     */
+    DolphinContextMenu(DolphinMainWindow* parent,
+                       const QPoint& pos,
+                       const KFileItem& fileInfo,
+                       const QUrl& baseUrl,
+                       KFileItemActions *fileItemActions);
+
+    ~DolphinContextMenu() override;
+
+    void setCustomActions(const QList<QAction*>& actions);
+
+    /**
+     * Opens the context menu model and returns the requested
+     * command, that should be triggered by the caller. If
+     * Command::None has been returned, either the context-menu
+     * had been closed without executing an action or an
+     * already available action from the main-window has been
+     * executed.
+     */
+    Command open();
+
+protected:
+    bool eventFilter(QObject* object, QEvent* event) override;
+
+private:
+    void openTrashContextMenu();
+    void openTrashItemContextMenu();
+    void openItemContextMenu();
+    void openViewportContextMenu();
+
+    void insertDefaultItemActions(const KFileItemListProperties&);
+
+    /**
+     * Adds the "Show menubar" action to the menu if the
+     * menubar is hidden.
+     */
+    void addShowMenuBarAction();
+
+    bool placeExists(const QUrl& url) const;
+
+    QAction* createPasteAction();
+
+    KFileItemListProperties& selectedItemsProperties() const;
+
+    /**
+     * Returns the file item for m_baseUrl.
+     */
+    KFileItem baseFileItem();
+
+    /**
+     * Adds "Open With" actions
+     */
+    void addOpenWithActions();
+
+    /**
+     * Adds custom actions e.g. like the "[x] Expandable Folders"-action
+     * provided in the details view.
+     */
+    void addCustomActions();
+
+private:
+    /**
+     * Add services, custom actions, plugins and version control items to the menu
+     */
+    void addAdditionalActions(const KFileItemListProperties &props);
+
+    struct Entry
+    {
+        int type;
+        QString name;
+        QString filePath;     // empty for separator
+        QString templatePath; // same as filePath for template
+        QString icon;
+        QString comment;
+    };
+
+    enum ContextType
+    {
+        NoContext = 0,
+        ItemContext = 1,
+        TrashContext = 2,
+        TimelineContext = 4,
+        SearchContext = 8,
+    };
+
+    QPoint m_pos;
+    DolphinMainWindow* m_mainWindow;
+
+    KFileItem m_fileInfo;
+
+    QUrl m_baseUrl;
+    KFileItem* m_baseFileItem;  /// File item for m_baseUrl
+
+    KFileItemList m_selectedItems;
+    mutable KFileItemListProperties* m_selectedItemsProperties;
+
+    int m_context;
+    KFileCopyToMenu m_copyToMenu;
+    QList<QAction*> m_customActions;
+
+    Command m_command;
+
+    DolphinRemoveAction* m_removeAction; // Action that represents either 'Move To Trash' or 'Delete'
+    void addDirectoryItemContextMenu();
+    KFileItemActions *m_fileItemActions;
+
+};
+
+#endif

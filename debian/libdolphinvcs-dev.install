@@ -1,0 +1,10 @@
+usr/include/Dolphin/KVersionControlPlugin
+usr/include/Dolphin/dolphinvcs_version.h
+usr/include/Dolphin/kversioncontrolplugin.h
+usr/include/dolphin_export.h
+usr/include/dolphinvcs_export.h
+usr/lib/*/cmake/DolphinVcs/DolphinVcsConfig.cmake
+usr/lib/*/cmake/DolphinVcs/DolphinVcsConfigVersion.cmake
+usr/lib/*/cmake/DolphinVcs/DolphinVcsTargets-debian.cmake
+usr/lib/*/cmake/DolphinVcs/DolphinVcsTargets.cmake
+usr/lib/*/libdolphinvcs.so

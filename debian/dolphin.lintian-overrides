@@ -1,0 +1,4 @@
+# private libraries
+package-name-doesnt-match-sonames libdolphinprivate5
+# private library
+dolphin: no-symbols-control-file

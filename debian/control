@@ -1,0 +1,99 @@
+Source: dolphin
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>
+Build-Depends: baloo-kf5-dev (>= 5.81.0~) [!hurd-any],
+               cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.81.0~),
+               gettext,
+               kinit-dev (>= 5.77.0~),
+               kuserfeedback-dev (>= 1.0.0~),
+               libkf5activities-dev (>= 5.81.0~),
+               libkf5baloowidgets-dev (>= 4:21.12.3~) [!hurd-any],
+               libkf5bookmarks-dev (>= 5.81.0~),
+               libkf5completion-dev (>= 5.81.0~),
+               libkf5config-dev (>= 5.81.0~),
+               libkf5coreaddons-dev (>= 5.81.0~),
+               libkf5crash-dev (>= 5.81.0~),
+               libkf5dbusaddons-dev (>= 5.81.0~),
+               libkf5doctools-dev (>= 5.81.0~),
+               libkf5filemetadata-dev (>= 5.81.0~),
+               libkf5i18n-dev (>= 5.81.0~),
+               libkf5iconthemes-dev (>= 5.81.0~),
+               libkf5kcmutils-dev (>= 5.81.0~),
+               libkf5kio-dev (>= 5.81.0~),
+               libkf5newstuff-dev (>= 5.81.0~),
+               libkf5notifications-dev (>= 5.81.0~),
+               libkf5parts-dev (>= 5.81.0~),
+               libkf5solid-dev (>= 5.81.0~),
+               libkf5textwidgets-dev (>= 5.81.0~),
+               libkf5windowsystem-dev (>= 5.81.0~),
+               libpackagekitqt5-dev,
+               libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://apps.kde.org/en/dolphin
+Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/dolphin
+Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/dolphin
+
+Package: dolphin
+Section: utils
+Architecture: any
+Depends: baloo-kf5, kinit, ${misc:Depends}, ${shlibs:Depends}
+Recommends: ffmpegthumbs,
+            kdegraphics-thumbnailers,
+            kimageformat-plugins,
+            kio-extras,
+Suggests: dolphin-plugins
+Conflicts: dolphin-plugins (<< 4:21.04.0~)
+Description: file manager
+ Dolphin is the default file manager in the Plasma, intended
+ to be both powerful and easy to use.
+ .
+ Features include:
+   Customisable sidebars
+   "Breadcrumb" navigation
+   View properties remembered for each folder
+   Split views
+   Network transparency
+   Undo/redo functionality
+   Ratings, comments, and tags
+
+Package: dolphin-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+Description: file manager - development files
+ Contains DBus interface XML files to access dolphin via the DBus
+ org.freedesktop.FileManager1 interface.
+
+Package: libdolphinvcs-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libdolphinvcs5 (= ${binary:Version}),
+         libkf5kio-dev (>= 5.81.0~),
+         qtbase5-dev (>= 5.15.0~),
+         ${misc:Depends},
+Description: library to show version control in Dolphin - development files
+ This library enables developers to expand Dolphin with the ability to show
+ version control status in directories that are version controlled.
+ .
+ This package contains the development files.
+
+Package: libdolphinvcs5
+Section: libs
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to show version control in Dolphin
+ This library enables developers to expand Dolphin with the ability to show
+ version control status in directories that are version controlled.
