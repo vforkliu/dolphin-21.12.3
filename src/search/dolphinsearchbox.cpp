@@ -133,10 +133,13 @@ QUrl DolphinSearchBox::urlForSearching() const
 
 void DolphinSearchBox::fromSearchUrl(const QUrl& url)
 {
+    qInfo() << "url:" << url;
     if (DolphinQuery::supportsScheme(url.scheme())) {
+        qInfo() << "supportsScheme:" << url.scheme();
         const DolphinQuery query = DolphinQuery::fromSearchUrl(url);
         updateFromQuery(query);
     } else if (url.scheme() == QLatin1String("filenamesearch")) {
+        qInfo() << "filenamesearch ...";
         const QUrlQuery query(url);
         setText(query.queryItemValue(QStringLiteral("search")));
         if (m_searchPath.scheme() != url.scheme()) {
